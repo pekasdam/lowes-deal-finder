@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-15T16:03:01Z",
+  "generated_at": "2026-08-15T16:04:53Z",
   "app": "Lowe's Deal Finder",
   "stats": {
     "total": 28,
-    "new": 28,
+    "new": 0,
     "price_drops": 0,
     "with_price": 19,
     "sources_scanned": 4,
@@ -47,11 +47,11 @@
       "current_price": 2.5,
       "original_price": 45.0,
       "discount_pct": 94.4,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-13T14:15:59Z",
-      "last_seen": "2026-08-15T16:02:59Z",
+      "last_seen": "2026-08-15T16:04:52Z",
       "published_at": "2026-08-13T14:15:59Z",
-      "score": 225
+      "score": 200
     },
     {
       "id": "6f61165400c776d5",
@@ -66,11 +66,11 @@
       "current_price": 5.0,
       "original_price": 45.0,
       "discount_pct": 88.9,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-13T14:42:23Z",
-      "last_seen": "2026-08-15T16:02:59Z",
+      "last_seen": "2026-08-15T16:04:52Z",
       "published_at": "2026-08-13T14:42:23Z",
-      "score": 225
+      "score": 200
     },
     {
       "id": "582f49e149812f6e",
@@ -85,11 +85,11 @@
       "current_price": 4.0,
       "original_price": 31.0,
       "discount_pct": 87.1,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-12T10:28:40Z",
-      "last_seen": "2026-08-15T16:02:59Z",
+      "last_seen": "2026-08-15T16:04:52Z",
       "published_at": "2026-08-12T10:28:40Z",
-      "score": 225
+      "score": 200
     },
     {
       "id": "5faf77d43278c5b8",
@@ -104,11 +104,11 @@
       "current_price": 30.0,
       "original_price": 179.0,
       "discount_pct": 83.2,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-11T23:13:43Z",
-      "last_seen": "2026-08-15T16:02:59Z",
+      "last_seen": "2026-08-15T16:04:52Z",
       "published_at": "2026-08-11T23:13:43Z",
-      "score": 225
+      "score": 200
     },
     {
       "id": "e1ec7e94e3668ce7",
@@ -123,11 +123,11 @@
       "current_price": 55.99,
       "original_price": 283.99,
       "discount_pct": 80.3,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-13T10:28:48Z",
-      "last_seen": "2026-08-15T16:02:59Z",
+      "last_seen": "2026-08-15T16:04:52Z",
       "published_at": "2026-08-13T10:28:48Z",
-      "score": 225
+      "score": 200
     },
     {
       "id": "10bc9dd65364f39a",
@@ -142,11 +142,11 @@
       "current_price": 9.98,
       "original_price": 45.0,
       "discount_pct": 77.8,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-13T15:25:38Z",
-      "last_seen": "2026-08-15T16:02:59Z",
+      "last_seen": "2026-08-15T16:04:52Z",
       "published_at": "2026-08-13T15:25:38Z",
-      "score": 225
+      "score": 200
     },
     {
       "id": "de49cedf33a79299",
@@ -161,11 +161,11 @@
       "current_price": 9.98,
       "original_price": 45.0,
       "discount_pct": 77.8,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-13T14:12:36Z",
-      "last_seen": "2026-08-15T16:02:59Z",
+      "last_seen": "2026-08-15T16:04:52Z",
       "published_at": "2026-08-13T14:12:36Z",
-      "score": 225
+      "score": 200
     },
     {
       "id": "6d40425a77f5d315",
@@ -180,11 +180,11 @@
       "current_price": 7.0,
       "original_price": 25.0,
       "discount_pct": 72.0,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-12T22:00:32Z",
-      "last_seen": "2026-08-15T16:02:59Z",
+      "last_seen": "2026-08-15T16:04:52Z",
       "published_at": "2026-08-12T22:00:32Z",
-      "score": 225
+      "score": 200
     },
     {
       "id": "bb278ccc7597696e",
@@ -199,11 +199,11 @@
       "current_price": 69.99,
       "original_price": null,
       "discount_pct": 70.0,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-11T08:24:58Z",
-      "last_seen": "2026-08-15T16:02:59Z",
+      "last_seen": "2026-08-15T16:04:52Z",
       "published_at": "2026-08-11T08:24:58Z",
-      "score": 225
+      "score": 200
     },
     {
       "id": "83d5443b2d892bd1",
@@ -218,11 +218,11 @@
       "current_price": 19.0,
       "original_price": 45.0,
       "discount_pct": 57.8,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-11T12:49:03Z",
-      "last_seen": "2026-08-15T16:02:59Z",
+      "last_seen": "2026-08-15T16:04:52Z",
       "published_at": "2026-08-11T12:49:03Z",
-      "score": 221
+      "score": 196
     },
     {
       "id": "60b3b69607c5e0ec",
@@ -237,11 +237,11 @@
       "current_price": 15.0,
       "original_price": 90.0,
       "discount_pct": 83.3,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-15T13:25:44Z",
-      "last_seen": "2026-08-15T16:03:00Z",
+      "last_seen": "2026-08-15T16:04:53Z",
       "published_at": "2026-08-15T13:25:44Z",
-      "score": 210
+      "score": 185
     },
     {
       "id": "bb8ecb56a0359125",
@@ -256,11 +256,11 @@
       "current_price": 14.79,
       "original_price": 35.0,
       "discount_pct": 57.7,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-15T00:47:07Z",
-      "last_seen": "2026-08-15T16:03:01Z",
+      "last_seen": "2026-08-15T16:04:53Z",
       "published_at": "2026-08-15T00:47:07Z",
-      "score": 201
+      "score": 176
     },
     {
       "id": "c6d0c754e74e5b4f",
@@ -275,11 +275,11 @@
       "current_price": 30.0,
       "original_price": 50.0,
       "discount_pct": 40.0,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-12T10:01:41Z",
-      "last_seen": "2026-08-15T16:02:59Z",
+      "last_seen": "2026-08-15T16:04:52Z",
       "published_at": "2026-08-12T10:01:41Z",
-      "score": 195
+      "score": 170
     },
     {
       "id": "8986ffbb455c450d",
@@ -294,11 +294,11 @@
       "current_price": 28.0,
       "original_price": 54.0,
       "discount_pct": 48.1,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-15T09:22:56Z",
-      "last_seen": "2026-08-15T16:03:01Z",
+      "last_seen": "2026-08-15T16:04:53Z",
       "published_at": "2026-08-15T09:22:56Z",
-      "score": 187
+      "score": 162
     },
     {
       "id": "696652212a9ef2fa",
@@ -313,11 +313,11 @@
       "current_price": 100.0,
       "original_price": 147.0,
       "discount_pct": 32.0,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-13T15:26:59Z",
-      "last_seen": "2026-08-15T16:02:59Z",
+      "last_seen": "2026-08-15T16:04:52Z",
       "published_at": "2026-08-13T15:26:59Z",
-      "score": 183
+      "score": 158
     },
     {
       "id": "ecc4975c603c2cf4",
@@ -332,11 +332,11 @@
       "current_price": 56.0,
       "original_price": 100.0,
       "discount_pct": 44.0,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-14T21:11:21Z",
-      "last_seen": "2026-08-15T16:03:01Z",
+      "last_seen": "2026-08-15T16:04:53Z",
       "published_at": "2026-08-14T21:11:21Z",
-      "score": 181
+      "score": 156
     },
     {
       "id": "49ec4da55bb3c3d5",
@@ -351,11 +351,11 @@
       "current_price": 3500.0,
       "original_price": 5000.0,
       "discount_pct": 30.0,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-14T21:34:19Z",
-      "last_seen": "2026-08-15T16:03:01Z",
+      "last_seen": "2026-08-15T16:04:53Z",
       "published_at": "2026-08-14T21:34:19Z",
-      "score": 160
+      "score": 135
     },
     {
       "id": "b2df3802ce83a634",
@@ -370,11 +370,11 @@
       "current_price": 42.0,
       "original_price": 49.98,
       "discount_pct": 16.0,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-13T14:43:08Z",
-      "last_seen": "2026-08-15T16:02:59Z",
+      "last_seen": "2026-08-15T16:04:52Z",
       "published_at": "2026-08-13T14:43:08Z",
-      "score": 159
+      "score": 134
     },
     {
       "id": "02dc92a4c82e8dd6",
@@ -389,11 +389,11 @@
       "current_price": 12.99,
       "original_price": null,
       "discount_pct": null,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-13T10:58:29Z",
-      "last_seen": "2026-08-15T16:02:59Z",
+      "last_seen": "2026-08-15T16:04:52Z",
       "published_at": "2026-08-13T10:58:29Z",
-      "score": 135
+      "score": 110
     },
     {
       "id": "b72ff6e77c4f399d",
@@ -408,11 +408,11 @@
       "current_price": null,
       "original_price": null,
       "discount_pct": null,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-12T12:18:24Z",
-      "last_seen": "2026-08-15T16:02:59Z",
+      "last_seen": "2026-08-15T16:04:52Z",
       "published_at": "2026-08-12T12:18:24Z",
-      "score": 135
+      "score": 110
     },
     {
       "id": "06573a0cf4be00f1",
@@ -427,11 +427,11 @@
       "current_price": null,
       "original_price": null,
       "discount_pct": null,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-15T15:55:00Z",
-      "last_seen": "2026-08-15T16:03:01Z",
+      "last_seen": "2026-08-15T16:04:53Z",
       "published_at": "2026-08-15T15:55:00Z",
-      "score": 125
+      "score": 100
     },
     {
       "id": "51f312a21e14c09a",
@@ -446,11 +446,11 @@
       "current_price": null,
       "original_price": null,
       "discount_pct": null,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-15T15:55:00Z",
-      "last_seen": "2026-08-15T16:03:01Z",
+      "last_seen": "2026-08-15T16:04:53Z",
       "published_at": "2026-08-15T15:55:00Z",
-      "score": 125
+      "score": 100
     },
     {
       "id": "c175463f7545aa23",
@@ -465,11 +465,11 @@
       "current_price": null,
       "original_price": null,
       "discount_pct": null,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-15T15:55:00Z",
-      "last_seen": "2026-08-15T16:03:01Z",
+      "last_seen": "2026-08-15T16:04:53Z",
       "published_at": "2026-08-15T15:55:00Z",
-      "score": 125
+      "score": 100
     },
     {
       "id": "3c84ef927afdaf1c",
@@ -484,11 +484,11 @@
       "current_price": null,
       "original_price": null,
       "discount_pct": null,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-15T15:55:00Z",
-      "last_seen": "2026-08-15T16:03:01Z",
+      "last_seen": "2026-08-15T16:04:53Z",
       "published_at": "2026-08-15T15:55:00Z",
-      "score": 125
+      "score": 100
     },
     {
       "id": "d274f3bc2fee183c",
@@ -503,11 +503,11 @@
       "current_price": null,
       "original_price": null,
       "discount_pct": null,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-15T15:55:00Z",
-      "last_seen": "2026-08-15T16:03:01Z",
+      "last_seen": "2026-08-15T16:04:53Z",
       "published_at": "2026-08-15T15:55:00Z",
-      "score": 125
+      "score": 100
     },
     {
       "id": "aa448e1ed9a4880c",
@@ -522,11 +522,11 @@
       "current_price": null,
       "original_price": null,
       "discount_pct": null,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-15T15:55:00Z",
-      "last_seen": "2026-08-15T16:03:01Z",
+      "last_seen": "2026-08-15T16:04:53Z",
       "published_at": "2026-08-15T15:55:00Z",
-      "score": 125
+      "score": 100
     },
     {
       "id": "76fc54325f872602",
@@ -541,11 +541,11 @@
       "current_price": null,
       "original_price": null,
       "discount_pct": null,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-15T15:55:00Z",
-      "last_seen": "2026-08-15T16:03:01Z",
+      "last_seen": "2026-08-15T16:04:53Z",
       "published_at": "2026-08-15T15:55:00Z",
-      "score": 125
+      "score": 100
     },
     {
       "id": "639cb72444f8913e",
@@ -560,11 +560,11 @@
       "current_price": null,
       "original_price": null,
       "discount_pct": null,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "first_seen": "2026-08-15T15:55:00Z",
-      "last_seen": "2026-08-15T16:03:01Z",
+      "last_seen": "2026-08-15T16:04:53Z",
       "published_at": "2026-08-15T15:55:00Z",
-      "score": 125
+      "score": 100
     }
   ]
 }
