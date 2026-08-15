@@ -16,6 +16,11 @@ DATA = ROOT / "data"
 DEALS = DATA / "deals.json"
 HISTORY = DATA / "history.json"
 UA = "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 Version/18.0 Mobile/15E148 Safari/604.1"
+FEED_MAX_AGE = timedelta(hours=96)
+HOT_STALE_LIMIT = timedelta(hours=4)
+REGULAR_STALE_LIMIT = timedelta(hours=18)
+PRICE_HISTORY_DAYS = 30
+MAX_PRICE_OBSERVATIONS = 40
 
 FEEDS = [
     ("DealNews • Lowe's", "https://www.dealnews.com/s1308/Lowes/?rss=1&sort=time", 110, False),
@@ -40,10 +45,12 @@ SEEDS = [
 
 MONEY = re.compile(r"\$\s*([0-9]{1,6}(?:,[0-9]{3})*(?:\.\d{1,2})?)")
 PERCENT = re.compile(r"(?:up\s+to\s+|at\s+least\s+|save\s+)?([0-9]{1,2})\s*%\s*off", re.I)
+UP_TO_PERCENT = re.compile(r"\bup\s+to\s+([0-9]{1,2})\s*%\s*off", re.I)
 REGULAR_PRICE = re.compile(r"(?:was|reg(?:ular(?:ly)?)?\.?|list(?:\s+price)?|orig(?:inal(?:ly)?)?|normally)\s*[:\-]?\s*\$\s*([0-9]{1,6}(?:,[0-9]{3})*(?:\.\d{1,2})?)", re.I)
 SHIPPING_MINIMUM = re.compile(r"(?:free\s+)?shipping\s+(?:w(?:ith)?/?|on\s+orders?\s+(?:of|over))\s*\$\s*[0-9,.]+.*$", re.I)
 IMG = re.compile(r"<img[^>]+src=['\"]([^'\"]+)", re.I)
 LOWES_URL = re.compile(r"https?://(?:www\.)?lowes\.com/[^\"'<>\s]+", re.I)
+LOWES_ITEM_ID = re.compile(r"lowes\.com/(?:[^?#]*/)*(\d{6,})(?:[/?#]|$)", re.I)
 CLICK_URL = re.compile(r"(?:https?://www\.dealnews\.com)?(/lw/click\.html\?[^\"'<>\s]+)", re.I)
 TAG = re.compile(r"<[^>]+>")
 PENNY_WORDS = re.compile(r"(?:penny\s*(?:deal|item|find)|one[\s-]?cent|1\s*cent|1¢|\$0?\.01\b|\$0?\.02\b|\$0?\.03\b|\$0?\.04\b|\$0?\.05\b)", re.I)
@@ -88,7 +95,6 @@ def plain(value):
 
 
 def number(raw):
-    """Allow true penny prices; reject zero/negative and absurd values."""
     try:
         value = float(raw.replace(",", ""))
         return value if 0.01 <= value <= 100000 else None
@@ -97,10 +103,11 @@ def number(raw):
 
 
 def price_info(title, description):
-    """Parse only deal price evidence; never treat shipping thresholds as regular prices."""
+    """Return price evidence without treating shipping thresholds or generic 'up to' copy as a specific markdown."""
     cleaned_title = SHIPPING_MINIMUM.sub("", title or "")
     pct_match = PERCENT.search(cleaned_title) or PERCENT.search(description or "")
     discount = float(pct_match.group(1)) if pct_match else None
+    is_up_to = bool(UP_TO_PERCENT.search(cleaned_title) or UP_TO_PERCENT.search(description or ""))
 
     title_prices = [number(x) for x in MONEY.findall(cleaned_title)]
     title_prices = [x for x in title_prices if x is not None]
@@ -112,12 +119,13 @@ def price_info(title, description):
         calculated = round((original - current) / original * 100, 1)
         if 3 <= calculated <= 99.99:
             discount = max(discount or 0, calculated)
+            is_up_to = False
         else:
             original = None
     elif original is not None:
         original = None
 
-    return current, original, discount
+    return current, original, discount, is_up_to
 
 
 def category(value):
@@ -139,9 +147,33 @@ def category(value):
     return "Other"
 
 
-def stable_id(title, link):
-    normalized = re.sub(r"[^a-z0-9]+", " ", (title or "").lower()).strip()
-    return hashlib.sha1((normalized or link).encode()).hexdigest()[:16]
+def stable_id(value):
+    return hashlib.sha1((value or "unknown").encode()).hexdigest()[:16]
+
+
+def normalized_title(value):
+    value = (value or "").lower()
+    value = MONEY.sub(" ", value)
+    value = PERCENT.sub(" ", value)
+    value = re.sub(r"\b(?:at|from|for)\s+lowe'?s\b", " ", value)
+    value = re.sub(r"\b(?:free\s+shipping|shipping\s+varies|pickup\s+available)\b", " ", value)
+    return re.sub(r"[^a-z0-9]+", " ", value).strip()
+
+
+def extract_sku(*values):
+    for value in values:
+        match = LOWES_ITEM_ID.search(value or "")
+        if match:
+            return match.group(1)
+    return None
+
+
+def product_key(title, target, item_link):
+    sku = extract_sku(target, item_link)
+    if sku:
+        return f"lowes:{sku}", sku
+    normalized = normalized_title(title)
+    return f"title:{stable_id(normalized or item_link)}", None
 
 
 def parse_date(raw):
@@ -156,6 +188,13 @@ def parse_date(raw):
         return None
 
 
+def parse_iso(raw):
+    try:
+        return datetime.fromisoformat((raw or "").replace("Z", "+00:00")).astimezone(timezone.utc)
+    except Exception:
+        return None
+
+
 def target_link(description, item_link):
     decoded = html.unescape(description or "")
     direct = LOWES_URL.search(decoded)
@@ -164,17 +203,36 @@ def target_link(description, item_link):
     tracking = CLICK_URL.search(decoded)
     if tracking:
         return urljoin("https://www.dealnews.com", tracking.group(1)), "dealnews-click"
-    return item_link, "dealnews"
+    return item_link, "source-deal"
 
 
-def classify_deal(title, description, source, current, original, discount, last_price=None):
-    """
-    Create lead signals, not guarantees.
-    PENNY WATCH: <=10 cents or explicit penny wording.
-    LIKELY ERROR: explicit error wording or an observed/verified reference-price collapse >=80%.
-    CLEARANCE: explicit clearance/closeout wording or Lowe's Back Aisle source.
-    EXTREME: >=70% off or a very low price vs a known reference price.
-    """
+def recent_reference_price(old, current=None):
+    cutoff = now() - timedelta(days=PRICE_HISTORY_DAYS)
+    prices = []
+    for obs in old.get("price_history", []) if isinstance(old, dict) else []:
+        ts = parse_iso(obs.get("at")) if isinstance(obs, dict) else None
+        price = obs.get("price") if isinstance(obs, dict) else None
+        if ts and ts >= cutoff and isinstance(price, (int, float)) and (current is None or abs(float(price) - float(current)) > 0.001):
+            prices.append(float(price))
+    last = old.get("last_price") if isinstance(old, dict) else None
+    if isinstance(last, (int, float)) and (current is None or abs(float(last) - float(current)) > 0.001):
+        prices.append(float(last))
+    return max(prices) if prices else None
+
+
+def record_price(old, current, source_name):
+    if current is None:
+        return
+    history = old.get("price_history") if isinstance(old.get("price_history"), list) else []
+    should_add = not history or not isinstance(history[-1], dict) or abs(float(history[-1].get("price", -1)) - float(current)) > 0.001
+    if should_add:
+        history.append({"at": iso(), "price": round(float(current), 2), "source": source_name})
+    old["price_history"] = history[-MAX_PRICE_OBSERVATIONS:]
+    old["last_price"] = round(float(current), 2)
+    old["lowest_price"] = min(float(current), float(old.get("lowest_price", current)))
+
+
+def classify_deal(title, description, source, current, original, discount, reference_price=None, is_up_to=False):
     text = f"{title or ''} {description or ''} {source or ''}"
     lower = text.lower()
     tags = []
@@ -184,21 +242,27 @@ def classify_deal(title, description, source, current, original, discount, last_
     clearance = bool(CLEARANCE_WORDS.search(text)) or "back aisle" in lower
 
     observed_drop = None
-    if current is not None and isinstance(last_price, (int, float)) and float(last_price) > current:
-        observed_drop = round((float(last_price) - current) / float(last_price) * 100, 1)
+    if current is not None and isinstance(reference_price, (int, float)) and reference_price > current:
+        observed_drop = round((reference_price - current) / reference_price * 100, 1)
 
-    reference_drop = discount if discount is not None else observed_drop
     explicit_error = bool(ERROR_WORDS.search(text))
-    huge_verified_collapse = (
+    verified_collapse = (
         current is not None
-        and reference_drop is not None
-        and reference_drop >= 80
-        and (original is not None or observed_drop is not None)
+        and observed_drop is not None
+        and observed_drop >= 80
         and not clearance
     )
-    likely_error = explicit_error or huge_verified_collapse
+    original_collapse = (
+        current is not None
+        and original is not None
+        and original > current
+        and ((original - current) / original * 100) >= 80
+        and not clearance
+    )
+    likely_error = explicit_error or verified_collapse or original_collapse
 
-    extreme = (
+    specific_extreme_evidence = current is not None or original is not None or observed_drop is not None or not is_up_to
+    extreme = specific_extreme_evidence and (
         (discount is not None and discount >= 70)
         or (observed_drop is not None and observed_drop >= 70)
         or (current is not None and original is not None and original >= 25 and current <= original * 0.30)
@@ -206,26 +270,26 @@ def classify_deal(title, description, source, current, original, discount, last_
 
     if penny:
         tags.append("PENNY WATCH")
-        notes.append("Price is 10¢ or less or the listing explicitly describes a penny deal.")
+        notes.append("10¢ or less, or explicitly described as a penny deal.")
     if likely_error:
         tags.append("LIKELY ERROR")
         if explicit_error:
-            notes.append("The source explicitly describes a pricing error/misprice.")
+            notes.append("Source explicitly describes a pricing error or misprice.")
         else:
-            notes.append("Price collapsed at least 80% versus a verified reference/previous price; verify before relying on it.")
+            notes.append("Price is at least 80% below a known reference price.")
     if clearance:
         tags.append("CLEARANCE")
         notes.append("Clearance/closeout/Back Aisle signal detected.")
     if extreme and "PENNY WATCH" not in tags:
         tags.append("EXTREME")
-        notes.append("At least a 70% markdown or similarly extreme verified price gap.")
+        notes.append("Specific evidence supports a 70%+ markdown.")
 
     if not tags:
         tags = ["REGULAR DEAL"]
 
     primary_order = ("PENNY WATCH", "LIKELY ERROR", "EXTREME", "CLEARANCE", "REGULAR DEAL")
     primary = next(x for x in primary_order if x in tags)
-    return primary, tags, " ".join(notes[:2]) or None
+    return primary, tags, " ".join(notes[:2]) or None, observed_drop
 
 
 def signal_bonus(tags):
@@ -233,10 +297,58 @@ def signal_bonus(tags):
         "PENNY WATCH": 220,
         "LIKELY ERROR": 180,
         "EXTREME": 110,
-        "CLEARANCE": 55,
+        "CLEARANCE": 45,
         "REGULAR DEAL": 0,
     }
     return max((bonuses.get(tag, 0) for tag in tags), default=0)
+
+
+def freshness_bonus(published):
+    if not published:
+        return 0
+    age_hours = max(0, (now() - published).total_seconds() / 3600)
+    return max(0, 36 - int(age_hours * 1.5))
+
+
+def confidence_score(row):
+    score = 28
+    tags = row.get("deal_types") or []
+    if row.get("target_method") == "lowes-direct":
+        score += 20
+    if row.get("current_price") is not None:
+        score += 10
+    if row.get("original_price") is not None:
+        score += 14
+    if row.get("observed_reference_price") is not None:
+        score += 18
+    if row.get("source_count", 1) >= 2:
+        score += 12
+    if row.get("sku"):
+        score += 8
+    if row.get("historical_low"):
+        score += 8
+    if row.get("discount_pct") is not None and not row.get("discount_is_up_to"):
+        score += 6
+
+    if "PENNY WATCH" in tags:
+        score += 20 if row.get("current_price") is not None and row.get("current_price") <= 0.10 else 5
+    if "LIKELY ERROR" in tags:
+        score += 15 if row.get("observed_reference_price") is not None or row.get("original_price") is not None else 4
+    if "EXTREME" in tags:
+        score += 7
+    if "CLEARANCE" in tags and row.get("target_method") == "lowes-direct":
+        score += 8
+
+    return max(1, min(99, int(score)))
+
+
+def is_hot(row):
+    tags = row.get("deal_types") or []
+    if any(tag in tags for tag in ("PENNY WATCH", "LIKELY ERROR", "EXTREME")):
+        return True
+    if row.get("status") == "PRICE DROP" and (row.get("discount_pct") or 0) >= 50:
+        return True
+    return bool(row.get("historical_low") and (row.get("discount_pct") or 0) >= 40)
 
 
 def parse_feed(raw_xml, source_name, priority, lowes_filter, history):
@@ -246,7 +358,7 @@ def parse_feed(raw_xml, source_name, priority, lowes_filter, history):
         return [], "invalid-xml"
 
     items = root.findall(".//item")
-    cutoff = now() - timedelta(days=5)
+    cutoff = now() - FEED_MAX_AGE
     rows = []
 
     for item in items:
@@ -262,59 +374,69 @@ def parse_feed(raw_xml, source_name, priority, lowes_filter, history):
         if not title or not link:
             continue
 
-        current, original, discount = price_info(title, description)
+        current, original, discount, is_up_to = price_info(title, description)
         image_match = IMG.search(description_html)
         image = html.unescape(image_match.group(1)) if image_match else None
         target, method = target_link(description_html, link)
-        item_id = stable_id(title, link)
-        old = history.get(item_id, {}) if isinstance(history.get(item_id), dict) else {}
-        last_price = old.get("last_price")
+        key, sku = product_key(title, target, link)
+        item_id = stable_id(key)
+        old = history.get(key, {}) if isinstance(history.get(key), dict) else {}
+        if not old and isinstance(history.get(item_id), dict):
+            old = history.get(item_id, {})
+        reference_price = recent_reference_price(old, current)
+        lowest_before = old.get("lowest_price") if isinstance(old.get("lowest_price"), (int, float)) else None
+        historical_low = current is not None and lowest_before is not None and current < float(lowest_before) - 0.01
         first_seen = old.get("first_seen") or iso(published or now())
         status = "SEEN BEFORE" if old.get("last_seen") else "NEW"
 
-        if current is not None and isinstance(last_price, (int, float)) and current < float(last_price) - 0.01:
-            status = "PRICE DROP"
-            if original is None:
-                original = round(float(last_price), 2)
-                discount = round((original - current) / original * 100, 1)
+        if current is not None and reference_price is not None and current < reference_price - 0.01:
+            drop = round((reference_price - current) / reference_price * 100, 1)
+            if drop >= 3:
+                status = "PRICE DROP"
+                if original is None:
+                    original = round(reference_price, 2)
+                discount = max(discount or 0, drop)
+                is_up_to = False
 
-        primary, deal_types, signal_note = classify_deal(
-            title, description, source_name, current, original, discount, last_price
+        primary, deal_types, signal_note, observed_drop = classify_deal(
+            title, description, source_name, current, original, discount, reference_price, is_up_to
         )
 
-        if current is not None:
-            old["last_price"] = current
-            old["lowest_price"] = min(current, float(old.get("lowest_price", current)))
+        record_price(old, current, source_name)
         old.update({
             "title": title,
             "url": target,
+            "sku": sku,
             "first_seen": first_seen,
             "last_seen": iso(),
             "deal_type": primary,
             "deal_types": deal_types,
         })
-        history[item_id] = old
+        history[key] = old
 
-        score = (
-            priority
-            + signal_bonus(deal_types)
-            + (min(100, int(discount * 1.5)) if discount is not None else 0)
-            + (45 if status == "PRICE DROP" else 25 if status == "NEW" else 0)
-            + (8 if current is not None else 0)
-        )
-        rows.append({
+        row = {
             "id": item_id,
+            "product_key": key,
+            "sku": sku,
             "title": title,
             "url": target,
             "deal_url": link,
             "image": image,
             "category": category(title),
             "source": source_name,
+            "sources": [source_name],
+            "source_count": 1,
             "source_url": link,
             "target_method": method,
             "current_price": current,
             "original_price": original,
+            "observed_reference_price": round(reference_price, 2) if reference_price is not None else None,
+            "lowest_observed_price": round(float(old.get("lowest_price")), 2) if isinstance(old.get("lowest_price"), (int, float)) else None,
+            "price_history_count": len(old.get("price_history", [])) if isinstance(old.get("price_history"), list) else 0,
+            "historical_low": historical_low,
             "discount_pct": discount,
+            "discount_is_up_to": is_up_to,
+            "observed_drop_pct": observed_drop,
             "status": status,
             "deal_type": primary,
             "deal_types": deal_types,
@@ -322,8 +444,18 @@ def parse_feed(raw_xml, source_name, priority, lowes_filter, history):
             "first_seen": first_seen,
             "last_seen": iso(),
             "published_at": iso(published) if published else None,
-            "score": score,
-        })
+        }
+        row["score"] = (
+            priority
+            + signal_bonus(deal_types)
+            + freshness_bonus(published)
+            + (min(100, int(discount * 1.35)) if discount is not None and not is_up_to else 0)
+            + (55 if status == "PRICE DROP" else 25 if status == "NEW" else 0)
+            + (16 if historical_low else 0)
+            + (10 if method == "lowes-direct" else 0)
+            + (8 if current is not None else 0)
+        )
+        rows.append(row)
 
     return rows, f"rss:{len(items)}"
 
@@ -333,33 +465,45 @@ def seed_rows(history):
         return []
     rows = []
     for title, url in SEEDS:
-        item_id = stable_id(title, url)
-        old = history.get(item_id, {}) if isinstance(history.get(item_id), dict) else {}
+        key, sku = product_key(title, url, url)
+        item_id = stable_id(key)
+        old = history.get(key, {}) if isinstance(history.get(key), dict) else {}
         first_seen = old.get("first_seen") or iso(SEED_VERIFIED)
         status = "SEEN BEFORE" if old.get("last_seen") else "NEW"
         deal_types = ["CLEARANCE"]
         old.update({
             "title": title,
             "url": url,
+            "sku": sku,
             "first_seen": first_seen,
             "last_seen": iso(),
             "deal_type": "CLEARANCE",
             "deal_types": deal_types,
         })
-        history[item_id] = old
+        history[key] = old
         rows.append({
             "id": item_id,
+            "product_key": key,
+            "sku": sku,
             "title": title,
             "url": url,
             "deal_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
             "image": None,
             "category": category(title),
             "source": "Lowe's Back Aisle • verified",
+            "sources": ["Lowe's Back Aisle • verified"],
+            "source_count": 1,
             "source_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
             "target_method": "lowes-direct",
             "current_price": None,
             "original_price": None,
+            "observed_reference_price": None,
+            "lowest_observed_price": None,
+            "price_history_count": 0,
+            "historical_low": False,
             "discount_pct": None,
+            "discount_is_up_to": False,
+            "observed_drop_pct": None,
             "status": status,
             "deal_type": "CLEARANCE",
             "deal_types": deal_types,
@@ -367,15 +511,56 @@ def seed_rows(history):
             "first_seen": first_seen,
             "last_seen": iso(),
             "published_at": iso(SEED_VERIFIED),
-            "score": 155 + (25 if status == "NEW" else 0),
+            "score": 150 + (25 if status == "NEW" else 0),
         })
     return rows
+
+
+def merge_rows(collected):
+    best = {}
+    for row in collected:
+        key = row.get("product_key") or row.get("id")
+        existing = best.get(key)
+        if existing is None:
+            best[key] = row
+            continue
+
+        sources = sorted(set((existing.get("sources") or [existing.get("source")]) + (row.get("sources") or [row.get("source")])))
+        tags = []
+        for tag in (existing.get("deal_types") or []) + (row.get("deal_types") or []):
+            if tag and tag not in tags:
+                tags.append(tag)
+
+        row_rank = (
+            signal_bonus(row.get("deal_types") or []),
+            1 if row.get("target_method") == "lowes-direct" else 0,
+            1 if row.get("current_price") is not None else 0,
+            row.get("score", 0),
+        )
+        old_rank = (
+            signal_bonus(existing.get("deal_types") or []),
+            1 if existing.get("target_method") == "lowes-direct" else 0,
+            1 if existing.get("current_price") is not None else 0,
+            existing.get("score", 0),
+        )
+        chosen = row if row_rank > old_rank else existing
+        chosen = dict(chosen)
+        chosen["sources"] = sources
+        chosen["source_count"] = len(sources)
+        chosen["deal_types"] = tags or chosen.get("deal_types") or ["REGULAR DEAL"]
+        primary_order = ("PENNY WATCH", "LIKELY ERROR", "EXTREME", "CLEARANCE", "REGULAR DEAL")
+        chosen["deal_type"] = next((x for x in primary_order if x in chosen["deal_types"]), "REGULAR DEAL")
+        chosen["score"] = max(existing.get("score", 0), row.get("score", 0)) + min(24, (len(sources) - 1) * 12)
+        best[key] = chosen
+
+    return best
 
 
 def main():
     old_deals = load(DEALS, {"deals": []})
     previous = {str(row.get("id")): row for row in old_deals.get("deals", []) if row.get("id")}
-    history = load(HISTORY, {"products": {}}).get("products", {})
+    history_data = load(HISTORY, {"products": {}})
+    history = history_data.get("products", {}) if isinstance(history_data, dict) else {}
     diagnostics, errors, collected = [], [], []
 
     for source_name, feed_url, priority, lowes_filter in FEEDS:
@@ -392,41 +577,34 @@ def main():
     diagnostics.append({"source": "Lowe's Back Aisle verified seeds", "method": "manual-current", "candidates": len(seeds)})
     collected.extend(seeds)
 
-    best = {}
-    for row in collected:
-        old = best.get(row["id"])
-        row_rank = (
-            signal_bonus(row.get("deal_types") or []),
-            1 if row.get("target_method") == "lowes-direct" else 0,
-            row.get("score", 0),
-        )
-        old_rank = (
-            signal_bonus(old.get("deal_types") or []) if old else -1,
-            1 if old and old.get("target_method") == "lowes-direct" else 0,
-            old.get("score", 0) if old else -1,
-        )
-        if old is None or row_rank > old_rank:
-            best[row["id"]] = row
+    best_by_product = merge_rows(collected)
+    best = {row["id"]: row for row in best_by_product.values()}
 
-    cutoff = now() - timedelta(hours=36)
     for item_id, row in previous.items():
         if item_id in best:
             continue
-        try:
-            last = datetime.fromisoformat((row.get("last_seen") or "").replace("Z", "+00:00"))
-        except Exception:
+        last = parse_iso(row.get("last_seen"))
+        if not last:
             continue
-        if last >= cutoff:
+        limit = HOT_STALE_LIMIT if row.get("hot") or any(t in (row.get("deal_types") or []) for t in ("PENNY WATCH", "LIKELY ERROR", "EXTREME")) else REGULAR_STALE_LIMIT
+        if now() - last <= limit:
             stale = dict(row)
             stale["status"] = "UNVERIFIED"
-            stale["score"] = max(0, int(stale.get("score", 0)) - 45)
+            stale["score"] = max(0, int(stale.get("score", 0)) - 70)
             best[item_id] = stale
+
+    for row in best.values():
+        row["confidence"] = confidence_score(row)
+        row["hot"] = is_hot(row)
+        row["score"] = int(row.get("score", 0)) + row["confidence"] // 4 + (25 if row["hot"] else 0)
 
     rows = sorted(
         best.values(),
         key=lambda row: (
             row.get("status") != "UNVERIFIED",
+            bool(row.get("hot")),
             signal_bonus(row.get("deal_types") or []),
+            row.get("confidence", 0),
             row.get("score", 0),
             row.get("discount_pct") or 0,
             row.get("published_at") or "",
@@ -439,11 +617,14 @@ def main():
 
     stats = {
         "total": len(rows),
+        "hot": sum(bool(row.get("hot")) for row in rows),
         "new": sum(row.get("status") == "NEW" for row in rows),
         "price_drops": sum(row.get("status") == "PRICE DROP" for row in rows),
+        "historical_lows": sum(bool(row.get("historical_low")) for row in rows),
         "with_price": sum(row.get("current_price") is not None for row in rows),
         "sources_scanned": len(diagnostics),
         "direct_lowes": sum(row.get("target_method") == "lowes-direct" for row in rows),
+        "tracked_skus": sum(bool(row.get("sku")) for row in rows),
         "clearance": sum(has_type(row, "CLEARANCE") for row in rows),
         "penny_watch": sum(has_type(row, "PENNY WATCH") for row in rows),
         "likely_errors": sum(has_type(row, "LIKELY ERROR") for row in rows),
@@ -455,10 +636,11 @@ def main():
     save(DEALS, {
         "generated_at": iso(),
         "app": "Lowe's Deal Finder",
+        "scan_interval_minutes": 15,
         "stats": stats,
         "scan_errors": errors,
         "diagnostics": diagnostics,
-        "signal_disclaimer": "Penny-watch and likely-pricing-error labels are automated leads, not guarantees. Lowe's prices can vary by store/ZIP and pricing mistakes can be corrected or orders cancelled.",
+        "signal_disclaimer": "Penny-watch and likely-pricing-error labels are automated leads, not guarantees. Confidence reflects evidence quality, not checkout certainty. Lowe's prices can vary by store/ZIP and pricing mistakes can be corrected or orders cancelled.",
         "attribution": "DealNews and Slickdeals feed items retain their source attribution and source/referral links when used.",
         "deals": rows,
     })
