@@ -2,6 +2,12 @@
 
 A phone-first Lowe's deal finder built to prioritize fresh results, remove duplicates, remember prices, and avoid stale deal links.
 
+## Live app
+
+Production: `https://lowes-deal-finder.vercel.app`
+
+The deployed phone app reads `data/deals.json` directly from this public GitHub repository, so hourly scanner updates appear without needing a new Vercel deployment.
+
 ## What it does
 
 - Runs automatically every hour at minute 17 and can also be run manually from GitHub Actions.
@@ -22,15 +28,15 @@ A phone-first Lowe's deal finder built to prioritize fresh results, remove dupli
 - Lowe's Back Aisle — short-lived direct-product safety net and a permanent navigation link in the app.
 - Lowe's Daily Deals and Weekly Ad — linked directly in the app.
 
-## Run it
+## Run a scan manually
 
 Open **Actions → Scan Lowe's Deals → Run workflow**. The resulting `data/deals.json` is committed back to the repository automatically.
 
-## Put it on your iPhone
+## Add it to iPhone
 
-1. Connect this GitHub repository to Vercel as a static project; there is no build command.
-2. Open the deployed URL in Safari.
-3. Tap **Share → Add to Home Screen**.
+1. Open `https://lowes-deal-finder.vercel.app` in Safari.
+2. Tap **Share**.
+3. Tap **Add to Home Screen**.
 
 ## Notes
 
