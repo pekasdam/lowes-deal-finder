@@ -7,11 +7,11 @@ on:
       - 'scraper/**'
       - '.github/workflows/scan.yml'
   schedule:
-    - cron: '17 * * * *'
+    - cron: '7,22,37,52 * * * *'
 permissions:
   contents: write
 concurrency:
-  group: lowes-hourly-scan
+  group: lowes-fast-scan
   cancel-in-progress: true
 jobs:
   scan:
