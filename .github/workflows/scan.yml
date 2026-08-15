@@ -5,7 +5,6 @@ on:
     branches: [main]
     paths:
       - 'scraper/**'
-      - 'requirements.txt'
       - '.github/workflows/scan.yml'
   schedule:
     - cron: '17 * * * *'
@@ -17,18 +16,14 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          cache: pip
-      - run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          python -m playwright install --with-deps chromium
-      - run: python scraper/scan.py
+      - name: Scan current Lowe's deals
+        run: python scraper/scan.py
       - name: Save fresh deals
         run: |
           if git diff --quiet -- data/deals.json data/history.json; then exit 0; fi
