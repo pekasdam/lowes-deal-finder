@@ -22,6 +22,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Remove legacy cached rows
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('data/deals.json')
+          if p.exists():
+              data = json.loads(p.read_text())
+              data['deals'] = [row for row in data.get('deals', []) if row.get('product_key')]
+              p.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+          PY
       - name: Scan current Lowe's deals
         run: python scraper/scan_v2.py
       - name: Save fresh deals
