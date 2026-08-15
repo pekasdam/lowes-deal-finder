@@ -1,1 +1,13 @@
-{"generated_at":null,"app":"Lowe's Deal Finder","stats":{"total":0,"new":0,"price_drops":0,"with_price":0,"sources_scanned":0},"scan_errors":[],"deals":[]}
+{
+  "generated_at": "2026-08-15T15:55:32Z",
+  "app": "Lowe's Deal Finder",
+  "stats": {
+    "total": 0,
+    "new": 0,
+    "price_drops": 0,
+    "with_price": 0,
+    "sources_scanned": 3
+  },
+  "scan_errors": [],
+  "deals": []
+}
