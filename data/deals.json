@@ -1,13 +1,17 @@
 {
-  "generated_at": "2026-08-15T16:06:47Z",
+  "generated_at": "2026-08-15T16:28:51Z",
   "app": "Lowe's Deal Finder",
   "stats": {
-    "total": 28,
-    "new": 0,
+    "total": 29,
+    "new": 1,
     "price_drops": 0,
-    "with_price": 16,
-    "sources_scanned": 4,
-    "direct_lowes": 8
+    "with_price": 17,
+    "sources_scanned": 6,
+    "direct_lowes": 8,
+    "clearance": 8,
+    "penny_watch": 0,
+    "likely_errors": 0,
+    "extreme": 1
   },
   "scan_errors": [],
   "diagnostics": [
@@ -18,7 +22,7 @@
     },
     {
       "source": "DealNews • Latest",
-      "method": "rss:48",
+      "method": "rss:49",
       "candidates": 1
     },
     {
@@ -27,12 +31,23 @@
       "candidates": 4
     },
     {
+      "source": "Slickdeals • Frontpage",
+      "method": "rss:25",
+      "candidates": 0
+    },
+    {
+      "source": "Slickdeals • Popular",
+      "method": "rss:25",
+      "candidates": 1
+    },
+    {
       "source": "Lowe's Back Aisle verified seeds",
       "method": "manual-current",
       "candidates": 8
     }
   ],
-  "attribution": "DealNews feed items are attributed to DealNews and their feed/referral links are preserved.",
+  "signal_disclaimer": "Penny-watch and likely-pricing-error labels are automated leads, not guarantees. Lowe's prices can vary by store/ZIP and pricing mistakes can be corrected or orders cancelled.",
+  "attribution": "DealNews and Slickdeals feed items retain their source attribution and source/referral links when used.",
   "deals": [
     {
       "id": "bb278ccc7597696e",
@@ -48,10 +63,207 @@
       "original_price": null,
       "discount_pct": 70.0,
       "status": "SEEN BEFORE",
+      "deal_type": "EXTREME",
+      "deal_types": [
+        "EXTREME"
+      ],
+      "signal_note": "At least a 70% markdown or similarly extreme verified price gap.",
       "first_seen": "2026-08-11T08:24:58Z",
-      "last_seen": "2026-08-15T16:06:45Z",
+      "last_seen": "2026-08-15T16:28:48Z",
       "published_at": "2026-08-11T08:24:58Z",
-      "score": 200
+      "score": 320
+    },
+    {
+      "id": "06573a0cf4be00f1",
+      "title": "DEWALT 12-in 15-Amp Dual Bevel Sliding Compound Corded Miter Saw",
+      "url": "https://www.lowes.com/pd/DEWALT-12-in-15-Amp-Dual-Bevel-Sliding-Compound-Corded-Miter-Saw/5013610507",
+      "deal_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "image": null,
+      "category": "Tools",
+      "source": "Lowe's Back Aisle • verified",
+      "source_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "target_method": "lowes-direct",
+      "current_price": null,
+      "original_price": null,
+      "discount_pct": null,
+      "status": "SEEN BEFORE",
+      "deal_type": "CLEARANCE",
+      "deal_types": [
+        "CLEARANCE"
+      ],
+      "signal_note": "Verified from Lowe's Back Aisle/clearance source.",
+      "first_seen": "2026-08-15T15:55:00Z",
+      "last_seen": "2026-08-15T16:28:51Z",
+      "published_at": "2026-08-15T15:55:00Z",
+      "score": 155
+    },
+    {
+      "id": "51f312a21e14c09a",
+      "title": "QUIKRETE 80-lb High Strength Concrete Mix",
+      "url": "https://www.lowes.com/pd/QUIKRETE-80-lb-High-Strength-Concrete-Mix/3006075",
+      "deal_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "image": null,
+      "category": "Building",
+      "source": "Lowe's Back Aisle • verified",
+      "source_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "target_method": "lowes-direct",
+      "current_price": null,
+      "original_price": null,
+      "discount_pct": null,
+      "status": "SEEN BEFORE",
+      "deal_type": "CLEARANCE",
+      "deal_types": [
+        "CLEARANCE"
+      ],
+      "signal_note": "Verified from Lowe's Back Aisle/clearance source.",
+      "first_seen": "2026-08-15T15:55:00Z",
+      "last_seen": "2026-08-15T16:28:51Z",
+      "published_at": "2026-08-15T15:55:00Z",
+      "score": 155
+    },
+    {
+      "id": "c175463f7545aa23",
+      "title": "CATALYST Emblem 6-ft x 8-ft White Privacy Vinyl Fence Panel",
+      "url": "https://www.lowes.com/pd/CATALYST-Emblem-6-ft-H-x-8-ft-W-White-Privacy-Vinyl-Flat-top-Fence-panel-Unassembled/5016152027",
+      "deal_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "image": null,
+      "category": "Building",
+      "source": "Lowe's Back Aisle • verified",
+      "source_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "target_method": "lowes-direct",
+      "current_price": null,
+      "original_price": null,
+      "discount_pct": null,
+      "status": "SEEN BEFORE",
+      "deal_type": "CLEARANCE",
+      "deal_types": [
+        "CLEARANCE"
+      ],
+      "signal_note": "Verified from Lowe's Back Aisle/clearance source.",
+      "first_seen": "2026-08-15T15:55:00Z",
+      "last_seen": "2026-08-15T16:28:51Z",
+      "published_at": "2026-08-15T15:55:00Z",
+      "score": 155
+    },
+    {
+      "id": "3c84ef927afdaf1c",
+      "title": "GAF Timberline HDZ Charcoal Architectural Roof Shingles",
+      "url": "https://www.lowes.com/pd/GAF-Timberline-HDZ-Charcoal-Algae-Resistant-Architectural-Roof-Shingles-33-33-sq-ft-per-Bundle/1001327246",
+      "deal_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "image": null,
+      "category": "Building",
+      "source": "Lowe's Back Aisle • verified",
+      "source_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "target_method": "lowes-direct",
+      "current_price": null,
+      "original_price": null,
+      "discount_pct": null,
+      "status": "SEEN BEFORE",
+      "deal_type": "CLEARANCE",
+      "deal_types": [
+        "CLEARANCE"
+      ],
+      "signal_note": "Verified from Lowe's Back Aisle/clearance source.",
+      "first_seen": "2026-08-15T15:55:00Z",
+      "last_seen": "2026-08-15T16:28:51Z",
+      "published_at": "2026-08-15T15:55:00Z",
+      "score": 155
+    },
+    {
+      "id": "d274f3bc2fee183c",
+      "title": "Southwire Armorlite 250-ft 12/2 Armored Cable",
+      "url": "https://www.lowes.com/pd/Southwire-Armorlite-250-ft-12-2-Solid-Aluminum-AC-Cable/1095783",
+      "deal_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "image": null,
+      "category": "Electrical",
+      "source": "Lowe's Back Aisle • verified",
+      "source_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "target_method": "lowes-direct",
+      "current_price": null,
+      "original_price": null,
+      "discount_pct": null,
+      "status": "SEEN BEFORE",
+      "deal_type": "CLEARANCE",
+      "deal_types": [
+        "CLEARANCE"
+      ],
+      "signal_note": "Verified from Lowe's Back Aisle/clearance source.",
+      "first_seen": "2026-08-15T15:55:00Z",
+      "last_seen": "2026-08-15T16:28:51Z",
+      "published_at": "2026-08-15T15:55:00Z",
+      "score": 155
+    },
+    {
+      "id": "aa448e1ed9a4880c",
+      "title": "Trex Enhance Basics 16-ft Clam Shell Composite Deck Board",
+      "url": "https://www.lowes.com/pd/Trex-Enhance-Basics-16-ft-Clam-Shell-Grooved-Composite-Deck-Board/1000763522",
+      "deal_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "image": null,
+      "category": "Building",
+      "source": "Lowe's Back Aisle • verified",
+      "source_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "target_method": "lowes-direct",
+      "current_price": null,
+      "original_price": null,
+      "discount_pct": null,
+      "status": "SEEN BEFORE",
+      "deal_type": "CLEARANCE",
+      "deal_types": [
+        "CLEARANCE"
+      ],
+      "signal_note": "Verified from Lowe's Back Aisle/clearance source.",
+      "first_seen": "2026-08-15T15:55:00Z",
+      "last_seen": "2026-08-15T16:28:51Z",
+      "published_at": "2026-08-15T15:55:00Z",
+      "score": 155
+    },
+    {
+      "id": "76fc54325f872602",
+      "title": "2-in x 4-in x 96-in Kiln-dried Whitewood Stud",
+      "url": "https://www.lowes.com/pd/Interfor-2-in-x-4-in-x-8-ft-Euro-Spruce-Kiln-dried-Lumber/5001997955",
+      "deal_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "image": null,
+      "category": "Other",
+      "source": "Lowe's Back Aisle • verified",
+      "source_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "target_method": "lowes-direct",
+      "current_price": null,
+      "original_price": null,
+      "discount_pct": null,
+      "status": "SEEN BEFORE",
+      "deal_type": "CLEARANCE",
+      "deal_types": [
+        "CLEARANCE"
+      ],
+      "signal_note": "Verified from Lowe's Back Aisle/clearance source.",
+      "first_seen": "2026-08-15T15:55:00Z",
+      "last_seen": "2026-08-15T16:28:51Z",
+      "published_at": "2026-08-15T15:55:00Z",
+      "score": 155
+    },
+    {
+      "id": "639cb72444f8913e",
+      "title": "Gold Bond 1/2-in x 4-ft x 8-ft High Strength LITE Drywall Panel",
+      "url": "https://www.lowes.com/pd/Gold-Bond-1-2-in-x-4-ft-x-8-ft-High-Strength-LITE-Drywall-Panel/5001486207",
+      "deal_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "image": null,
+      "category": "Building",
+      "source": "Lowe's Back Aisle • verified",
+      "source_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "target_method": "lowes-direct",
+      "current_price": null,
+      "original_price": null,
+      "discount_pct": null,
+      "status": "SEEN BEFORE",
+      "deal_type": "CLEARANCE",
+      "deal_types": [
+        "CLEARANCE"
+      ],
+      "signal_note": "Verified from Lowe's Back Aisle/clearance source.",
+      "first_seen": "2026-08-15T15:55:00Z",
+      "last_seen": "2026-08-15T16:28:51Z",
+      "published_at": "2026-08-15T15:55:00Z",
+      "score": 155
     },
     {
       "id": "e1ec7e94e3668ce7",
@@ -67,10 +279,39 @@
       "original_price": null,
       "discount_pct": 66.0,
       "status": "SEEN BEFORE",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
       "first_seen": "2026-08-13T10:28:48Z",
-      "last_seen": "2026-08-15T16:06:45Z",
+      "last_seen": "2026-08-15T16:28:48Z",
       "published_at": "2026-08-13T10:28:48Z",
-      "score": 200
+      "score": 209
+    },
+    {
+      "id": "9067f270438d3dff",
+      "title": "Costco Members: Hisense 75\" Class U65 Pro Series: 4K ULED MiniLED Smart TV w/ Allstate 3-Year Protection Plan Bundle Included for 5 Years of Total Coverage $749.99",
+      "url": "https://slickdeals.net/f/19877448-costco-members-hisense-75-class-u65-pro-series-4k-uled-miniled-smart-tv-w-allstate-3-year-protection-plan-bundle-included-for-5-years-of-total-coverage-749-99?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "deal_url": "https://slickdeals.net/f/19877448-costco-members-hisense-75-class-u65-pro-series-4k-uled-miniled-smart-tv-w-allstate-3-year-protection-plan-bundle-included-for-5-years-of-total-coverage-749-99?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "image": null,
+      "category": "Other",
+      "source": "Slickdeals • Popular",
+      "source_url": "https://slickdeals.net/f/19877448-costco-members-hisense-75-class-u65-pro-series-4k-uled-miniled-smart-tv-w-allstate-3-year-protection-plan-bundle-included-for-5-years-of-total-coverage-749-99?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "target_method": "dealnews",
+      "current_price": 749.99,
+      "original_price": null,
+      "discount_pct": null,
+      "status": "NEW",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-14T04:16:33Z",
+      "last_seen": "2026-08-15T16:28:51Z",
+      "published_at": "2026-08-14T04:16:33Z",
+      "score": 136
     },
     {
       "id": "696652212a9ef2fa",
@@ -86,8 +327,13 @@
       "original_price": null,
       "discount_pct": null,
       "status": "SEEN BEFORE",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
       "first_seen": "2026-08-13T15:26:59Z",
-      "last_seen": "2026-08-15T16:06:45Z",
+      "last_seen": "2026-08-15T16:28:48Z",
       "published_at": "2026-08-13T15:26:59Z",
       "score": 118
     },
@@ -105,8 +351,13 @@
       "original_price": null,
       "discount_pct": null,
       "status": "SEEN BEFORE",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
       "first_seen": "2026-08-13T15:25:38Z",
-      "last_seen": "2026-08-15T16:06:45Z",
+      "last_seen": "2026-08-15T16:28:48Z",
       "published_at": "2026-08-13T15:25:38Z",
       "score": 118
     },
@@ -124,8 +375,13 @@
       "original_price": null,
       "discount_pct": null,
       "status": "SEEN BEFORE",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
       "first_seen": "2026-08-13T14:43:08Z",
-      "last_seen": "2026-08-15T16:06:45Z",
+      "last_seen": "2026-08-15T16:28:48Z",
       "published_at": "2026-08-13T14:43:08Z",
       "score": 118
     },
@@ -143,8 +399,13 @@
       "original_price": null,
       "discount_pct": null,
       "status": "SEEN BEFORE",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
       "first_seen": "2026-08-13T14:42:23Z",
-      "last_seen": "2026-08-15T16:06:45Z",
+      "last_seen": "2026-08-15T16:28:48Z",
       "published_at": "2026-08-13T14:42:23Z",
       "score": 118
     },
@@ -162,8 +423,13 @@
       "original_price": null,
       "discount_pct": null,
       "status": "SEEN BEFORE",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
       "first_seen": "2026-08-13T14:15:59Z",
-      "last_seen": "2026-08-15T16:06:45Z",
+      "last_seen": "2026-08-15T16:28:48Z",
       "published_at": "2026-08-13T14:15:59Z",
       "score": 118
     },
@@ -181,8 +447,13 @@
       "original_price": null,
       "discount_pct": null,
       "status": "SEEN BEFORE",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
       "first_seen": "2026-08-13T14:12:36Z",
-      "last_seen": "2026-08-15T16:06:45Z",
+      "last_seen": "2026-08-15T16:28:48Z",
       "published_at": "2026-08-13T14:12:36Z",
       "score": 118
     },
@@ -200,8 +471,13 @@
       "original_price": null,
       "discount_pct": null,
       "status": "SEEN BEFORE",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
       "first_seen": "2026-08-12T22:00:32Z",
-      "last_seen": "2026-08-15T16:06:45Z",
+      "last_seen": "2026-08-15T16:28:48Z",
       "published_at": "2026-08-12T22:00:32Z",
       "score": 118
     },
@@ -219,8 +495,13 @@
       "original_price": null,
       "discount_pct": null,
       "status": "SEEN BEFORE",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
       "first_seen": "2026-08-12T10:28:40Z",
-      "last_seen": "2026-08-15T16:06:45Z",
+      "last_seen": "2026-08-15T16:28:48Z",
       "published_at": "2026-08-12T10:28:40Z",
       "score": 118
     },
@@ -238,8 +519,13 @@
       "original_price": null,
       "discount_pct": null,
       "status": "SEEN BEFORE",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
       "first_seen": "2026-08-12T10:01:41Z",
-      "last_seen": "2026-08-15T16:06:45Z",
+      "last_seen": "2026-08-15T16:28:48Z",
       "published_at": "2026-08-12T10:01:41Z",
       "score": 118
     },
@@ -257,8 +543,13 @@
       "original_price": null,
       "discount_pct": null,
       "status": "SEEN BEFORE",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
       "first_seen": "2026-08-11T23:13:43Z",
-      "last_seen": "2026-08-15T16:06:45Z",
+      "last_seen": "2026-08-15T16:28:48Z",
       "published_at": "2026-08-11T23:13:43Z",
       "score": 118
     },
@@ -276,8 +567,13 @@
       "original_price": null,
       "discount_pct": null,
       "status": "SEEN BEFORE",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
       "first_seen": "2026-08-11T12:49:03Z",
-      "last_seen": "2026-08-15T16:06:45Z",
+      "last_seen": "2026-08-15T16:28:48Z",
       "published_at": "2026-08-11T12:49:03Z",
       "score": 118
     },
@@ -295,8 +591,13 @@
       "original_price": null,
       "discount_pct": null,
       "status": "SEEN BEFORE",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
       "first_seen": "2026-08-13T10:58:29Z",
-      "last_seen": "2026-08-15T16:06:45Z",
+      "last_seen": "2026-08-15T16:28:48Z",
       "published_at": "2026-08-13T10:58:29Z",
       "score": 110
     },
@@ -314,8 +615,13 @@
       "original_price": null,
       "discount_pct": null,
       "status": "SEEN BEFORE",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
       "first_seen": "2026-08-12T12:18:24Z",
-      "last_seen": "2026-08-15T16:06:45Z",
+      "last_seen": "2026-08-15T16:28:48Z",
       "published_at": "2026-08-12T12:18:24Z",
       "score": 110
     },
@@ -333,162 +639,15 @@
       "original_price": null,
       "discount_pct": null,
       "status": "SEEN BEFORE",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
       "first_seen": "2026-08-15T13:25:44Z",
-      "last_seen": "2026-08-15T16:06:47Z",
+      "last_seen": "2026-08-15T16:28:49Z",
       "published_at": "2026-08-15T13:25:44Z",
       "score": 103
-    },
-    {
-      "id": "06573a0cf4be00f1",
-      "title": "DEWALT 12-in 15-Amp Dual Bevel Sliding Compound Corded Miter Saw",
-      "url": "https://www.lowes.com/pd/DEWALT-12-in-15-Amp-Dual-Bevel-Sliding-Compound-Corded-Miter-Saw/5013610507",
-      "deal_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
-      "image": null,
-      "category": "Tools",
-      "source": "Lowe's Back Aisle • verified",
-      "source_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
-      "target_method": "lowes-direct",
-      "current_price": null,
-      "original_price": null,
-      "discount_pct": null,
-      "status": "SEEN BEFORE",
-      "first_seen": "2026-08-15T15:55:00Z",
-      "last_seen": "2026-08-15T16:06:47Z",
-      "published_at": "2026-08-15T15:55:00Z",
-      "score": 100
-    },
-    {
-      "id": "51f312a21e14c09a",
-      "title": "QUIKRETE 80-lb High Strength Concrete Mix",
-      "url": "https://www.lowes.com/pd/QUIKRETE-80-lb-High-Strength-Concrete-Mix/3006075",
-      "deal_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
-      "image": null,
-      "category": "Building",
-      "source": "Lowe's Back Aisle • verified",
-      "source_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
-      "target_method": "lowes-direct",
-      "current_price": null,
-      "original_price": null,
-      "discount_pct": null,
-      "status": "SEEN BEFORE",
-      "first_seen": "2026-08-15T15:55:00Z",
-      "last_seen": "2026-08-15T16:06:47Z",
-      "published_at": "2026-08-15T15:55:00Z",
-      "score": 100
-    },
-    {
-      "id": "c175463f7545aa23",
-      "title": "CATALYST Emblem 6-ft x 8-ft White Privacy Vinyl Fence Panel",
-      "url": "https://www.lowes.com/pd/CATALYST-Emblem-6-ft-H-x-8-ft-W-White-Privacy-Vinyl-Flat-top-Fence-panel-Unassembled/5016152027",
-      "deal_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
-      "image": null,
-      "category": "Building",
-      "source": "Lowe's Back Aisle • verified",
-      "source_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
-      "target_method": "lowes-direct",
-      "current_price": null,
-      "original_price": null,
-      "discount_pct": null,
-      "status": "SEEN BEFORE",
-      "first_seen": "2026-08-15T15:55:00Z",
-      "last_seen": "2026-08-15T16:06:47Z",
-      "published_at": "2026-08-15T15:55:00Z",
-      "score": 100
-    },
-    {
-      "id": "3c84ef927afdaf1c",
-      "title": "GAF Timberline HDZ Charcoal Architectural Roof Shingles",
-      "url": "https://www.lowes.com/pd/GAF-Timberline-HDZ-Charcoal-Algae-Resistant-Architectural-Roof-Shingles-33-33-sq-ft-per-Bundle/1001327246",
-      "deal_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
-      "image": null,
-      "category": "Building",
-      "source": "Lowe's Back Aisle • verified",
-      "source_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
-      "target_method": "lowes-direct",
-      "current_price": null,
-      "original_price": null,
-      "discount_pct": null,
-      "status": "SEEN BEFORE",
-      "first_seen": "2026-08-15T15:55:00Z",
-      "last_seen": "2026-08-15T16:06:47Z",
-      "published_at": "2026-08-15T15:55:00Z",
-      "score": 100
-    },
-    {
-      "id": "d274f3bc2fee183c",
-      "title": "Southwire Armorlite 250-ft 12/2 Armored Cable",
-      "url": "https://www.lowes.com/pd/Southwire-Armorlite-250-ft-12-2-Solid-Aluminum-AC-Cable/1095783",
-      "deal_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
-      "image": null,
-      "category": "Electrical",
-      "source": "Lowe's Back Aisle • verified",
-      "source_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
-      "target_method": "lowes-direct",
-      "current_price": null,
-      "original_price": null,
-      "discount_pct": null,
-      "status": "SEEN BEFORE",
-      "first_seen": "2026-08-15T15:55:00Z",
-      "last_seen": "2026-08-15T16:06:47Z",
-      "published_at": "2026-08-15T15:55:00Z",
-      "score": 100
-    },
-    {
-      "id": "aa448e1ed9a4880c",
-      "title": "Trex Enhance Basics 16-ft Clam Shell Composite Deck Board",
-      "url": "https://www.lowes.com/pd/Trex-Enhance-Basics-16-ft-Clam-Shell-Grooved-Composite-Deck-Board/1000763522",
-      "deal_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
-      "image": null,
-      "category": "Building",
-      "source": "Lowe's Back Aisle • verified",
-      "source_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
-      "target_method": "lowes-direct",
-      "current_price": null,
-      "original_price": null,
-      "discount_pct": null,
-      "status": "SEEN BEFORE",
-      "first_seen": "2026-08-15T15:55:00Z",
-      "last_seen": "2026-08-15T16:06:47Z",
-      "published_at": "2026-08-15T15:55:00Z",
-      "score": 100
-    },
-    {
-      "id": "76fc54325f872602",
-      "title": "2-in x 4-in x 96-in Kiln-dried Whitewood Stud",
-      "url": "https://www.lowes.com/pd/Interfor-2-in-x-4-in-x-8-ft-Euro-Spruce-Kiln-dried-Lumber/5001997955",
-      "deal_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
-      "image": null,
-      "category": "Other",
-      "source": "Lowe's Back Aisle • verified",
-      "source_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
-      "target_method": "lowes-direct",
-      "current_price": null,
-      "original_price": null,
-      "discount_pct": null,
-      "status": "SEEN BEFORE",
-      "first_seen": "2026-08-15T15:55:00Z",
-      "last_seen": "2026-08-15T16:06:47Z",
-      "published_at": "2026-08-15T15:55:00Z",
-      "score": 100
-    },
-    {
-      "id": "639cb72444f8913e",
-      "title": "Gold Bond 1/2-in x 4-ft x 8-ft High Strength LITE Drywall Panel",
-      "url": "https://www.lowes.com/pd/Gold-Bond-1-2-in-x-4-ft-x-8-ft-High-Strength-LITE-Drywall-Panel/5001486207",
-      "deal_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
-      "image": null,
-      "category": "Building",
-      "source": "Lowe's Back Aisle • verified",
-      "source_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
-      "target_method": "lowes-direct",
-      "current_price": null,
-      "original_price": null,
-      "discount_pct": null,
-      "status": "SEEN BEFORE",
-      "first_seen": "2026-08-15T15:55:00Z",
-      "last_seen": "2026-08-15T16:06:47Z",
-      "published_at": "2026-08-15T15:55:00Z",
-      "score": 100
     },
     {
       "id": "8986ffbb455c450d",
@@ -504,8 +663,13 @@
       "original_price": null,
       "discount_pct": null,
       "status": "SEEN BEFORE",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
       "first_seen": "2026-08-15T09:22:56Z",
-      "last_seen": "2026-08-15T16:06:47Z",
+      "last_seen": "2026-08-15T16:28:50Z",
       "published_at": "2026-08-15T09:22:56Z",
       "score": 98
     },
@@ -523,8 +687,13 @@
       "original_price": null,
       "discount_pct": null,
       "status": "SEEN BEFORE",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
       "first_seen": "2026-08-15T00:47:07Z",
-      "last_seen": "2026-08-15T16:06:47Z",
+      "last_seen": "2026-08-15T16:28:50Z",
       "published_at": "2026-08-15T00:47:07Z",
       "score": 98
     },
@@ -542,8 +711,13 @@
       "original_price": null,
       "discount_pct": null,
       "status": "SEEN BEFORE",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
       "first_seen": "2026-08-14T21:34:19Z",
-      "last_seen": "2026-08-15T16:06:47Z",
+      "last_seen": "2026-08-15T16:28:50Z",
       "published_at": "2026-08-14T21:34:19Z",
       "score": 98
     },
@@ -561,8 +735,13 @@
       "original_price": null,
       "discount_pct": null,
       "status": "SEEN BEFORE",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
       "first_seen": "2026-08-14T21:11:21Z",
-      "last_seen": "2026-08-15T16:06:47Z",
+      "last_seen": "2026-08-15T16:28:50Z",
       "published_at": "2026-08-14T21:11:21Z",
       "score": 98
     }
