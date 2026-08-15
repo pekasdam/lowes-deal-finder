@@ -1,6 +1,12 @@
 name: Scan Lowe's Deals
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scraper/**'
+      - 'requirements.txt'
+      - '.github/workflows/scan.yml'
   schedule:
     - cron: '17 * * * *'
 permissions:
