@@ -23,7 +23,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Scan current Lowe's deals
-        run: python scraper/scan.py
+        run: python scraper/scan_v2.py
       - name: Save fresh deals
         run: |
           if git diff --quiet -- data/deals.json data/history.json; then exit 0; fi
