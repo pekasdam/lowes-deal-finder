@@ -1,38 +1,37 @@
 # Lowe's Deal Finder
 
-A phone-first Lowe's deal finder that scans official Lowe's savings pages, removes duplicates, tracks price history, cleans product links, and drops stale results.
+A phone-first Lowe's deal finder built to prioritize fresh results, remove duplicates, remember prices, and avoid stale deal links.
 
 ## What it does
 
-- Scans Lowe's **Daily Deals**, **Savings**, and **Back Aisle / Clearance** sources.
-- Discovers current Lowe's deal-collection pages automatically instead of hard-coding old campaigns.
-- Uses a real Chromium browser through Playwright so dynamic product cards can render.
-- Canonicalizes every item to its direct `lowes.com/pd/...` product URL.
-- Dedupe key: Lowe's item ID when available, otherwise a stable URL hash.
-- Tracks `first_seen`, `last_seen`, latest price, lowest observed price, and price drops.
+- Runs automatically every hour at minute 17 and can also be run manually from GitHub Actions.
+- Uses a Lowe's-specific DealNews RSS stream plus additional current deal feeds because Lowe's strips its product grid from GitHub cloud runners.
+- Keeps DealNews attribution/referral links intact and uses direct Lowe's product links whenever one is available.
+- Includes a short-lived direct-Lowe's Back Aisle safety net for currently verified clearance products.
+- Ignores feed items older than 5 days.
+- Tracks `first_seen`, `last_seen`, latest price, lowest observed price, and real price drops.
 - Marks results `NEW`, `PRICE DROP`, `SEEN BEFORE`, or `UNVERIFIED`.
-- Ages out deals that haven't been verified within 48 hours.
-- Runs hourly at minute 17 and can also be run manually from GitHub Actions.
-- PWA-ready for iPhone **Add to Home Screen**.
+- Retains a temporarily missing deal for up to 36 hours as `UNVERIFIED`, then drops it.
+- Never treats a free-shipping minimum such as `$45` as a product's regular price.
+- Phone UI supports search, category filtering, discount filtering, sorting, and direct deal opening.
 
-## First setup
+## Data sources
 
-1. In GitHub: **Settings → Actions → General → Workflow permissions → Read and write permissions**.
-2. Open **Actions → Scan Lowe's Deals → Run workflow** for the first scan.
-3. Connect the repo to Vercel. This project is static and needs no build command.
-4. Open the Vercel URL in Safari → Share → **Add to Home Screen**.
+- DealNews Lowe's feed — current Lowe's deal discovery. Feed attribution and referral links are preserved.
+- DealNews latest and Home & Garden feeds — filtered to Lowe's mentions.
+- Lowe's Back Aisle — short-lived direct-product safety net and a permanent navigation link in the app.
+- Lowe's Daily Deals and Weekly Ad — linked directly in the app.
 
-## Deal threshold
+## Run it
 
-The scanner stores broad candidates starting around 15% or obvious Lowe's deal markers. The app defaults to showing 40%+ so the list stays useful. You can change the filter instantly on the phone.
+Open **Actions → Scan Lowe's Deals → Run workflow**. The resulting `data/deals.json` is committed back to the repository automatically.
 
-## Current Lowe's sources
+## Put it on your iPhone
 
-- Daily Deals: one-day, online-only offers.
-- Savings hub: current promotions and deal collections.
-- The Back Aisle: Lowe's clearance destination.
-- Weekly Ad: linked from the app for local-store promotions.
+1. Connect this GitHub repository to Vercel as a static project; there is no build command.
+2. Open the deployed URL in Safari.
+3. Tap **Share → Add to Home Screen**.
 
 ## Notes
 
-Lowe's prices, promotions, inventory and store availability can change. A deal should always be confirmed on the direct Lowe's product page before buying.
+Lowe's prices, promotions, inventory and store availability can change by location. The app shows only price/discount information that can be supported by the feed or by an observed price change; confirm the final price on Lowe's before buying.
