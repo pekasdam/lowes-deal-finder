@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-15T16:28:51Z",
+  "generated_at": "2026-08-15T16:41:22Z",
   "app": "Lowe's Deal Finder",
   "stats": {
-    "total": 29,
-    "new": 1,
+    "total": 32,
+    "new": 3,
     "price_drops": 0,
-    "with_price": 17,
+    "with_price": 20,
     "sources_scanned": 6,
     "direct_lowes": 8,
     "clearance": 8,
@@ -33,12 +33,12 @@
     {
       "source": "Slickdeals • Frontpage",
       "method": "rss:25",
-      "candidates": 0
+      "candidates": 1
     },
     {
       "source": "Slickdeals • Popular",
       "method": "rss:25",
-      "candidates": 1
+      "candidates": 2
     },
     {
       "source": "Lowe's Back Aisle verified seeds",
@@ -69,7 +69,7 @@
       ],
       "signal_note": "At least a 70% markdown or similarly extreme verified price gap.",
       "first_seen": "2026-08-11T08:24:58Z",
-      "last_seen": "2026-08-15T16:28:48Z",
+      "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-11T08:24:58Z",
       "score": 320
     },
@@ -93,7 +93,7 @@
       ],
       "signal_note": "Verified from Lowe's Back Aisle/clearance source.",
       "first_seen": "2026-08-15T15:55:00Z",
-      "last_seen": "2026-08-15T16:28:51Z",
+      "last_seen": "2026-08-15T16:41:22Z",
       "published_at": "2026-08-15T15:55:00Z",
       "score": 155
     },
@@ -117,7 +117,7 @@
       ],
       "signal_note": "Verified from Lowe's Back Aisle/clearance source.",
       "first_seen": "2026-08-15T15:55:00Z",
-      "last_seen": "2026-08-15T16:28:51Z",
+      "last_seen": "2026-08-15T16:41:22Z",
       "published_at": "2026-08-15T15:55:00Z",
       "score": 155
     },
@@ -141,7 +141,7 @@
       ],
       "signal_note": "Verified from Lowe's Back Aisle/clearance source.",
       "first_seen": "2026-08-15T15:55:00Z",
-      "last_seen": "2026-08-15T16:28:51Z",
+      "last_seen": "2026-08-15T16:41:22Z",
       "published_at": "2026-08-15T15:55:00Z",
       "score": 155
     },
@@ -165,7 +165,7 @@
       ],
       "signal_note": "Verified from Lowe's Back Aisle/clearance source.",
       "first_seen": "2026-08-15T15:55:00Z",
-      "last_seen": "2026-08-15T16:28:51Z",
+      "last_seen": "2026-08-15T16:41:22Z",
       "published_at": "2026-08-15T15:55:00Z",
       "score": 155
     },
@@ -189,7 +189,7 @@
       ],
       "signal_note": "Verified from Lowe's Back Aisle/clearance source.",
       "first_seen": "2026-08-15T15:55:00Z",
-      "last_seen": "2026-08-15T16:28:51Z",
+      "last_seen": "2026-08-15T16:41:22Z",
       "published_at": "2026-08-15T15:55:00Z",
       "score": 155
     },
@@ -213,7 +213,7 @@
       ],
       "signal_note": "Verified from Lowe's Back Aisle/clearance source.",
       "first_seen": "2026-08-15T15:55:00Z",
-      "last_seen": "2026-08-15T16:28:51Z",
+      "last_seen": "2026-08-15T16:41:22Z",
       "published_at": "2026-08-15T15:55:00Z",
       "score": 155
     },
@@ -237,7 +237,7 @@
       ],
       "signal_note": "Verified from Lowe's Back Aisle/clearance source.",
       "first_seen": "2026-08-15T15:55:00Z",
-      "last_seen": "2026-08-15T16:28:51Z",
+      "last_seen": "2026-08-15T16:41:22Z",
       "published_at": "2026-08-15T15:55:00Z",
       "score": 155
     },
@@ -261,7 +261,7 @@
       ],
       "signal_note": "Verified from Lowe's Back Aisle/clearance source.",
       "first_seen": "2026-08-15T15:55:00Z",
-      "last_seen": "2026-08-15T16:28:51Z",
+      "last_seen": "2026-08-15T16:41:22Z",
       "published_at": "2026-08-15T15:55:00Z",
       "score": 155
     },
@@ -285,21 +285,21 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-13T10:28:48Z",
-      "last_seen": "2026-08-15T16:28:48Z",
+      "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-13T10:28:48Z",
       "score": 209
     },
     {
-      "id": "9067f270438d3dff",
-      "title": "Costco Members: Hisense 75\" Class U65 Pro Series: 4K ULED MiniLED Smart TV w/ Allstate 3-Year Protection Plan Bundle Included for 5 Years of Total Coverage $749.99",
-      "url": "https://slickdeals.net/f/19877448-costco-members-hisense-75-class-u65-pro-series-4k-uled-miniled-smart-tv-w-allstate-3-year-protection-plan-bundle-included-for-5-years-of-total-coverage-749-99?utm_source=rss&utm_content=ht&utm_medium=RSS2",
-      "deal_url": "https://slickdeals.net/f/19877448-costco-members-hisense-75-class-u65-pro-series-4k-uled-miniled-smart-tv-w-allstate-3-year-protection-plan-bundle-included-for-5-years-of-total-coverage-749-99?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "id": "6e42a700ed817b48",
+      "title": "31-Piece DEWALT Security Screwdriver Bit Set w/ Storage Case (DWAX200) $15",
+      "url": "https://slickdeals.net/f/19879716-31-piece-dewalt-security-screwdriver-bit-set-w-storage-case-dwax200-15?utm_source=rss&utm_content=fp&utm_medium=RSS2",
+      "deal_url": "https://slickdeals.net/f/19879716-31-piece-dewalt-security-screwdriver-bit-set-w-storage-case-dwax200-15?utm_source=rss&utm_content=fp&utm_medium=RSS2",
       "image": null,
-      "category": "Other",
-      "source": "Slickdeals • Popular",
-      "source_url": "https://slickdeals.net/f/19877448-costco-members-hisense-75-class-u65-pro-series-4k-uled-miniled-smart-tv-w-allstate-3-year-protection-plan-bundle-included-for-5-years-of-total-coverage-749-99?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "category": "Tools",
+      "source": "Slickdeals • Frontpage",
+      "source_url": "https://slickdeals.net/f/19879716-31-piece-dewalt-security-screwdriver-bit-set-w-storage-case-dwax200-15?utm_source=rss&utm_content=fp&utm_medium=RSS2",
       "target_method": "dealnews",
-      "current_price": 749.99,
+      "current_price": 15.0,
       "original_price": null,
       "discount_pct": null,
       "status": "NEW",
@@ -308,9 +308,57 @@
         "REGULAR DEAL"
       ],
       "signal_note": null,
-      "first_seen": "2026-08-14T04:16:33Z",
-      "last_seen": "2026-08-15T16:28:51Z",
-      "published_at": "2026-08-14T04:16:33Z",
+      "first_seen": "2026-08-15T13:34:32Z",
+      "last_seen": "2026-08-15T16:41:22Z",
+      "published_at": "2026-08-15T13:34:32Z",
+      "score": 141
+    },
+    {
+      "id": "fca142e1b47f6f60",
+      "title": "Sterilite Small Plastic Pencil Box w/ Hinged Lid (Blue Tint) $0.78 + Free Shipping w/ Walmart+ or $35+",
+      "url": "https://slickdeals.net/f/19881516-sterilite-small-plastic-pencil-box-w-hinged-lid-blue-tint-0-78-free-shipping-w-walmart-or-35?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "deal_url": "https://slickdeals.net/f/19881516-sterilite-small-plastic-pencil-box-w-hinged-lid-blue-tint-0-78-free-shipping-w-walmart-or-35?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "image": null,
+      "category": "Other",
+      "source": "Slickdeals • Popular",
+      "source_url": "https://slickdeals.net/f/19881516-sterilite-small-plastic-pencil-box-w-hinged-lid-blue-tint-0-78-free-shipping-w-walmart-or-35?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "target_method": "dealnews",
+      "current_price": 0.78,
+      "original_price": null,
+      "discount_pct": null,
+      "status": "NEW",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-15T06:05:03Z",
+      "last_seen": "2026-08-15T16:41:22Z",
+      "published_at": "2026-08-15T06:05:03Z",
+      "score": 136
+    },
+    {
+      "id": "4e6f54517744b1fa",
+      "title": "17-Piece Milwaukee SHOCKWAVE 3/8\" Drive SAE Deep Well Impact Socket Set $68.22 + Free Shipping",
+      "url": "https://slickdeals.net/f/19873860-17-piece-milwaukee-shockwave-3-8-drive-sae-deep-well-impact-socket-set-68-22-free-shipping?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "deal_url": "https://slickdeals.net/f/19873860-17-piece-milwaukee-shockwave-3-8-drive-sae-deep-well-impact-socket-set-68-22-free-shipping?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "image": null,
+      "category": "Other",
+      "source": "Slickdeals • Popular",
+      "source_url": "https://slickdeals.net/f/19873860-17-piece-milwaukee-shockwave-3-8-drive-sae-deep-well-impact-socket-set-68-22-free-shipping?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "target_method": "dealnews",
+      "current_price": 68.22,
+      "original_price": null,
+      "discount_pct": null,
+      "status": "NEW",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-13T07:06:20Z",
+      "last_seen": "2026-08-15T16:41:22Z",
+      "published_at": "2026-08-13T07:06:20Z",
       "score": 136
     },
     {
@@ -333,7 +381,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-13T15:26:59Z",
-      "last_seen": "2026-08-15T16:28:48Z",
+      "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-13T15:26:59Z",
       "score": 118
     },
@@ -357,7 +405,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-13T15:25:38Z",
-      "last_seen": "2026-08-15T16:28:48Z",
+      "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-13T15:25:38Z",
       "score": 118
     },
@@ -381,7 +429,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-13T14:43:08Z",
-      "last_seen": "2026-08-15T16:28:48Z",
+      "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-13T14:43:08Z",
       "score": 118
     },
@@ -405,7 +453,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-13T14:42:23Z",
-      "last_seen": "2026-08-15T16:28:48Z",
+      "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-13T14:42:23Z",
       "score": 118
     },
@@ -429,7 +477,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-13T14:15:59Z",
-      "last_seen": "2026-08-15T16:28:48Z",
+      "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-13T14:15:59Z",
       "score": 118
     },
@@ -453,7 +501,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-13T14:12:36Z",
-      "last_seen": "2026-08-15T16:28:48Z",
+      "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-13T14:12:36Z",
       "score": 118
     },
@@ -477,7 +525,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-12T22:00:32Z",
-      "last_seen": "2026-08-15T16:28:48Z",
+      "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-12T22:00:32Z",
       "score": 118
     },
@@ -501,7 +549,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-12T10:28:40Z",
-      "last_seen": "2026-08-15T16:28:48Z",
+      "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-12T10:28:40Z",
       "score": 118
     },
@@ -525,7 +573,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-12T10:01:41Z",
-      "last_seen": "2026-08-15T16:28:48Z",
+      "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-12T10:01:41Z",
       "score": 118
     },
@@ -549,7 +597,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-11T23:13:43Z",
-      "last_seen": "2026-08-15T16:28:48Z",
+      "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-11T23:13:43Z",
       "score": 118
     },
@@ -573,7 +621,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-11T12:49:03Z",
-      "last_seen": "2026-08-15T16:28:48Z",
+      "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-11T12:49:03Z",
       "score": 118
     },
@@ -597,7 +645,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-13T10:58:29Z",
-      "last_seen": "2026-08-15T16:28:48Z",
+      "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-13T10:58:29Z",
       "score": 110
     },
@@ -621,7 +669,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-12T12:18:24Z",
-      "last_seen": "2026-08-15T16:28:48Z",
+      "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-12T12:18:24Z",
       "score": 110
     },
@@ -645,7 +693,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-15T13:25:44Z",
-      "last_seen": "2026-08-15T16:28:49Z",
+      "last_seen": "2026-08-15T16:41:20Z",
       "published_at": "2026-08-15T13:25:44Z",
       "score": 103
     },
@@ -669,7 +717,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-15T09:22:56Z",
-      "last_seen": "2026-08-15T16:28:50Z",
+      "last_seen": "2026-08-15T16:41:21Z",
       "published_at": "2026-08-15T09:22:56Z",
       "score": 98
     },
@@ -693,7 +741,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-15T00:47:07Z",
-      "last_seen": "2026-08-15T16:28:50Z",
+      "last_seen": "2026-08-15T16:41:21Z",
       "published_at": "2026-08-15T00:47:07Z",
       "score": 98
     },
@@ -717,7 +765,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-14T21:34:19Z",
-      "last_seen": "2026-08-15T16:28:50Z",
+      "last_seen": "2026-08-15T16:41:21Z",
       "published_at": "2026-08-14T21:34:19Z",
       "score": 98
     },
@@ -741,9 +789,33 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-14T21:11:21Z",
-      "last_seen": "2026-08-15T16:28:50Z",
+      "last_seen": "2026-08-15T16:41:21Z",
       "published_at": "2026-08-14T21:11:21Z",
       "score": 98
+    },
+    {
+      "id": "9067f270438d3dff",
+      "title": "Costco Members: Hisense 75\" Class U65 Pro Series: 4K ULED MiniLED Smart TV w/ Allstate 3-Year Protection Plan Bundle Included for 5 Years of Total Coverage $749.99",
+      "url": "https://slickdeals.net/f/19877448-costco-members-hisense-75-class-u65-pro-series-4k-uled-miniled-smart-tv-w-allstate-3-year-protection-plan-bundle-included-for-5-years-of-total-coverage-749-99?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "deal_url": "https://slickdeals.net/f/19877448-costco-members-hisense-75-class-u65-pro-series-4k-uled-miniled-smart-tv-w-allstate-3-year-protection-plan-bundle-included-for-5-years-of-total-coverage-749-99?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "image": null,
+      "category": "Other",
+      "source": "Slickdeals • Popular",
+      "source_url": "https://slickdeals.net/f/19877448-costco-members-hisense-75-class-u65-pro-series-4k-uled-miniled-smart-tv-w-allstate-3-year-protection-plan-bundle-included-for-5-years-of-total-coverage-749-99?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "target_method": "dealnews",
+      "current_price": 749.99,
+      "original_price": null,
+      "discount_pct": null,
+      "status": "UNVERIFIED",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-14T04:16:33Z",
+      "last_seen": "2026-08-15T16:28:51Z",
+      "published_at": "2026-08-14T04:16:33Z",
+      "score": 91
     }
   ]
 }
