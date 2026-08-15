@@ -1,14 +1,18 @@
 {
-  "generated_at": "2026-08-15T16:41:22Z",
+  "generated_at": "2026-08-15T16:42:38Z",
   "app": "Lowe's Deal Finder",
+  "scan_interval_minutes": 15,
   "stats": {
-    "total": 32,
-    "new": 3,
+    "total": 60,
+    "hot": 1,
+    "new": 28,
     "price_drops": 0,
-    "with_price": 20,
+    "historical_lows": 0,
+    "with_price": 37,
     "sources_scanned": 6,
-    "direct_lowes": 8,
-    "clearance": 8,
+    "direct_lowes": 16,
+    "tracked_skus": 8,
+    "clearance": 16,
     "penny_watch": 0,
     "likely_errors": 0,
     "extreme": 1
@@ -18,7 +22,7 @@
     {
       "source": "DealNews • Lowe's",
       "method": "rss:20",
-      "candidates": 15
+      "candidates": 13
     },
     {
       "source": "DealNews • Latest",
@@ -33,7 +37,7 @@
     {
       "source": "Slickdeals • Frontpage",
       "method": "rss:25",
-      "candidates": 1
+      "candidates": 0
     },
     {
       "source": "Slickdeals • Popular",
@@ -46,9 +50,1073 @@
       "candidates": 8
     }
   ],
-  "signal_disclaimer": "Penny-watch and likely-pricing-error labels are automated leads, not guarantees. Lowe's prices can vary by store/ZIP and pricing mistakes can be corrected or orders cancelled.",
+  "signal_disclaimer": "Penny-watch and likely-pricing-error labels are automated leads, not guarantees. Confidence reflects evidence quality, not checkout certainty. Lowe's prices can vary by store/ZIP and pricing mistakes can be corrected or orders cancelled.",
   "attribution": "DealNews and Slickdeals feed items retain their source attribution and source/referral links when used.",
   "deals": [
+    {
+      "id": "1960b3f66ed32ef3",
+      "product_key": "lowes:5013610507",
+      "sku": "5013610507",
+      "title": "DEWALT 12-in 15-Amp Dual Bevel Sliding Compound Corded Miter Saw",
+      "url": "https://www.lowes.com/pd/DEWALT-12-in-15-Amp-Dual-Bevel-Sliding-Compound-Corded-Miter-Saw/5013610507",
+      "deal_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "image": null,
+      "category": "Tools",
+      "source": "Lowe's Back Aisle • verified",
+      "sources": [
+        "Lowe's Back Aisle • verified"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "target_method": "lowes-direct",
+      "current_price": null,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": null,
+      "price_history_count": 0,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "CLEARANCE",
+      "deal_types": [
+        "CLEARANCE"
+      ],
+      "signal_note": "Verified from Lowe's Back Aisle/clearance source.",
+      "first_seen": "2026-08-15T15:55:00Z",
+      "last_seen": "2026-08-15T16:42:38Z",
+      "published_at": "2026-08-15T15:55:00Z",
+      "score": 191,
+      "confidence": 64,
+      "hot": false
+    },
+    {
+      "id": "6573007d6f3d2612",
+      "product_key": "lowes:3006075",
+      "sku": "3006075",
+      "title": "QUIKRETE 80-lb High Strength Concrete Mix",
+      "url": "https://www.lowes.com/pd/QUIKRETE-80-lb-High-Strength-Concrete-Mix/3006075",
+      "deal_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "image": null,
+      "category": "Building",
+      "source": "Lowe's Back Aisle • verified",
+      "sources": [
+        "Lowe's Back Aisle • verified"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "target_method": "lowes-direct",
+      "current_price": null,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": null,
+      "price_history_count": 0,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "CLEARANCE",
+      "deal_types": [
+        "CLEARANCE"
+      ],
+      "signal_note": "Verified from Lowe's Back Aisle/clearance source.",
+      "first_seen": "2026-08-15T15:55:00Z",
+      "last_seen": "2026-08-15T16:42:38Z",
+      "published_at": "2026-08-15T15:55:00Z",
+      "score": 191,
+      "confidence": 64,
+      "hot": false
+    },
+    {
+      "id": "9d2c08fbd497f78e",
+      "product_key": "lowes:5016152027",
+      "sku": "5016152027",
+      "title": "CATALYST Emblem 6-ft x 8-ft White Privacy Vinyl Fence Panel",
+      "url": "https://www.lowes.com/pd/CATALYST-Emblem-6-ft-H-x-8-ft-W-White-Privacy-Vinyl-Flat-top-Fence-panel-Unassembled/5016152027",
+      "deal_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "image": null,
+      "category": "Building",
+      "source": "Lowe's Back Aisle • verified",
+      "sources": [
+        "Lowe's Back Aisle • verified"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "target_method": "lowes-direct",
+      "current_price": null,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": null,
+      "price_history_count": 0,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "CLEARANCE",
+      "deal_types": [
+        "CLEARANCE"
+      ],
+      "signal_note": "Verified from Lowe's Back Aisle/clearance source.",
+      "first_seen": "2026-08-15T15:55:00Z",
+      "last_seen": "2026-08-15T16:42:38Z",
+      "published_at": "2026-08-15T15:55:00Z",
+      "score": 191,
+      "confidence": 64,
+      "hot": false
+    },
+    {
+      "id": "ec600b7c17ac5265",
+      "product_key": "lowes:1001327246",
+      "sku": "1001327246",
+      "title": "GAF Timberline HDZ Charcoal Architectural Roof Shingles",
+      "url": "https://www.lowes.com/pd/GAF-Timberline-HDZ-Charcoal-Algae-Resistant-Architectural-Roof-Shingles-33-33-sq-ft-per-Bundle/1001327246",
+      "deal_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "image": null,
+      "category": "Building",
+      "source": "Lowe's Back Aisle • verified",
+      "sources": [
+        "Lowe's Back Aisle • verified"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "target_method": "lowes-direct",
+      "current_price": null,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": null,
+      "price_history_count": 0,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "CLEARANCE",
+      "deal_types": [
+        "CLEARANCE"
+      ],
+      "signal_note": "Verified from Lowe's Back Aisle/clearance source.",
+      "first_seen": "2026-08-15T15:55:00Z",
+      "last_seen": "2026-08-15T16:42:38Z",
+      "published_at": "2026-08-15T15:55:00Z",
+      "score": 191,
+      "confidence": 64,
+      "hot": false
+    },
+    {
+      "id": "63b7ead0120b7233",
+      "product_key": "lowes:1095783",
+      "sku": "1095783",
+      "title": "Southwire Armorlite 250-ft 12/2 Armored Cable",
+      "url": "https://www.lowes.com/pd/Southwire-Armorlite-250-ft-12-2-Solid-Aluminum-AC-Cable/1095783",
+      "deal_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "image": null,
+      "category": "Electrical",
+      "source": "Lowe's Back Aisle • verified",
+      "sources": [
+        "Lowe's Back Aisle • verified"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "target_method": "lowes-direct",
+      "current_price": null,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": null,
+      "price_history_count": 0,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "CLEARANCE",
+      "deal_types": [
+        "CLEARANCE"
+      ],
+      "signal_note": "Verified from Lowe's Back Aisle/clearance source.",
+      "first_seen": "2026-08-15T15:55:00Z",
+      "last_seen": "2026-08-15T16:42:38Z",
+      "published_at": "2026-08-15T15:55:00Z",
+      "score": 191,
+      "confidence": 64,
+      "hot": false
+    },
+    {
+      "id": "a50e28b76d6b2b1d",
+      "product_key": "lowes:1000763522",
+      "sku": "1000763522",
+      "title": "Trex Enhance Basics 16-ft Clam Shell Composite Deck Board",
+      "url": "https://www.lowes.com/pd/Trex-Enhance-Basics-16-ft-Clam-Shell-Grooved-Composite-Deck-Board/1000763522",
+      "deal_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "image": null,
+      "category": "Building",
+      "source": "Lowe's Back Aisle • verified",
+      "sources": [
+        "Lowe's Back Aisle • verified"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "target_method": "lowes-direct",
+      "current_price": null,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": null,
+      "price_history_count": 0,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "CLEARANCE",
+      "deal_types": [
+        "CLEARANCE"
+      ],
+      "signal_note": "Verified from Lowe's Back Aisle/clearance source.",
+      "first_seen": "2026-08-15T15:55:00Z",
+      "last_seen": "2026-08-15T16:42:38Z",
+      "published_at": "2026-08-15T15:55:00Z",
+      "score": 191,
+      "confidence": 64,
+      "hot": false
+    },
+    {
+      "id": "c867e54648a300cd",
+      "product_key": "lowes:5001997955",
+      "sku": "5001997955",
+      "title": "2-in x 4-in x 96-in Kiln-dried Whitewood Stud",
+      "url": "https://www.lowes.com/pd/Interfor-2-in-x-4-in-x-8-ft-Euro-Spruce-Kiln-dried-Lumber/5001997955",
+      "deal_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "image": null,
+      "category": "Other",
+      "source": "Lowe's Back Aisle • verified",
+      "sources": [
+        "Lowe's Back Aisle • verified"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "target_method": "lowes-direct",
+      "current_price": null,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": null,
+      "price_history_count": 0,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "CLEARANCE",
+      "deal_types": [
+        "CLEARANCE"
+      ],
+      "signal_note": "Verified from Lowe's Back Aisle/clearance source.",
+      "first_seen": "2026-08-15T15:55:00Z",
+      "last_seen": "2026-08-15T16:42:38Z",
+      "published_at": "2026-08-15T15:55:00Z",
+      "score": 191,
+      "confidence": 64,
+      "hot": false
+    },
+    {
+      "id": "3029e2e7a899bbe0",
+      "product_key": "lowes:5001486207",
+      "sku": "5001486207",
+      "title": "Gold Bond 1/2-in x 4-ft x 8-ft High Strength LITE Drywall Panel",
+      "url": "https://www.lowes.com/pd/Gold-Bond-1-2-in-x-4-ft-x-8-ft-High-Strength-LITE-Drywall-Panel/5001486207",
+      "deal_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "image": null,
+      "category": "Building",
+      "source": "Lowe's Back Aisle • verified",
+      "sources": [
+        "Lowe's Back Aisle • verified"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.lowes.com/pl/The-back-aisle/2021454685607?refinement=2",
+      "target_method": "lowes-direct",
+      "current_price": null,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": null,
+      "price_history_count": 0,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "CLEARANCE",
+      "deal_types": [
+        "CLEARANCE"
+      ],
+      "signal_note": "Verified from Lowe's Back Aisle/clearance source.",
+      "first_seen": "2026-08-15T15:55:00Z",
+      "last_seen": "2026-08-15T16:42:38Z",
+      "published_at": "2026-08-15T15:55:00Z",
+      "score": 191,
+      "confidence": 64,
+      "hot": false
+    },
+    {
+      "id": "45590480d8fd6e03",
+      "product_key": "title:097807e2abf871e8",
+      "sku": null,
+      "title": "Mint Mobile Premium Wireless for $15/mo. for up to 1 year + free shipping",
+      "url": "https://www.dealnews.com/Mint-Mobile-Premium-Wireless-for-15-mo-for-up-to-1-year-free-shipping/22031491.html?iref=rss",
+      "deal_url": "https://www.dealnews.com/Mint-Mobile-Premium-Wireless-for-15-mo-for-up-to-1-year-free-shipping/22031491.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1784909266-product-trimmed.png?h=125&w=122",
+      "category": "Electrical",
+      "source": "DealNews • Latest",
+      "sources": [
+        "DealNews • Latest"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.dealnews.com/Mint-Mobile-Premium-Wireless-for-15-mo-for-up-to-1-year-free-shipping/22031491.html?iref=rss",
+      "target_method": "source-deal",
+      "current_price": 15.0,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": 15.0,
+      "price_history_count": 1,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-15T13:25:44Z",
+      "last_seen": "2026-08-15T16:42:36Z",
+      "published_at": "2026-08-15T13:25:44Z",
+      "score": 169,
+      "confidence": 38,
+      "hot": false
+    },
+    {
+      "id": "6cb6116b10e9aeed",
+      "product_key": "title:eb9139c234471e49",
+      "sku": null,
+      "title": "Sterilite Small Plastic Pencil Box w/ Hinged Lid (Blue Tint) $0.78 + Free Shipping w/ Walmart+ or $35+",
+      "url": "https://slickdeals.net/f/19881516-sterilite-small-plastic-pencil-box-w-hinged-lid-blue-tint-0-78-free-shipping-w-walmart-or-35?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "deal_url": "https://slickdeals.net/f/19881516-sterilite-small-plastic-pencil-box-w-hinged-lid-blue-tint-0-78-free-shipping-w-walmart-or-35?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "image": null,
+      "category": "Other",
+      "source": "Slickdeals • Popular",
+      "sources": [
+        "Slickdeals • Popular"
+      ],
+      "source_count": 1,
+      "source_url": "https://slickdeals.net/f/19881516-sterilite-small-plastic-pencil-box-w-hinged-lid-blue-tint-0-78-free-shipping-w-walmart-or-35?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "target_method": "source-deal",
+      "current_price": 0.78,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": 0.78,
+      "price_history_count": 1,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-15T06:05:03Z",
+      "last_seen": "2026-08-15T16:42:38Z",
+      "published_at": "2026-08-15T06:05:03Z",
+      "score": 166,
+      "confidence": 38,
+      "hot": false
+    },
+    {
+      "id": "37af761695d8904a",
+      "product_key": "title:020089c75abe8f8c",
+      "sku": null,
+      "title": "Greenworks 24V 1/2\" Brushless Cordless Drill Kit for $54 + free shipping",
+      "url": "https://www.dealnews.com/Greenworks-24-V-1-2-Brushless-Cordless-Drill-Kit-for-54-free-shipping/22031070.html?iref=rss-c196",
+      "deal_url": "https://www.dealnews.com/Greenworks-24-V-1-2-Brushless-Cordless-Drill-Kit-for-54-free-shipping/22031070.html?iref=rss-c196",
+      "image": "https://d.dlnws.com/64599/1786785768-product-trimmed.jpg?h=125&w=125",
+      "category": "Tools",
+      "source": "DealNews • Home & Garden",
+      "sources": [
+        "DealNews • Home & Garden"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.dealnews.com/Greenworks-24-V-1-2-Brushless-Cordless-Drill-Kit-for-54-free-shipping/22031070.html?iref=rss-c196",
+      "target_method": "source-deal",
+      "current_price": 54.0,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": 54.0,
+      "price_history_count": 1,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-15T09:22:56Z",
+      "last_seen": "2026-08-15T16:42:37Z",
+      "published_at": "2026-08-15T09:22:56Z",
+      "score": 158,
+      "confidence": 38,
+      "hot": false
+    },
+    {
+      "id": "36ba4f230e6c9289",
+      "product_key": "title:064ad1e23120aa0a",
+      "sku": null,
+      "title": "Vevor Driveway Trench Drain System 3-Pack for $100 + free shipping",
+      "url": "https://www.dealnews.com/Vevor-Driveway-Trench-Drain-System-3-Pack-for-100-free-shipping/22019080.html?iref=rss",
+      "deal_url": "https://www.dealnews.com/Vevor-Driveway-Trench-Drain-System-3-Pack-for-100-free-shipping/22019080.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786634814-product-trimmed.jpg?h=80&w=125",
+      "category": "Other",
+      "source": "DealNews • Lowe's",
+      "sources": [
+        "DealNews • Lowe's"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.dealnews.com/Vevor-Driveway-Trench-Drain-System-3-Pack-for-100-free-shipping/22019080.html?iref=rss",
+      "target_method": "source-deal",
+      "current_price": 100.0,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": 100.0,
+      "price_history_count": 1,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-13T15:26:59Z",
+      "last_seen": "2026-08-15T16:42:35Z",
+      "published_at": "2026-08-13T15:26:59Z",
+      "score": 152,
+      "confidence": 38,
+      "hot": false
+    },
+    {
+      "id": "8266abc5acf3177f",
+      "product_key": "title:f0af9cce313c3165",
+      "sku": null,
+      "title": "Orbit 5,000-Sq. Ft. Rotating Spike Lawn Sprinkler for $10 + free shipping w/$45",
+      "url": "https://www.dealnews.com/Orbit-5-000-Sq-Ft-Rotating-Spike-Lawn-Sprinkler-for-10-free-shipping-w-45/22019076.html?iref=rss",
+      "deal_url": "https://www.dealnews.com/Orbit-5-000-Sq-Ft-Rotating-Spike-Lawn-Sprinkler-for-10-free-shipping-w-45/22019076.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786634732-product-trimmed.jpg?h=125&w=48",
+      "category": "Outdoor",
+      "source": "DealNews • Lowe's",
+      "sources": [
+        "DealNews • Lowe's"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.dealnews.com/Orbit-5-000-Sq-Ft-Rotating-Spike-Lawn-Sprinkler-for-10-free-shipping-w-45/22019076.html?iref=rss",
+      "target_method": "source-deal",
+      "current_price": 10.0,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": 10.0,
+      "price_history_count": 1,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-13T15:25:38Z",
+      "last_seen": "2026-08-15T16:42:35Z",
+      "published_at": "2026-08-13T15:25:38Z",
+      "score": 152,
+      "confidence": 38,
+      "hot": false
+    },
+    {
+      "id": "5c6110c7cdc4b99e",
+      "product_key": "title:d436779b05c50b34",
+      "sku": null,
+      "title": "EdgePro 20-ft x 4\" Composite Lumber Landscape Edging Roll for $42 + free shipping w/ $45",
+      "url": "https://www.dealnews.com/Edge-Pro-20-ft-x-4-Composite-Lumber-Landscape-Edging-Roll-for-42-free-shipping-w-45/22018997.html?iref=rss",
+      "deal_url": "https://www.dealnews.com/Edge-Pro-20-ft-x-4-Composite-Lumber-Landscape-Edging-Roll-for-42-free-shipping-w-45/22018997.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786632183-product-trimmed.jpg?h=69&w=125",
+      "category": "Building",
+      "source": "DealNews • Lowe's",
+      "sources": [
+        "DealNews • Lowe's"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.dealnews.com/Edge-Pro-20-ft-x-4-Composite-Lumber-Landscape-Edging-Roll-for-42-free-shipping-w-45/22018997.html?iref=rss",
+      "target_method": "source-deal",
+      "current_price": 42.0,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": 42.0,
+      "price_history_count": 1,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-13T14:43:08Z",
+      "last_seen": "2026-08-15T16:42:35Z",
+      "published_at": "2026-08-13T14:43:08Z",
+      "score": 152,
+      "confidence": 38,
+      "hot": false
+    },
+    {
+      "id": "d485a769b65c2e01",
+      "product_key": "title:ba5397c15ca660f7",
+      "sku": null,
+      "title": "Orbit Max Hybrid Polymer Hose for $40 + free shipping w/ $45",
+      "url": "https://www.dealnews.com/Orbit-Max-Hybrid-Polymer-Hose-for-40-free-shipping-w-45/22018996.html?iref=rss",
+      "deal_url": "https://www.dealnews.com/Orbit-Max-Hybrid-Polymer-Hose-for-40-free-shipping-w-45/22018996.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786632137-product-trimmed.jpg?h=125&w=125",
+      "category": "Outdoor",
+      "source": "DealNews • Lowe's",
+      "sources": [
+        "DealNews • Lowe's"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.dealnews.com/Orbit-Max-Hybrid-Polymer-Hose-for-40-free-shipping-w-45/22018996.html?iref=rss",
+      "target_method": "source-deal",
+      "current_price": 40.0,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": 40.0,
+      "price_history_count": 1,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-13T14:42:23Z",
+      "last_seen": "2026-08-15T16:42:35Z",
+      "published_at": "2026-08-13T14:42:23Z",
+      "score": 152,
+      "confidence": 38,
+      "hot": false
+    },
+    {
+      "id": "6613801abcdf23e0",
+      "product_key": "title:68c0126aedec8d1b",
+      "sku": null,
+      "title": "Ultra-Kill Wasp & Hornet 17-oz. Insect Killer for $2.50 + free shipping w/$45",
+      "url": "https://www.dealnews.com/products/Duck/Duck-35-Foot-Press-to-Seal-Rope-Caulk/445138.html?iref=rss",
+      "deal_url": "https://www.dealnews.com/products/Duck/Duck-35-Foot-Press-to-Seal-Rope-Caulk/445138.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786630553-product-trimmed.jpg?h=125&w=38",
+      "category": "Other",
+      "source": "DealNews • Lowe's",
+      "sources": [
+        "DealNews • Lowe's"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.dealnews.com/products/Duck/Duck-35-Foot-Press-to-Seal-Rope-Caulk/445138.html?iref=rss",
+      "target_method": "source-deal",
+      "current_price": 2.5,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": 2.5,
+      "price_history_count": 1,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-13T14:15:59Z",
+      "last_seen": "2026-08-15T16:42:35Z",
+      "published_at": "2026-08-13T14:15:59Z",
+      "score": 152,
+      "confidence": 38,
+      "hot": false
+    },
+    {
+      "id": "41c7a6fcddb5d26d",
+      "product_key": "title:216f3d08ede893fd",
+      "sku": null,
+      "title": "Spectracide Bug Stop Home Barrier AccuShot Sprayer 1.33-Gal. Insect Killer for $10 + free shipping w/$45",
+      "url": "https://www.dealnews.com/Spectracide-Bug-Stop-Home-Barrier-Accu-Shot-Sprayer-1-33-Gal-Insect-Killer-for-10-free-shipping-w-45/22018944.html?iref=rss",
+      "deal_url": "https://www.dealnews.com/Spectracide-Bug-Stop-Home-Barrier-Accu-Shot-Sprayer-1-33-Gal-Insect-Killer-for-10-free-shipping-w-45/22018944.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786630350-product-trimmed.jpg?h=125&w=97",
+      "category": "Other",
+      "source": "DealNews • Lowe's",
+      "sources": [
+        "DealNews • Lowe's"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.dealnews.com/Spectracide-Bug-Stop-Home-Barrier-Accu-Shot-Sprayer-1-33-Gal-Insect-Killer-for-10-free-shipping-w-45/22018944.html?iref=rss",
+      "target_method": "source-deal",
+      "current_price": 10.0,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": 10.0,
+      "price_history_count": 1,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-13T14:12:36Z",
+      "last_seen": "2026-08-15T16:42:35Z",
+      "published_at": "2026-08-13T14:12:36Z",
+      "score": 152,
+      "confidence": 38,
+      "hot": false
+    },
+    {
+      "id": "d8334ad707b7adce",
+      "product_key": "title:b47fdde4dcdd52d4",
+      "sku": null,
+      "title": "Bora Pro Compact Jig for $25 + free shipping",
+      "url": "https://www.dealnews.com/products/Bora-Tools/Bora-Pro-Compact-Jig/517848.html?iref=rss",
+      "deal_url": "https://www.dealnews.com/products/Bora-Tools/Bora-Pro-Compact-Jig/517848.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786572027-88473646.avif?h=125&w=125",
+      "category": "Other",
+      "source": "DealNews • Lowe's",
+      "sources": [
+        "DealNews • Lowe's"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.dealnews.com/products/Bora-Tools/Bora-Pro-Compact-Jig/517848.html?iref=rss",
+      "target_method": "source-deal",
+      "current_price": 25.0,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": 25.0,
+      "price_history_count": 1,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-12T22:00:32Z",
+      "last_seen": "2026-08-15T16:42:35Z",
+      "published_at": "2026-08-12T22:00:32Z",
+      "score": 152,
+      "confidence": 38,
+      "hot": false
+    },
+    {
+      "id": "9357769d592cd0d9",
+      "product_key": "title:5e9e1c855e1032ca",
+      "sku": null,
+      "title": "Quikrete Concrete Repair at Lowe's for From $4 + free shipping",
+      "url": "https://www.dealnews.com/Quikrete-Concrete-Repair-at-Lowes-for-From-4-free-shipping/22012255.html?iref=rss",
+      "deal_url": "https://www.dealnews.com/Quikrete-Concrete-Repair-at-Lowes-for-From-4-free-shipping/22012255.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786530513-product-trimmed.jpg?h=101&w=125",
+      "category": "Building",
+      "source": "DealNews • Lowe's",
+      "sources": [
+        "DealNews • Lowe's"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.dealnews.com/Quikrete-Concrete-Repair-at-Lowes-for-From-4-free-shipping/22012255.html?iref=rss",
+      "target_method": "source-deal",
+      "current_price": 4.0,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": 4.0,
+      "price_history_count": 1,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-12T10:28:40Z",
+      "last_seen": "2026-08-15T16:42:35Z",
+      "published_at": "2026-08-12T10:28:40Z",
+      "score": 152,
+      "confidence": 38,
+      "hot": false
+    },
+    {
+      "id": "e74160f09a35fb05",
+      "product_key": "title:5cca2e7e499d97ea",
+      "sku": null,
+      "title": "Vevor Diamond PVC Garage Flooring Roll (65-sq. ft.) for $30 + free shipping",
+      "url": "https://www.dealnews.com/Vevor-Diamond-PVC-Garage-Flooring-Roll-65-sq-ft-for-30-free-shipping/22012223.html?iref=rss",
+      "deal_url": "https://www.dealnews.com/Vevor-Diamond-PVC-Garage-Flooring-Roll-65-sq-ft-for-30-free-shipping/22012223.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786528894-65617408.webp?h=125&w=125",
+      "category": "Flooring",
+      "source": "DealNews • Lowe's",
+      "sources": [
+        "DealNews • Lowe's"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.dealnews.com/Vevor-Diamond-PVC-Garage-Flooring-Roll-65-sq-ft-for-30-free-shipping/22012223.html?iref=rss",
+      "target_method": "source-deal",
+      "current_price": 30.0,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": 30.0,
+      "price_history_count": 1,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-12T10:01:41Z",
+      "last_seen": "2026-08-15T16:42:35Z",
+      "published_at": "2026-08-12T10:01:41Z",
+      "score": 152,
+      "confidence": 38,
+      "hot": false
+    },
+    {
+      "id": "a9e0bb7656529d5e",
+      "product_key": "title:7dd0436af80b3b58",
+      "sku": null,
+      "title": "Kobalt 1/4\" & 1/2\" 12-Amp 2-HP Variable Speed Fixed Router for $149 + free shipping",
+      "url": "https://www.dealnews.com/products/Kobalt/Kobalt-1-4-1-2-12-Amp-2-HP-Variable-Speed-Fixed-Router/517160.html?iref=rss",
+      "deal_url": "https://www.dealnews.com/products/Kobalt/Kobalt-1-4-1-2-12-Amp-2-HP-Variable-Speed-Fixed-Router/517160.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786489996-75802188.webp?h=125&w=125",
+      "category": "Tools",
+      "source": "DealNews • Lowe's",
+      "sources": [
+        "DealNews • Lowe's"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.dealnews.com/products/Kobalt/Kobalt-1-4-1-2-12-Amp-2-HP-Variable-Speed-Fixed-Router/517160.html?iref=rss",
+      "target_method": "source-deal",
+      "current_price": 149.0,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": 149.0,
+      "price_history_count": 1,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-11T23:13:43Z",
+      "last_seen": "2026-08-15T16:42:35Z",
+      "published_at": "2026-08-11T23:13:43Z",
+      "score": 152,
+      "confidence": 38,
+      "hot": false
+    },
+    {
+      "id": "0d5adc583182dab8",
+      "product_key": "title:dc551260e87e77ec",
+      "sku": null,
+      "title": "Joyfy 47\" Hanging Light-Up Ghost Halloween Decoration for $15 + free shipping w/ $35",
+      "url": "https://www.dealnews.com/Joyfy-47-Hanging-Light-Up-Ghost-Halloween-Decoration-for-15-free-shipping-w-35/22026147.html?iref=rss-c196",
+      "deal_url": "https://www.dealnews.com/Joyfy-47-Hanging-Light-Up-Ghost-Halloween-Decoration-for-15-free-shipping-w-35/22026147.html?iref=rss-c196",
+      "image": "https://d.dlnws.com/64599/1786754817-joyfy-47-inch-hanging-ghosts-halloween-decor-halloween-light-white-ghosts-spooky-blue-led-light-hall.avif?h=125&w=125",
+      "category": "Home",
+      "source": "DealNews • Home & Garden",
+      "sources": [
+        "DealNews • Home & Garden"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.dealnews.com/Joyfy-47-Hanging-Light-Up-Ghost-Halloween-Decoration-for-15-free-shipping-w-35/22026147.html?iref=rss-c196",
+      "target_method": "source-deal",
+      "current_price": 15.0,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": 15.0,
+      "price_history_count": 1,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-15T00:47:07Z",
+      "last_seen": "2026-08-15T16:42:37Z",
+      "published_at": "2026-08-15T00:47:07Z",
+      "score": 145,
+      "confidence": 38,
+      "hot": false
+    },
+    {
+      "id": "55b113edf73dcc4f",
+      "product_key": "title:a12e7850c04bb0ed",
+      "sku": null,
+      "title": "17-Piece Milwaukee SHOCKWAVE 3/8\" Drive SAE Deep Well Impact Socket Set $68.22 + Free Shipping",
+      "url": "https://slickdeals.net/f/19873860-17-piece-milwaukee-shockwave-3-8-drive-sae-deep-well-impact-socket-set-68-22-free-shipping?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "deal_url": "https://slickdeals.net/f/19873860-17-piece-milwaukee-shockwave-3-8-drive-sae-deep-well-impact-socket-set-68-22-free-shipping?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "image": null,
+      "category": "Other",
+      "source": "Slickdeals • Popular",
+      "sources": [
+        "Slickdeals • Popular"
+      ],
+      "source_count": 1,
+      "source_url": "https://slickdeals.net/f/19873860-17-piece-milwaukee-shockwave-3-8-drive-sae-deep-well-impact-socket-set-68-22-free-shipping?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "target_method": "source-deal",
+      "current_price": 68.22,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": 68.22,
+      "price_history_count": 1,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-13T07:06:20Z",
+      "last_seen": "2026-08-15T16:42:38Z",
+      "published_at": "2026-08-13T07:06:20Z",
+      "score": 145,
+      "confidence": 38,
+      "hot": false
+    },
+    {
+      "id": "ba0db9cec9f546ee",
+      "product_key": "title:8cc0364965fb5b5c",
+      "sku": null,
+      "title": "Greenworks MaximusZ 54\" Zero Turn Riding Lawn Mower for $5,000 + free shipping",
+      "url": "https://www.dealnews.com/Greenworks-Maximus-Z-54-Zero-Turn-Riding-Lawn-Mower-for-5-000-free-shipping/22025897.html?iref=rss-c196",
+      "deal_url": "https://www.dealnews.com/Greenworks-Maximus-Z-54-Zero-Turn-Riding-Lawn-Mower-for-5-000-free-shipping/22025897.html?iref=rss-c196",
+      "image": "https://d.dlnws.com/64599/1786743252-71s1drsby8l.jpg?h=125&w=125",
+      "category": "Outdoor",
+      "source": "DealNews • Home & Garden",
+      "sources": [
+        "DealNews • Home & Garden"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.dealnews.com/Greenworks-Maximus-Z-54-Zero-Turn-Riding-Lawn-Mower-for-5-000-free-shipping/22025897.html?iref=rss-c196",
+      "target_method": "source-deal",
+      "current_price": 5000.0,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": 5000.0,
+      "price_history_count": 1,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-14T21:34:19Z",
+      "last_seen": "2026-08-15T16:42:37Z",
+      "published_at": "2026-08-14T21:34:19Z",
+      "score": 140,
+      "confidence": 38,
+      "hot": false
+    },
+    {
+      "id": "0e780dd4d14214fd",
+      "product_key": "title:a453453209370f37",
+      "sku": null,
+      "title": "ChangBERT Commercial Grade 8\" Portable Induction Cooktop for $100 + free shipping",
+      "url": "https://www.dealnews.com/Chang-BERT-Commercial-Grade-8-Portable-Induction-Cooktop-for-100-free-shipping/22025860.html?iref=rss-c196",
+      "deal_url": "https://www.dealnews.com/Chang-BERT-Commercial-Grade-8-Portable-Induction-Cooktop-for-100-free-shipping/22025860.html?iref=rss-c196",
+      "image": "https://d.dlnws.com/64599/1786741874-81wel0acvcl.jpg?h=125&w=125",
+      "category": "Other",
+      "source": "DealNews • Home & Garden",
+      "sources": [
+        "DealNews • Home & Garden"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.dealnews.com/Chang-BERT-Commercial-Grade-8-Portable-Induction-Cooktop-for-100-free-shipping/22025860.html?iref=rss-c196",
+      "target_method": "source-deal",
+      "current_price": 100.0,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": 100.0,
+      "price_history_count": 1,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-14T21:11:21Z",
+      "last_seen": "2026-08-15T16:42:37Z",
+      "published_at": "2026-08-14T21:11:21Z",
+      "score": 139,
+      "confidence": 38,
+      "hot": false
+    },
+    {
+      "id": "bc8e388a382ba452",
+      "product_key": "title:846210204e3af6e8",
+      "sku": null,
+      "title": "Lowe's Lawn & Garden Deals: Up to 66% off + free shipping",
+      "url": "https://www.dealnews.com/Lowes-Lawn-Garden-Deals-Up-to-66-off-free-shipping/22018583.html?iref=rss",
+      "deal_url": "https://www.dealnews.com/Lowes-Lawn-Garden-Deals-Up-to-66-off-free-shipping/22018583.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786617147-product-trimmed.png?h=117&w=125",
+      "category": "Outdoor",
+      "source": "DealNews • Lowe's",
+      "sources": [
+        "DealNews • Lowe's"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.dealnews.com/Lowes-Lawn-Garden-Deals-Up-to-66-off-free-shipping/22018583.html?iref=rss",
+      "target_method": "source-deal",
+      "current_price": null,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": null,
+      "price_history_count": 0,
+      "historical_low": false,
+      "discount_pct": 66.0,
+      "discount_is_up_to": true,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-13T10:28:48Z",
+      "last_seen": "2026-08-15T16:42:35Z",
+      "published_at": "2026-08-13T10:28:48Z",
+      "score": 142,
+      "confidence": 28,
+      "hot": false
+    },
+    {
+      "id": "8c69f80a23aac6e4",
+      "product_key": "title:e14f7a0651934a4c",
+      "sku": null,
+      "title": "Landscape Fabric Deals at Lowe's: 60%+ off most + free shipping",
+      "url": "https://www.dealnews.com/Landscape-Fabric-Deals-at-Lowes-60-off-most-free-shipping/22018642.html?iref=rss",
+      "deal_url": "https://www.dealnews.com/Landscape-Fabric-Deals-at-Lowes-60-off-most-free-shipping/22018642.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786618704-product-trimmed.jpg?h=103&w=125",
+      "category": "Other",
+      "source": "DealNews • Lowe's",
+      "sources": [
+        "DealNews • Lowe's"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.dealnews.com/Landscape-Fabric-Deals-at-Lowes-60-off-most-free-shipping/22018642.html?iref=rss",
+      "target_method": "source-deal",
+      "current_price": null,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": null,
+      "price_history_count": 0,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-13T10:58:29Z",
+      "last_seen": "2026-08-15T16:42:35Z",
+      "published_at": "2026-08-13T10:58:29Z",
+      "score": 142,
+      "confidence": 28,
+      "hot": false
+    },
+    {
+      "id": "c584e350660d10cb",
+      "product_key": "title:b72ff6e77c4f399d",
+      "sku": null,
+      "title": "Lowe's Paw Patrol: The Dino Movie Workshop: Free",
+      "url": "https://www.dealnews.com/Lowes-Paw-Patrol-The-Dino-Movie-Workshop-Free/22012470.html?iref=rss",
+      "deal_url": "https://www.dealnews.com/Lowes-Paw-Patrol-The-Dino-Movie-Workshop-Free/22012470.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786537097-hero-desktop.jpeg?h=81&w=125",
+      "category": "Other",
+      "source": "DealNews • Lowe's",
+      "sources": [
+        "DealNews • Lowe's"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.dealnews.com/Lowes-Paw-Patrol-The-Dino-Movie-Workshop-Free/22012470.html?iref=rss",
+      "target_method": "source-deal",
+      "current_price": null,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": null,
+      "price_history_count": 0,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-12T12:18:24Z",
+      "last_seen": "2026-08-15T16:42:35Z",
+      "published_at": "2026-08-12T12:18:24Z",
+      "score": 142,
+      "confidence": 28,
+      "hot": false
+    },
     {
       "id": "bb278ccc7597696e",
       "title": "Automotive Deals at Lowe's: Up to 70% off + shipping varies",
@@ -62,7 +1130,7 @@
       "current_price": null,
       "original_price": null,
       "discount_pct": 70.0,
-      "status": "SEEN BEFORE",
+      "status": "UNVERIFIED",
       "deal_type": "EXTREME",
       "deal_types": [
         "EXTREME"
@@ -71,7 +1139,9 @@
       "first_seen": "2026-08-11T08:24:58Z",
       "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-11T08:24:58Z",
-      "score": 320
+      "score": 285,
+      "confidence": 41,
+      "hot": true
     },
     {
       "id": "06573a0cf4be00f1",
@@ -86,7 +1156,7 @@
       "current_price": null,
       "original_price": null,
       "discount_pct": null,
-      "status": "SEEN BEFORE",
+      "status": "UNVERIFIED",
       "deal_type": "CLEARANCE",
       "deal_types": [
         "CLEARANCE"
@@ -95,7 +1165,9 @@
       "first_seen": "2026-08-15T15:55:00Z",
       "last_seen": "2026-08-15T16:41:22Z",
       "published_at": "2026-08-15T15:55:00Z",
-      "score": 155
+      "score": 99,
+      "confidence": 56,
+      "hot": false
     },
     {
       "id": "51f312a21e14c09a",
@@ -110,7 +1182,7 @@
       "current_price": null,
       "original_price": null,
       "discount_pct": null,
-      "status": "SEEN BEFORE",
+      "status": "UNVERIFIED",
       "deal_type": "CLEARANCE",
       "deal_types": [
         "CLEARANCE"
@@ -119,7 +1191,9 @@
       "first_seen": "2026-08-15T15:55:00Z",
       "last_seen": "2026-08-15T16:41:22Z",
       "published_at": "2026-08-15T15:55:00Z",
-      "score": 155
+      "score": 99,
+      "confidence": 56,
+      "hot": false
     },
     {
       "id": "c175463f7545aa23",
@@ -134,7 +1208,7 @@
       "current_price": null,
       "original_price": null,
       "discount_pct": null,
-      "status": "SEEN BEFORE",
+      "status": "UNVERIFIED",
       "deal_type": "CLEARANCE",
       "deal_types": [
         "CLEARANCE"
@@ -143,7 +1217,9 @@
       "first_seen": "2026-08-15T15:55:00Z",
       "last_seen": "2026-08-15T16:41:22Z",
       "published_at": "2026-08-15T15:55:00Z",
-      "score": 155
+      "score": 99,
+      "confidence": 56,
+      "hot": false
     },
     {
       "id": "3c84ef927afdaf1c",
@@ -158,7 +1234,7 @@
       "current_price": null,
       "original_price": null,
       "discount_pct": null,
-      "status": "SEEN BEFORE",
+      "status": "UNVERIFIED",
       "deal_type": "CLEARANCE",
       "deal_types": [
         "CLEARANCE"
@@ -167,7 +1243,9 @@
       "first_seen": "2026-08-15T15:55:00Z",
       "last_seen": "2026-08-15T16:41:22Z",
       "published_at": "2026-08-15T15:55:00Z",
-      "score": 155
+      "score": 99,
+      "confidence": 56,
+      "hot": false
     },
     {
       "id": "d274f3bc2fee183c",
@@ -182,7 +1260,7 @@
       "current_price": null,
       "original_price": null,
       "discount_pct": null,
-      "status": "SEEN BEFORE",
+      "status": "UNVERIFIED",
       "deal_type": "CLEARANCE",
       "deal_types": [
         "CLEARANCE"
@@ -191,7 +1269,9 @@
       "first_seen": "2026-08-15T15:55:00Z",
       "last_seen": "2026-08-15T16:41:22Z",
       "published_at": "2026-08-15T15:55:00Z",
-      "score": 155
+      "score": 99,
+      "confidence": 56,
+      "hot": false
     },
     {
       "id": "aa448e1ed9a4880c",
@@ -206,7 +1286,7 @@
       "current_price": null,
       "original_price": null,
       "discount_pct": null,
-      "status": "SEEN BEFORE",
+      "status": "UNVERIFIED",
       "deal_type": "CLEARANCE",
       "deal_types": [
         "CLEARANCE"
@@ -215,7 +1295,9 @@
       "first_seen": "2026-08-15T15:55:00Z",
       "last_seen": "2026-08-15T16:41:22Z",
       "published_at": "2026-08-15T15:55:00Z",
-      "score": 155
+      "score": 99,
+      "confidence": 56,
+      "hot": false
     },
     {
       "id": "76fc54325f872602",
@@ -230,7 +1312,7 @@
       "current_price": null,
       "original_price": null,
       "discount_pct": null,
-      "status": "SEEN BEFORE",
+      "status": "UNVERIFIED",
       "deal_type": "CLEARANCE",
       "deal_types": [
         "CLEARANCE"
@@ -239,7 +1321,9 @@
       "first_seen": "2026-08-15T15:55:00Z",
       "last_seen": "2026-08-15T16:41:22Z",
       "published_at": "2026-08-15T15:55:00Z",
-      "score": 155
+      "score": 99,
+      "confidence": 56,
+      "hot": false
     },
     {
       "id": "639cb72444f8913e",
@@ -254,7 +1338,7 @@
       "current_price": null,
       "original_price": null,
       "discount_pct": null,
-      "status": "SEEN BEFORE",
+      "status": "UNVERIFIED",
       "deal_type": "CLEARANCE",
       "deal_types": [
         "CLEARANCE"
@@ -263,31 +1347,9 @@
       "first_seen": "2026-08-15T15:55:00Z",
       "last_seen": "2026-08-15T16:41:22Z",
       "published_at": "2026-08-15T15:55:00Z",
-      "score": 155
-    },
-    {
-      "id": "e1ec7e94e3668ce7",
-      "title": "Lowe's Lawn & Garden Deals: Up to 66% off + free shipping",
-      "url": "https://www.dealnews.com/Lowes-Lawn-Garden-Deals-Up-to-66-off-free-shipping/22018583.html?iref=rss",
-      "deal_url": "https://www.dealnews.com/Lowes-Lawn-Garden-Deals-Up-to-66-off-free-shipping/22018583.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1786617147-product-trimmed.png?h=117&w=125",
-      "category": "Outdoor",
-      "source": "DealNews • Lowe's",
-      "source_url": "https://www.dealnews.com/Lowes-Lawn-Garden-Deals-Up-to-66-off-free-shipping/22018583.html?iref=rss",
-      "target_method": "dealnews",
-      "current_price": null,
-      "original_price": null,
-      "discount_pct": 66.0,
-      "status": "SEEN BEFORE",
-      "deal_type": "REGULAR DEAL",
-      "deal_types": [
-        "REGULAR DEAL"
-      ],
-      "signal_note": null,
-      "first_seen": "2026-08-13T10:28:48Z",
-      "last_seen": "2026-08-15T16:41:19Z",
-      "published_at": "2026-08-13T10:28:48Z",
-      "score": 209
+      "score": 99,
+      "confidence": 56,
+      "hot": false
     },
     {
       "id": "6e42a700ed817b48",
@@ -302,7 +1364,7 @@
       "current_price": 15.0,
       "original_price": null,
       "discount_pct": null,
-      "status": "NEW",
+      "status": "UNVERIFIED",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -311,7 +1373,9 @@
       "first_seen": "2026-08-15T13:34:32Z",
       "last_seen": "2026-08-15T16:41:22Z",
       "published_at": "2026-08-15T13:34:32Z",
-      "score": 141
+      "score": 80,
+      "confidence": 38,
+      "hot": false
     },
     {
       "id": "fca142e1b47f6f60",
@@ -326,7 +1390,7 @@
       "current_price": 0.78,
       "original_price": null,
       "discount_pct": null,
-      "status": "NEW",
+      "status": "UNVERIFIED",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -335,7 +1399,9 @@
       "first_seen": "2026-08-15T06:05:03Z",
       "last_seen": "2026-08-15T16:41:22Z",
       "published_at": "2026-08-15T06:05:03Z",
-      "score": 136
+      "score": 75,
+      "confidence": 38,
+      "hot": false
     },
     {
       "id": "4e6f54517744b1fa",
@@ -350,7 +1416,7 @@
       "current_price": 68.22,
       "original_price": null,
       "discount_pct": null,
-      "status": "NEW",
+      "status": "UNVERIFIED",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -359,7 +1425,9 @@
       "first_seen": "2026-08-13T07:06:20Z",
       "last_seen": "2026-08-15T16:41:22Z",
       "published_at": "2026-08-13T07:06:20Z",
-      "score": 136
+      "score": 75,
+      "confidence": 38,
+      "hot": false
     },
     {
       "id": "696652212a9ef2fa",
@@ -374,7 +1442,7 @@
       "current_price": 100.0,
       "original_price": null,
       "discount_pct": null,
-      "status": "SEEN BEFORE",
+      "status": "UNVERIFIED",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -383,7 +1451,9 @@
       "first_seen": "2026-08-13T15:26:59Z",
       "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-13T15:26:59Z",
-      "score": 118
+      "score": 57,
+      "confidence": 38,
+      "hot": false
     },
     {
       "id": "10bc9dd65364f39a",
@@ -398,7 +1468,7 @@
       "current_price": 10.0,
       "original_price": null,
       "discount_pct": null,
-      "status": "SEEN BEFORE",
+      "status": "UNVERIFIED",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -407,7 +1477,9 @@
       "first_seen": "2026-08-13T15:25:38Z",
       "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-13T15:25:38Z",
-      "score": 118
+      "score": 57,
+      "confidence": 38,
+      "hot": false
     },
     {
       "id": "b2df3802ce83a634",
@@ -422,7 +1494,7 @@
       "current_price": 42.0,
       "original_price": null,
       "discount_pct": null,
-      "status": "SEEN BEFORE",
+      "status": "UNVERIFIED",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -431,7 +1503,9 @@
       "first_seen": "2026-08-13T14:43:08Z",
       "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-13T14:43:08Z",
-      "score": 118
+      "score": 57,
+      "confidence": 38,
+      "hot": false
     },
     {
       "id": "6f61165400c776d5",
@@ -446,7 +1520,7 @@
       "current_price": 40.0,
       "original_price": null,
       "discount_pct": null,
-      "status": "SEEN BEFORE",
+      "status": "UNVERIFIED",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -455,7 +1529,9 @@
       "first_seen": "2026-08-13T14:42:23Z",
       "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-13T14:42:23Z",
-      "score": 118
+      "score": 57,
+      "confidence": 38,
+      "hot": false
     },
     {
       "id": "7e1c2fcb753b3b24",
@@ -470,7 +1546,7 @@
       "current_price": 2.5,
       "original_price": null,
       "discount_pct": null,
-      "status": "SEEN BEFORE",
+      "status": "UNVERIFIED",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -479,7 +1555,9 @@
       "first_seen": "2026-08-13T14:15:59Z",
       "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-13T14:15:59Z",
-      "score": 118
+      "score": 57,
+      "confidence": 38,
+      "hot": false
     },
     {
       "id": "de49cedf33a79299",
@@ -494,7 +1572,7 @@
       "current_price": 10.0,
       "original_price": null,
       "discount_pct": null,
-      "status": "SEEN BEFORE",
+      "status": "UNVERIFIED",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -503,7 +1581,9 @@
       "first_seen": "2026-08-13T14:12:36Z",
       "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-13T14:12:36Z",
-      "score": 118
+      "score": 57,
+      "confidence": 38,
+      "hot": false
     },
     {
       "id": "6d40425a77f5d315",
@@ -518,7 +1598,7 @@
       "current_price": 25.0,
       "original_price": null,
       "discount_pct": null,
-      "status": "SEEN BEFORE",
+      "status": "UNVERIFIED",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -527,7 +1607,9 @@
       "first_seen": "2026-08-12T22:00:32Z",
       "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-12T22:00:32Z",
-      "score": 118
+      "score": 57,
+      "confidence": 38,
+      "hot": false
     },
     {
       "id": "582f49e149812f6e",
@@ -542,7 +1624,7 @@
       "current_price": 4.0,
       "original_price": null,
       "discount_pct": null,
-      "status": "SEEN BEFORE",
+      "status": "UNVERIFIED",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -551,7 +1633,9 @@
       "first_seen": "2026-08-12T10:28:40Z",
       "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-12T10:28:40Z",
-      "score": 118
+      "score": 57,
+      "confidence": 38,
+      "hot": false
     },
     {
       "id": "c6d0c754e74e5b4f",
@@ -566,7 +1650,7 @@
       "current_price": 30.0,
       "original_price": null,
       "discount_pct": null,
-      "status": "SEEN BEFORE",
+      "status": "UNVERIFIED",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -575,7 +1659,9 @@
       "first_seen": "2026-08-12T10:01:41Z",
       "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-12T10:01:41Z",
-      "score": 118
+      "score": 57,
+      "confidence": 38,
+      "hot": false
     },
     {
       "id": "5faf77d43278c5b8",
@@ -590,7 +1676,7 @@
       "current_price": 149.0,
       "original_price": null,
       "discount_pct": null,
-      "status": "SEEN BEFORE",
+      "status": "UNVERIFIED",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -599,7 +1685,9 @@
       "first_seen": "2026-08-11T23:13:43Z",
       "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-11T23:13:43Z",
-      "score": 118
+      "score": 57,
+      "confidence": 38,
+      "hot": false
     },
     {
       "id": "83d5443b2d892bd1",
@@ -614,7 +1702,7 @@
       "current_price": 19.0,
       "original_price": null,
       "discount_pct": null,
-      "status": "SEEN BEFORE",
+      "status": "UNVERIFIED",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -623,55 +1711,9 @@
       "first_seen": "2026-08-11T12:49:03Z",
       "last_seen": "2026-08-15T16:41:19Z",
       "published_at": "2026-08-11T12:49:03Z",
-      "score": 118
-    },
-    {
-      "id": "02dc92a4c82e8dd6",
-      "title": "Landscape Fabric Deals at Lowe's: 60%+ off most + free shipping",
-      "url": "https://www.dealnews.com/Landscape-Fabric-Deals-at-Lowes-60-off-most-free-shipping/22018642.html?iref=rss",
-      "deal_url": "https://www.dealnews.com/Landscape-Fabric-Deals-at-Lowes-60-off-most-free-shipping/22018642.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1786618704-product-trimmed.jpg?h=103&w=125",
-      "category": "Other",
-      "source": "DealNews • Lowe's",
-      "source_url": "https://www.dealnews.com/Landscape-Fabric-Deals-at-Lowes-60-off-most-free-shipping/22018642.html?iref=rss",
-      "target_method": "dealnews",
-      "current_price": null,
-      "original_price": null,
-      "discount_pct": null,
-      "status": "SEEN BEFORE",
-      "deal_type": "REGULAR DEAL",
-      "deal_types": [
-        "REGULAR DEAL"
-      ],
-      "signal_note": null,
-      "first_seen": "2026-08-13T10:58:29Z",
-      "last_seen": "2026-08-15T16:41:19Z",
-      "published_at": "2026-08-13T10:58:29Z",
-      "score": 110
-    },
-    {
-      "id": "b72ff6e77c4f399d",
-      "title": "Lowe's Paw Patrol: The Dino Movie Workshop: Free",
-      "url": "https://www.dealnews.com/Lowes-Paw-Patrol-The-Dino-Movie-Workshop-Free/22012470.html?iref=rss",
-      "deal_url": "https://www.dealnews.com/Lowes-Paw-Patrol-The-Dino-Movie-Workshop-Free/22012470.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1786537097-hero-desktop.jpeg?h=81&w=125",
-      "category": "Other",
-      "source": "DealNews • Lowe's",
-      "source_url": "https://www.dealnews.com/Lowes-Paw-Patrol-The-Dino-Movie-Workshop-Free/22012470.html?iref=rss",
-      "target_method": "dealnews",
-      "current_price": null,
-      "original_price": null,
-      "discount_pct": null,
-      "status": "SEEN BEFORE",
-      "deal_type": "REGULAR DEAL",
-      "deal_types": [
-        "REGULAR DEAL"
-      ],
-      "signal_note": null,
-      "first_seen": "2026-08-12T12:18:24Z",
-      "last_seen": "2026-08-15T16:41:19Z",
-      "published_at": "2026-08-12T12:18:24Z",
-      "score": 110
+      "score": 57,
+      "confidence": 38,
+      "hot": false
     },
     {
       "id": "60b3b69607c5e0ec",
@@ -686,7 +1728,7 @@
       "current_price": 15.0,
       "original_price": null,
       "discount_pct": null,
-      "status": "SEEN BEFORE",
+      "status": "UNVERIFIED",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -695,7 +1737,9 @@
       "first_seen": "2026-08-15T13:25:44Z",
       "last_seen": "2026-08-15T16:41:20Z",
       "published_at": "2026-08-15T13:25:44Z",
-      "score": 103
+      "score": 42,
+      "confidence": 38,
+      "hot": false
     },
     {
       "id": "8986ffbb455c450d",
@@ -710,7 +1754,7 @@
       "current_price": 54.0,
       "original_price": null,
       "discount_pct": null,
-      "status": "SEEN BEFORE",
+      "status": "UNVERIFIED",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -719,7 +1763,9 @@
       "first_seen": "2026-08-15T09:22:56Z",
       "last_seen": "2026-08-15T16:41:21Z",
       "published_at": "2026-08-15T09:22:56Z",
-      "score": 98
+      "score": 37,
+      "confidence": 38,
+      "hot": false
     },
     {
       "id": "bb8ecb56a0359125",
@@ -734,7 +1780,7 @@
       "current_price": 15.0,
       "original_price": null,
       "discount_pct": null,
-      "status": "SEEN BEFORE",
+      "status": "UNVERIFIED",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -743,7 +1789,9 @@
       "first_seen": "2026-08-15T00:47:07Z",
       "last_seen": "2026-08-15T16:41:21Z",
       "published_at": "2026-08-15T00:47:07Z",
-      "score": 98
+      "score": 37,
+      "confidence": 38,
+      "hot": false
     },
     {
       "id": "49ec4da55bb3c3d5",
@@ -758,7 +1806,7 @@
       "current_price": 5000.0,
       "original_price": null,
       "discount_pct": null,
-      "status": "SEEN BEFORE",
+      "status": "UNVERIFIED",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -767,7 +1815,9 @@
       "first_seen": "2026-08-14T21:34:19Z",
       "last_seen": "2026-08-15T16:41:21Z",
       "published_at": "2026-08-14T21:34:19Z",
-      "score": 98
+      "score": 37,
+      "confidence": 38,
+      "hot": false
     },
     {
       "id": "ecc4975c603c2cf4",
@@ -782,7 +1832,7 @@
       "current_price": 100.0,
       "original_price": null,
       "discount_pct": null,
-      "status": "SEEN BEFORE",
+      "status": "UNVERIFIED",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -791,7 +1841,9 @@
       "first_seen": "2026-08-14T21:11:21Z",
       "last_seen": "2026-08-15T16:41:21Z",
       "published_at": "2026-08-14T21:11:21Z",
-      "score": 98
+      "score": 37,
+      "confidence": 38,
+      "hot": false
     },
     {
       "id": "9067f270438d3dff",
@@ -815,7 +1867,87 @@
       "first_seen": "2026-08-14T04:16:33Z",
       "last_seen": "2026-08-15T16:28:51Z",
       "published_at": "2026-08-14T04:16:33Z",
-      "score": 91
+      "score": 30,
+      "confidence": 38,
+      "hot": false
+    },
+    {
+      "id": "e1ec7e94e3668ce7",
+      "title": "Lowe's Lawn & Garden Deals: Up to 66% off + free shipping",
+      "url": "https://www.dealnews.com/Lowes-Lawn-Garden-Deals-Up-to-66-off-free-shipping/22018583.html?iref=rss",
+      "deal_url": "https://www.dealnews.com/Lowes-Lawn-Garden-Deals-Up-to-66-off-free-shipping/22018583.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786617147-product-trimmed.png?h=117&w=125",
+      "category": "Outdoor",
+      "source": "DealNews • Lowe's",
+      "source_url": "https://www.dealnews.com/Lowes-Lawn-Garden-Deals-Up-to-66-off-free-shipping/22018583.html?iref=rss",
+      "target_method": "dealnews",
+      "current_price": null,
+      "original_price": null,
+      "discount_pct": 66.0,
+      "status": "UNVERIFIED",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-13T10:28:48Z",
+      "last_seen": "2026-08-15T16:41:19Z",
+      "published_at": "2026-08-13T10:28:48Z",
+      "score": 147,
+      "confidence": 34,
+      "hot": false
+    },
+    {
+      "id": "02dc92a4c82e8dd6",
+      "title": "Landscape Fabric Deals at Lowe's: 60%+ off most + free shipping",
+      "url": "https://www.dealnews.com/Landscape-Fabric-Deals-at-Lowes-60-off-most-free-shipping/22018642.html?iref=rss",
+      "deal_url": "https://www.dealnews.com/Landscape-Fabric-Deals-at-Lowes-60-off-most-free-shipping/22018642.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786618704-product-trimmed.jpg?h=103&w=125",
+      "category": "Other",
+      "source": "DealNews • Lowe's",
+      "source_url": "https://www.dealnews.com/Landscape-Fabric-Deals-at-Lowes-60-off-most-free-shipping/22018642.html?iref=rss",
+      "target_method": "dealnews",
+      "current_price": null,
+      "original_price": null,
+      "discount_pct": null,
+      "status": "UNVERIFIED",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-13T10:58:29Z",
+      "last_seen": "2026-08-15T16:41:19Z",
+      "published_at": "2026-08-13T10:58:29Z",
+      "score": 47,
+      "confidence": 28,
+      "hot": false
+    },
+    {
+      "id": "b72ff6e77c4f399d",
+      "title": "Lowe's Paw Patrol: The Dino Movie Workshop: Free",
+      "url": "https://www.dealnews.com/Lowes-Paw-Patrol-The-Dino-Movie-Workshop-Free/22012470.html?iref=rss",
+      "deal_url": "https://www.dealnews.com/Lowes-Paw-Patrol-The-Dino-Movie-Workshop-Free/22012470.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1786537097-hero-desktop.jpeg?h=81&w=125",
+      "category": "Other",
+      "source": "DealNews • Lowe's",
+      "source_url": "https://www.dealnews.com/Lowes-Paw-Patrol-The-Dino-Movie-Workshop-Free/22012470.html?iref=rss",
+      "target_method": "dealnews",
+      "current_price": null,
+      "original_price": null,
+      "discount_pct": null,
+      "status": "UNVERIFIED",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-12T12:18:24Z",
+      "last_seen": "2026-08-15T16:41:19Z",
+      "published_at": "2026-08-12T12:18:24Z",
+      "score": 47,
+      "confidence": 28,
+      "hot": false
     }
   ]
 }
