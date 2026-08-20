@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T08:53:08Z",
+  "updated_at": "2026-08-20T09:47:05Z",
   "products": {
     "696652212a9ef2fa": {
       "last_price": 100.0,
@@ -1677,7 +1677,7 @@
       "url": "https://www.dealnews.com/Lowes-Back-Aisle-Sale-Clearance-Deals-Up-to-50-off-free-shipping-w-25/22045539.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-17T12:09:03Z",
-      "last_seen": "2026-08-20T08:53:05Z",
+      "last_seen": "2026-08-20T09:47:03Z",
       "deal_type": "CLEARANCE",
       "deal_types": [
         "CLEARANCE"
@@ -1717,7 +1717,7 @@
       "url": "https://www.dealnews.com/Lowes-Patio-Furniture-Deals-for-From-160-free-shipping/22045567.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-17T12:19:54Z",
-      "last_seen": "2026-08-20T08:53:05Z",
+      "last_seen": "2026-08-20T09:47:03Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -2148,7 +2148,7 @@
       "url": "https://www.dealnews.com/products/De-Walt/De-Walt-31-Piece-Security-Screwdriver-Bit-Set/115273.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-17T21:36:41Z",
-      "last_seen": "2026-08-20T08:53:05Z",
+      "last_seen": "2026-08-20T09:47:03Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -2168,7 +2168,7 @@
       "url": "https://www.dealnews.com/Taloya-I3-52-Indoor-Downrod-Ceiling-Fan-for-29-free-shipping/22046297.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-17T21:14:00Z",
-      "last_seen": "2026-08-20T08:53:05Z",
+      "last_seen": "2026-08-20T09:47:03Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -3827,7 +3827,7 @@
       "url": "https://www.dealnews.com/GVDV-10-Foot-Halloween-Inflatable-Archway-for-66-free-shipping/22059333.html?iref=rss-c196",
       "sku": null,
       "first_seen": "2026-08-19T21:49:49Z",
-      "last_seen": "2026-08-20T08:53:07Z",
+      "last_seen": "2026-08-20T09:47:04Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -4008,6 +4008,17 @@
       "sku": null,
       "first_seen": "2026-08-20T03:17:14Z",
       "last_seen": "2026-08-20T07:02:42Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:fe50c67d7a4d65ea": {
+      "title": "Lowe's Electrolux and Frigidaire End of Summer Sale: Up to 33% off + free shipping",
+      "url": "https://www.dealnews.com/Lowes-Electrolux-and-Frigidaire-End-of-Summer-Sale-Up-to-33-off-free-shipping/22064767.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-08-20T09:32:34Z",
+      "last_seen": "2026-08-20T09:47:04Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
