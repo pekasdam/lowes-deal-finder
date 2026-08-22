@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T23:32:13Z",
+  "updated_at": "2026-08-22T23:54:13Z",
   "products": {
     "696652212a9ef2fa": {
       "last_price": 100.0,
@@ -2542,7 +2542,7 @@
       "url": "https://www.dealnews.com/Halloween-Clothing-and-Accessory-Deals-at-Fanatics-Up-to-68-off-shipping-varies/22058289.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-18T13:03:13Z",
-      "last_seen": "2026-08-22T22:36:47Z",
+      "last_seen": "2026-08-22T23:54:11Z",
       "deal_type": "CLEARANCE",
       "deal_types": [
         "CLEARANCE"
@@ -4033,7 +4033,7 @@
       "url": "https://www.dealnews.com/Lowes-Electrolux-and-Frigidaire-End-of-Summer-Sale-Up-to-33-off-free-shipping/22064767.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-20T09:32:34Z",
-      "last_seen": "2026-08-22T23:32:10Z",
+      "last_seen": "2026-08-22T23:54:10Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -4124,7 +4124,7 @@
       "url": "https://www.dealnews.com/Lowes-Bathroom-Deals-Up-to-40-off-free-shipping/22064837.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-20T10:26:22Z",
-      "last_seen": "2026-08-22T23:32:10Z",
+      "last_seen": "2026-08-22T23:54:10Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -4135,7 +4135,7 @@
       "url": "https://www.dealnews.com/Lowes-Exterior-Paint-Deals-20-off-free-shipping-w-25/22064836.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-20T10:18:07Z",
-      "last_seen": "2026-08-22T23:32:10Z",
+      "last_seen": "2026-08-22T23:54:10Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -4526,7 +4526,7 @@
       "url": "https://www.dealnews.com/Project-Source-18-Piece-2-Ratcheting-Multi-Bit-Screwdriver-Set-for-7-free-shipping/22065667.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-20T23:39:26Z",
-      "last_seen": "2026-08-22T23:32:10Z",
+      "last_seen": "2026-08-22T23:54:10Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -5128,7 +5128,7 @@
       "url": "https://www.dealnews.com/Upcoming-Lowes-Cooler-Cup-Free-in-store-on-Aug-22/22071965.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-21T15:57:17Z",
-      "last_seen": "2026-08-22T23:32:10Z",
+      "last_seen": "2026-08-22T23:54:10Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -5508,7 +5508,7 @@
       "url": "https://www.dealnews.com/Road-Runner-RRMEG-ABS-Molded-Electric-Guitar-Case-for-100-free-shipping/22072406.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-22T00:08:24Z",
-      "last_seen": "2026-08-22T12:10:53Z",
+      "last_seen": "2026-08-22T23:54:11Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -5648,7 +5648,7 @@
       "url": "https://www.dealnews.com/products/Anker/Anker-Nano-45-W-Foldable-USB-C-Ga-N-Charger/504983.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-22T10:24:56Z",
-      "last_seen": "2026-08-22T23:32:11Z",
+      "last_seen": "2026-08-22T23:54:11Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -5789,6 +5789,26 @@
       "sku": null,
       "first_seen": "2026-08-22T04:55:09Z",
       "last_seen": "2026-08-22T21:41:58Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:596ce97870e553ab": {
+      "price_history": [
+        {
+          "at": "2026-08-22T23:54:13Z",
+          "price": 99.0,
+          "source": "Slickdeals • Popular"
+        }
+      ],
+      "last_price": 99.0,
+      "lowest_price": 99.0,
+      "title": "DEWALT XR 20-volt Max Cordless Brushless Variable speed 13 -Piece Oscillating Multi-Tool ( Battery Included and Charger Included ) | DCS356D1 $99",
+      "url": "https://www.lowes.com/pd/DEWALT-X...1000898624",
+      "sku": null,
+      "first_seen": "2026-08-22T22:00:23Z",
+      "last_seen": "2026-08-22T23:54:13Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
