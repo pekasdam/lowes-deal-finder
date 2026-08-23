@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T23:32:24Z",
+  "generated_at": "2026-08-23T23:53:56Z",
   "app": "Lowe's Deal Finder",
   "scan_interval_minutes": 15,
   "stats": {
@@ -26,7 +26,7 @@
     },
     {
       "source": "DealNews • Latest",
-      "method": "rss:50",
+      "method": "rss:49",
       "candidates": 0
     },
     {
@@ -42,7 +42,7 @@
     {
       "source": "Slickdeals • Popular",
       "method": "rss:25",
-      "candidates": 1
+      "candidates": 0
     },
     {
       "source": "Lowe's Back Aisle verified seeds",
@@ -53,44 +53,6 @@
   "signal_disclaimer": "Penny-watch and likely-pricing-error labels are automated leads, not guarantees. Confidence reflects evidence quality, not checkout certainty. Lowe's prices can vary by store/ZIP and pricing mistakes can be corrected or orders cancelled.",
   "attribution": "DealNews and Slickdeals feed items retain their source attribution and source/referral links when used.",
   "deals": [
-    {
-      "id": "f96f43bf470d58ff",
-      "product_key": "title:7419c429398693f4",
-      "sku": null,
-      "title": "Lowepro ProTactic Lite BP 250 AW III Backpack (Black, 30L) $79.95 + Free Shipping at B&H Photo Video",
-      "url": "https://slickdeals.net/f/19912767-lowepro-protactic-lite-bp-250-aw-iii-backpack-black-30l-79-95-free-shipping-at-b-h-photo-video?utm_source=rss&utm_content=ht&utm_medium=RSS2",
-      "deal_url": "https://slickdeals.net/f/19912767-lowepro-protactic-lite-bp-250-aw-iii-backpack-black-30l-79-95-free-shipping-at-b-h-photo-video?utm_source=rss&utm_content=ht&utm_medium=RSS2",
-      "image": null,
-      "category": "Other",
-      "source": "Slickdeals • Popular",
-      "sources": [
-        "Slickdeals • Popular"
-      ],
-      "source_count": 1,
-      "source_url": "https://slickdeals.net/f/19912767-lowepro-protactic-lite-bp-250-aw-iii-backpack-black-30l-79-95-free-shipping-at-b-h-photo-video?utm_source=rss&utm_content=ht&utm_medium=RSS2",
-      "target_method": "source-deal",
-      "current_price": 79.95,
-      "original_price": null,
-      "observed_reference_price": null,
-      "lowest_observed_price": 79.95,
-      "price_history_count": 1,
-      "historical_low": false,
-      "discount_pct": null,
-      "discount_is_up_to": false,
-      "observed_drop_pct": null,
-      "status": "SEEN BEFORE",
-      "deal_type": "REGULAR DEAL",
-      "deal_types": [
-        "REGULAR DEAL"
-      ],
-      "signal_note": null,
-      "first_seen": "2026-08-23T08:08:56Z",
-      "last_seen": "2026-08-23T23:32:24Z",
-      "published_at": "2026-08-23T08:08:56Z",
-      "score": 133,
-      "confidence": 38,
-      "hot": false
-    },
     {
       "id": "5afa7c39a4aa9327",
       "product_key": "title:aa0508618b8f5ae7",
@@ -123,7 +85,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-20T23:39:26Z",
-      "last_seen": "2026-08-23T23:32:20Z",
+      "last_seen": "2026-08-23T23:53:53Z",
       "published_at": "2026-08-20T23:39:26Z",
       "score": 127,
       "confidence": 38,
@@ -161,7 +123,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-20T10:18:07Z",
-      "last_seen": "2026-08-23T23:32:20Z",
+      "last_seen": "2026-08-23T23:53:53Z",
       "published_at": "2026-08-20T10:18:07Z",
       "score": 145,
       "confidence": 34,
@@ -199,7 +161,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-18T10:38:14Z",
-      "last_seen": "2026-08-23T23:32:23Z",
+      "last_seen": "2026-08-23T23:53:54Z",
       "published_at": "2026-08-23T16:06:28Z",
       "score": 122,
       "confidence": 28,
@@ -237,7 +199,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-20T10:26:22Z",
-      "last_seen": "2026-08-23T23:32:20Z",
+      "last_seen": "2026-08-23T23:53:53Z",
       "published_at": "2026-08-20T10:26:22Z",
       "score": 117,
       "confidence": 28,
@@ -275,7 +237,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-20T09:32:34Z",
-      "last_seen": "2026-08-23T23:32:20Z",
+      "last_seen": "2026-08-23T23:53:53Z",
       "published_at": "2026-08-20T09:32:34Z",
       "score": 117,
       "confidence": 28,
@@ -358,25 +320,25 @@
       "hot": false
     },
     {
-      "id": "fdfd30ab8ceba29b",
-      "product_key": "title:3695e3a5f35e9156",
+      "id": "f96f43bf470d58ff",
+      "product_key": "title:7419c429398693f4",
       "sku": null,
-      "title": "YMMV, Style Selections Steel 100-ft Wall-mount Hose Hanger, $6.88, Lowe's",
-      "url": "https://slickdeals.net/f/19911786-ymmv-style-selections-steel-100-ft-wall-mount-hose-hanger-6-88-lowe-s?utm_source=rss&utm_content=ht&utm_medium=RSS2",
-      "deal_url": "https://slickdeals.net/f/19911786-ymmv-style-selections-steel-100-ft-wall-mount-hose-hanger-6-88-lowe-s?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "title": "Lowepro ProTactic Lite BP 250 AW III Backpack (Black, 30L) $79.95 + Free Shipping at B&H Photo Video",
+      "url": "https://slickdeals.net/f/19912767-lowepro-protactic-lite-bp-250-aw-iii-backpack-black-30l-79-95-free-shipping-at-b-h-photo-video?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "deal_url": "https://slickdeals.net/f/19912767-lowepro-protactic-lite-bp-250-aw-iii-backpack-black-30l-79-95-free-shipping-at-b-h-photo-video?utm_source=rss&utm_content=ht&utm_medium=RSS2",
       "image": null,
-      "category": "Outdoor",
+      "category": "Other",
       "source": "Slickdeals • Popular",
       "sources": [
         "Slickdeals • Popular"
       ],
       "source_count": 1,
-      "source_url": "https://slickdeals.net/f/19911786-ymmv-style-selections-steel-100-ft-wall-mount-hose-hanger-6-88-lowe-s?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "source_url": "https://slickdeals.net/f/19912767-lowepro-protactic-lite-bp-250-aw-iii-backpack-black-30l-79-95-free-shipping-at-b-h-photo-video?utm_source=rss&utm_content=ht&utm_medium=RSS2",
       "target_method": "source-deal",
-      "current_price": 6.88,
+      "current_price": 79.95,
       "original_price": null,
       "observed_reference_price": null,
-      "lowest_observed_price": 6.88,
+      "lowest_observed_price": 79.95,
       "price_history_count": 1,
       "historical_low": false,
       "discount_pct": null,
@@ -388,10 +350,10 @@
         "REGULAR DEAL"
       ],
       "signal_note": null,
-      "first_seen": "2026-08-23T01:00:16Z",
-      "last_seen": "2026-08-23T22:56:42Z",
-      "published_at": "2026-08-23T01:00:16Z",
-      "score": 63,
+      "first_seen": "2026-08-23T08:08:56Z",
+      "last_seen": "2026-08-23T23:32:24Z",
+      "published_at": "2026-08-23T08:08:56Z",
+      "score": 72,
       "confidence": 38,
       "hot": false
     },
@@ -771,6 +733,44 @@
       "first_seen": "2026-08-23T05:42:25Z",
       "last_seen": "2026-08-23T16:08:21Z",
       "published_at": "2026-08-23T05:42:25Z",
+      "score": 9,
+      "confidence": 38,
+      "hot": false
+    },
+    {
+      "id": "fdfd30ab8ceba29b",
+      "product_key": "title:3695e3a5f35e9156",
+      "sku": null,
+      "title": "YMMV, Style Selections Steel 100-ft Wall-mount Hose Hanger, $6.88, Lowe's",
+      "url": "https://slickdeals.net/f/19911786-ymmv-style-selections-steel-100-ft-wall-mount-hose-hanger-6-88-lowe-s?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "deal_url": "https://slickdeals.net/f/19911786-ymmv-style-selections-steel-100-ft-wall-mount-hose-hanger-6-88-lowe-s?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "image": null,
+      "category": "Outdoor",
+      "source": "Slickdeals • Popular",
+      "sources": [
+        "Slickdeals • Popular"
+      ],
+      "source_count": 1,
+      "source_url": "https://slickdeals.net/f/19911786-ymmv-style-selections-steel-100-ft-wall-mount-hose-hanger-6-88-lowe-s?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "target_method": "source-deal",
+      "current_price": 6.88,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": 6.88,
+      "price_history_count": 1,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "UNVERIFIED",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-23T01:00:16Z",
+      "last_seen": "2026-08-23T22:56:42Z",
+      "published_at": "2026-08-23T01:00:16Z",
       "score": 9,
       "confidence": 38,
       "hot": false
