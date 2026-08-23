@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T13:06:55Z",
+  "updated_at": "2026-08-23T13:45:13Z",
   "products": {
     "696652212a9ef2fa": {
       "last_price": 100.0,
@@ -1998,7 +1998,7 @@
       "url": "https://www.dealnews.com/DJI-Mini-4-K-Drone-with-Camera-for-256-free-shipping/22046026.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-17T17:23:30Z",
-      "last_seen": "2026-08-23T13:06:52Z",
+      "last_seen": "2026-08-23T13:45:11Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -4033,7 +4033,7 @@
       "url": "https://www.dealnews.com/Lowes-Electrolux-and-Frigidaire-End-of-Summer-Sale-Up-to-33-off-free-shipping/22064767.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-20T09:32:34Z",
-      "last_seen": "2026-08-23T13:06:51Z",
+      "last_seen": "2026-08-23T13:45:10Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -4124,7 +4124,7 @@
       "url": "https://www.dealnews.com/Lowes-Bathroom-Deals-Up-to-40-off-free-shipping/22064837.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-20T10:26:22Z",
-      "last_seen": "2026-08-23T13:06:51Z",
+      "last_seen": "2026-08-23T13:45:10Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -4135,7 +4135,7 @@
       "url": "https://www.dealnews.com/Lowes-Exterior-Paint-Deals-20-off-free-shipping-w-25/22064836.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-20T10:18:07Z",
-      "last_seen": "2026-08-23T13:06:51Z",
+      "last_seen": "2026-08-23T13:45:10Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -4526,7 +4526,7 @@
       "url": "https://www.dealnews.com/Project-Source-18-Piece-2-Ratcheting-Multi-Bit-Screwdriver-Set-for-7-free-shipping/22065667.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-20T23:39:26Z",
-      "last_seen": "2026-08-23T13:06:51Z",
+      "last_seen": "2026-08-23T13:45:10Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -5850,6 +5850,26 @@
       "sku": null,
       "first_seen": "2026-08-22T08:54:40Z",
       "last_seen": "2026-08-23T05:24:53Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:2ccd211fc6e58a6b": {
+      "price_history": [
+        {
+          "at": "2026-08-23T13:45:13Z",
+          "price": 11.98,
+          "source": "Slickdeals • Popular"
+        }
+      ],
+      "last_price": 11.98,
+      "lowest_price": 11.98,
+      "title": "Kobalt Assorted Metric and standard (SAE) 25 -Pieces Hex key set, $11.98, Lowe's",
+      "url": "https://slickdeals.net/f/19911579-kobalt-assorted-metric-and-standard-sae-25-pieces-hex-key-set-11-98-lowe-s?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "sku": null,
+      "first_seen": "2026-08-22T23:41:44Z",
+      "last_seen": "2026-08-23T13:45:13Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
