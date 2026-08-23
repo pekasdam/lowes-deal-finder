@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T10:09:53Z",
+  "generated_at": "2026-08-23T10:45:41Z",
   "app": "Lowe's Deal Finder",
   "scan_interval_minutes": 15,
   "stats": {
@@ -26,8 +26,8 @@
     },
     {
       "source": "DealNews • Latest",
-      "method": "rss:48",
-      "candidates": 1
+      "method": "rss:42",
+      "candidates": 0
     },
     {
       "source": "DealNews • Home & Garden",
@@ -85,47 +85,9 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-20T23:39:26Z",
-      "last_seen": "2026-08-23T10:09:49Z",
+      "last_seen": "2026-08-23T10:45:37Z",
       "published_at": "2026-08-20T23:39:26Z",
       "score": 127,
-      "confidence": 38,
-      "hot": false
-    },
-    {
-      "id": "6da41af1d3150f35",
-      "product_key": "title:ae0b133e3e72725a",
-      "sku": null,
-      "title": "Anker Nano 45W Foldable USB-C GaN Charger for $26 + free shipping w/ Prime",
-      "url": "https://www.dealnews.com/products/Anker/Anker-Nano-45-W-Foldable-USB-C-Ga-N-Charger/504983.html?iref=rss",
-      "deal_url": "https://www.dealnews.com/products/Anker/Anker-Nano-45-W-Foldable-USB-C-Ga-N-Charger/504983.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1783075478-51ml0i_dmdl.jpg?h=125&w=125",
-      "category": "Other",
-      "source": "DealNews • Latest",
-      "sources": [
-        "DealNews • Latest"
-      ],
-      "source_count": 1,
-      "source_url": "https://www.dealnews.com/products/Anker/Anker-Nano-45-W-Foldable-USB-C-Ga-N-Charger/504983.html?iref=rss",
-      "target_method": "source-deal",
-      "current_price": 26.0,
-      "original_price": null,
-      "observed_reference_price": null,
-      "lowest_observed_price": 26.0,
-      "price_history_count": 1,
-      "historical_low": false,
-      "discount_pct": null,
-      "discount_is_up_to": false,
-      "observed_drop_pct": null,
-      "status": "SEEN BEFORE",
-      "deal_type": "REGULAR DEAL",
-      "deal_types": [
-        "REGULAR DEAL"
-      ],
-      "signal_note": null,
-      "first_seen": "2026-08-22T10:24:56Z",
-      "last_seen": "2026-08-23T10:09:50Z",
-      "published_at": "2026-08-22T10:24:56Z",
-      "score": 113,
       "confidence": 38,
       "hot": false
     },
@@ -161,7 +123,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-20T10:18:07Z",
-      "last_seen": "2026-08-23T10:09:49Z",
+      "last_seen": "2026-08-23T10:45:37Z",
       "published_at": "2026-08-20T10:18:07Z",
       "score": 145,
       "confidence": 34,
@@ -199,7 +161,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-20T10:26:22Z",
-      "last_seen": "2026-08-23T10:09:49Z",
+      "last_seen": "2026-08-23T10:45:37Z",
       "published_at": "2026-08-20T10:26:22Z",
       "score": 117,
       "confidence": 28,
@@ -237,7 +199,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-20T09:32:34Z",
-      "last_seen": "2026-08-23T10:09:49Z",
+      "last_seen": "2026-08-23T10:45:37Z",
       "published_at": "2026-08-20T09:32:34Z",
       "score": 117,
       "confidence": 28,
@@ -315,7 +277,7 @@
       "first_seen": "2026-08-17T07:01:37Z",
       "last_seen": "2026-08-23T09:38:25Z",
       "published_at": "2026-08-23T05:38:19Z",
-      "score": 114,
+      "score": 58,
       "confidence": 58,
       "hot": false
     },
@@ -393,6 +355,44 @@
       "published_at": "2026-08-22T08:54:40Z",
       "score": 14,
       "confidence": 58,
+      "hot": false
+    },
+    {
+      "id": "6da41af1d3150f35",
+      "product_key": "title:ae0b133e3e72725a",
+      "sku": null,
+      "title": "Anker Nano 45W Foldable USB-C GaN Charger for $26 + free shipping w/ Prime",
+      "url": "https://www.dealnews.com/products/Anker/Anker-Nano-45-W-Foldable-USB-C-Ga-N-Charger/504983.html?iref=rss",
+      "deal_url": "https://www.dealnews.com/products/Anker/Anker-Nano-45-W-Foldable-USB-C-Ga-N-Charger/504983.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1783075478-51ml0i_dmdl.jpg?h=125&w=125",
+      "category": "Other",
+      "source": "DealNews • Latest",
+      "sources": [
+        "DealNews • Latest"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.dealnews.com/products/Anker/Anker-Nano-45-W-Foldable-USB-C-Ga-N-Charger/504983.html?iref=rss",
+      "target_method": "source-deal",
+      "current_price": 26.0,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": 26.0,
+      "price_history_count": 1,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "UNVERIFIED",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-22T10:24:56Z",
+      "last_seen": "2026-08-23T10:09:50Z",
+      "published_at": "2026-08-22T10:24:56Z",
+      "score": 52,
+      "confidence": 38,
       "hot": false
     },
     {
