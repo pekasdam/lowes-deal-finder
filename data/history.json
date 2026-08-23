@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T18:08:59Z",
+  "updated_at": "2026-08-23T18:52:57Z",
   "products": {
     "696652212a9ef2fa": {
       "last_price": 100.0,
@@ -2420,7 +2420,7 @@
       "url": "https://www.dealnews.com/Landscaping-Tools-Equipment-Sale-at-Woot-Up-to-88-off-free-shipping-w-Prime/22051897.html?iref=rss-c196",
       "sku": null,
       "first_seen": "2026-08-18T10:38:14Z",
-      "last_seen": "2026-08-23T18:08:57Z",
+      "last_seen": "2026-08-23T18:52:56Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -4033,7 +4033,7 @@
       "url": "https://www.dealnews.com/Lowes-Electrolux-and-Frigidaire-End-of-Summer-Sale-Up-to-33-off-free-shipping/22064767.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-20T09:32:34Z",
-      "last_seen": "2026-08-23T18:08:56Z",
+      "last_seen": "2026-08-23T18:52:54Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -4124,7 +4124,7 @@
       "url": "https://www.dealnews.com/Lowes-Bathroom-Deals-Up-to-40-off-free-shipping/22064837.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-20T10:26:22Z",
-      "last_seen": "2026-08-23T18:08:56Z",
+      "last_seen": "2026-08-23T18:52:54Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -4135,7 +4135,7 @@
       "url": "https://www.dealnews.com/Lowes-Exterior-Paint-Deals-20-off-free-shipping-w-25/22064836.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-20T10:18:07Z",
-      "last_seen": "2026-08-23T18:08:56Z",
+      "last_seen": "2026-08-23T18:52:54Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -4526,7 +4526,7 @@
       "url": "https://www.dealnews.com/Project-Source-18-Piece-2-Ratcheting-Multi-Bit-Screwdriver-Set-for-7-free-shipping/22065667.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-20T23:39:26Z",
-      "last_seen": "2026-08-23T18:08:56Z",
+      "last_seen": "2026-08-23T18:52:54Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -5950,6 +5950,66 @@
       "sku": null,
       "first_seen": "2026-08-23T05:42:25Z",
       "last_seen": "2026-08-23T16:08:21Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:357dc36fa61a0a65": {
+      "price_history": [
+        {
+          "at": "2026-08-23T18:52:57Z",
+          "price": 389.99,
+          "source": "Slickdeals • Popular"
+        }
+      ],
+      "last_price": 389.99,
+      "lowest_price": 389.99,
+      "title": "Greenworks 80V 21in Mower/Blower Kit, (2) 2.0 Ah Batteries and Charger $389.99",
+      "url": "https://slickdeals.net/f/19912701-greenworks-80v-21in-mower-blower-kit-2-2-0-ah-batteries-and-charger-389-99?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "sku": null,
+      "first_seen": "2026-08-23T07:24:05Z",
+      "last_seen": "2026-08-23T18:52:57Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:1dc8b6487ef12a16": {
+      "price_history": [
+        {
+          "at": "2026-08-23T18:52:57Z",
+          "price": 7.99,
+          "source": "Slickdeals • Popular"
+        }
+      ],
+      "last_price": 7.99,
+      "lowest_price": 7.99,
+      "title": "166-Piece LEGO Creator 3 in 1 Cute Hamster with a Flower $7.99 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/19913772-166-piece-lego-creator-3-in-1-cute-hamster-with-a-flower-7-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "sku": null,
+      "first_seen": "2026-08-23T16:08:30Z",
+      "last_seen": "2026-08-23T18:52:57Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:65f31287bc858505": {
+      "price_history": [
+        {
+          "at": "2026-08-23T18:52:57Z",
+          "price": 7.19,
+          "source": "Slickdeals • Popular"
+        }
+      ],
+      "last_price": 7.19,
+      "lowest_price": 7.19,
+      "title": "LEGO Creator 3 in 1 Wild Animals Surprising Spider Toy - Building Toy with 3 Build Options, Spider, Scorpion, or Snake -31159 $7.19",
+      "url": "https://slickdeals.net/f/19913685-lego-creator-3-in-1-wild-animals-surprising-spider-toy-building-toy-with-3-build-options-spider-scorpion-or-snake-31159-7-19?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "sku": null,
+      "first_seen": "2026-08-23T15:33:20Z",
+      "last_seen": "2026-08-23T18:52:57Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
