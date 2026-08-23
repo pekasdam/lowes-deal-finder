@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-23T15:08:44Z",
+  "generated_at": "2026-08-23T15:42:21Z",
   "app": "Lowe's Deal Finder",
   "scan_interval_minutes": 15,
   "stats": {
-    "total": 16,
+    "total": 17,
     "hot": 0,
-    "new": 1,
+    "new": 2,
     "price_drops": 0,
     "historical_lows": 0,
-    "with_price": 11,
+    "with_price": 12,
     "sources_scanned": 6,
     "direct_lowes": 3,
     "tracked_skus": 0,
@@ -26,12 +26,12 @@
     },
     {
       "source": "DealNews • Latest",
-      "method": "rss:43",
+      "method": "rss:46",
       "candidates": 0
     },
     {
       "source": "DealNews • Home & Garden",
-      "method": "rss:28",
+      "method": "rss:30",
       "candidates": 0
     },
     {
@@ -42,7 +42,7 @@
     {
       "source": "Slickdeals • Popular",
       "method": "rss:25",
-      "candidates": 0
+      "candidates": 2
     },
     {
       "source": "Lowe's Back Aisle verified seeds",
@@ -78,17 +78,93 @@
       "discount_pct": 40.0,
       "discount_is_up_to": false,
       "observed_drop_pct": null,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
       ],
       "signal_note": null,
       "first_seen": "2026-08-23T15:03:59Z",
-      "last_seen": "2026-08-23T15:08:43Z",
+      "last_seen": "2026-08-23T15:42:20Z",
       "published_at": "2026-08-23T15:03:59Z",
-      "score": 242,
+      "score": 217,
       "confidence": 44,
+      "hot": false
+    },
+    {
+      "id": "c293b8b48f240501",
+      "product_key": "title:311359101f78c86c",
+      "sku": null,
+      "title": "124-Piece LEGO Creator 3 in 1 Turtle with a Water Lily Flower $7.99 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/19913076-124-piece-lego-creator-3-in-1-turtle-with-a-water-lily-flower-7-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "deal_url": "https://slickdeals.net/f/19913076-124-piece-lego-creator-3-in-1-turtle-with-a-water-lily-flower-7-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "image": null,
+      "category": "Other",
+      "source": "Slickdeals • Popular",
+      "sources": [
+        "Slickdeals • Popular"
+      ],
+      "source_count": 1,
+      "source_url": "https://slickdeals.net/f/19913076-124-piece-lego-creator-3-in-1-turtle-with-a-water-lily-flower-7-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "target_method": "source-deal",
+      "current_price": 7.99,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": 7.99,
+      "price_history_count": 1,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-23T12:09:11Z",
+      "last_seen": "2026-08-23T15:42:21Z",
+      "published_at": "2026-08-23T12:09:11Z",
+      "score": 176,
+      "confidence": 38,
+      "hot": false
+    },
+    {
+      "id": "3431a0bc5c5e8294",
+      "product_key": "title:54c2d8767c9ce705",
+      "sku": null,
+      "title": "[SnS] $3.77* | 6-Pk 20-Oz Gatorade Lower Sugar Sports Drink (Fruit Punch) at Amazon",
+      "url": "https://slickdeals.net/f/19912407-sns-3-77-6-pk-20-oz-gatorade-lower-sugar-sports-drink-fruit-punch-at-amazon?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "deal_url": "https://slickdeals.net/f/19912407-sns-3-77-6-pk-20-oz-gatorade-lower-sugar-sports-drink-fruit-punch-at-amazon?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "image": null,
+      "category": "Other",
+      "source": "Slickdeals • Popular",
+      "sources": [
+        "Slickdeals • Popular"
+      ],
+      "source_count": 1,
+      "source_url": "https://slickdeals.net/f/19912407-sns-3-77-6-pk-20-oz-gatorade-lower-sugar-sports-drink-fruit-punch-at-amazon?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "target_method": "source-deal",
+      "current_price": 3.77,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": 3.77,
+      "price_history_count": 1,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "NEW",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-23T05:42:25Z",
+      "last_seen": "2026-08-23T15:42:21Z",
+      "published_at": "2026-08-23T05:42:25Z",
+      "score": 167,
+      "confidence": 38,
       "hot": false
     },
     {
@@ -123,7 +199,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-20T23:39:26Z",
-      "last_seen": "2026-08-23T15:08:41Z",
+      "last_seen": "2026-08-23T15:42:18Z",
       "published_at": "2026-08-20T23:39:26Z",
       "score": 127,
       "confidence": 38,
@@ -161,7 +237,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-20T10:18:07Z",
-      "last_seen": "2026-08-23T15:08:41Z",
+      "last_seen": "2026-08-23T15:42:18Z",
       "published_at": "2026-08-20T10:18:07Z",
       "score": 145,
       "confidence": 34,
@@ -199,7 +275,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-20T10:26:22Z",
-      "last_seen": "2026-08-23T15:08:41Z",
+      "last_seen": "2026-08-23T15:42:18Z",
       "published_at": "2026-08-20T10:26:22Z",
       "score": 117,
       "confidence": 28,
@@ -237,7 +313,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-20T09:32:34Z",
-      "last_seen": "2026-08-23T15:08:41Z",
+      "last_seen": "2026-08-23T15:42:18Z",
       "published_at": "2026-08-20T09:32:34Z",
       "score": 117,
       "confidence": 28,
@@ -429,7 +505,7 @@
       "first_seen": "2026-08-23T12:03:30Z",
       "last_seen": "2026-08-23T14:10:32Z",
       "published_at": "2026-08-23T12:03:30Z",
-      "score": 56,
+      "score": 9,
       "confidence": 38,
       "hot": false
     },
@@ -467,7 +543,7 @@
       "first_seen": "2026-08-17T17:23:30Z",
       "last_seen": "2026-08-23T14:10:30Z",
       "published_at": "2026-08-23T11:38:57Z",
-      "score": 23,
+      "score": 9,
       "confidence": 38,
       "hot": false
     },
@@ -505,7 +581,7 @@
       "first_seen": "2026-08-22T23:41:44Z",
       "last_seen": "2026-08-23T14:10:32Z",
       "published_at": "2026-08-22T23:41:44Z",
-      "score": 13,
+      "score": 9,
       "confidence": 38,
       "hot": false
     },
@@ -543,44 +619,6 @@
       "first_seen": "2026-08-22T10:24:56Z",
       "last_seen": "2026-08-23T10:09:50Z",
       "published_at": "2026-08-22T10:24:56Z",
-      "score": 9,
-      "confidence": 38,
-      "hot": false
-    },
-    {
-      "id": "5098dddc56d5e496",
-      "product_key": "title:4bb009e57428b5da",
-      "sku": null,
-      "title": "$8.99* | 5' JOYIN Spider Halloween Yard Decoration (Black) at Amazon",
-      "url": "https://slickdeals.net/f/19909272-8-99-5-joyin-spider-halloween-yard-decoration-black-at-amazon?utm_source=rss&utm_content=ht&utm_medium=RSS2",
-      "deal_url": "https://slickdeals.net/f/19909272-8-99-5-joyin-spider-halloween-yard-decoration-black-at-amazon?utm_source=rss&utm_content=ht&utm_medium=RSS2",
-      "image": null,
-      "category": "Home",
-      "source": "Slickdeals • Popular",
-      "sources": [
-        "Slickdeals • Popular"
-      ],
-      "source_count": 1,
-      "source_url": "https://slickdeals.net/f/19909272-8-99-5-joyin-spider-halloween-yard-decoration-black-at-amazon?utm_source=rss&utm_content=ht&utm_medium=RSS2",
-      "target_method": "source-deal",
-      "current_price": 8.99,
-      "original_price": null,
-      "observed_reference_price": null,
-      "lowest_observed_price": 8.99,
-      "price_history_count": 1,
-      "historical_low": false,
-      "discount_pct": null,
-      "discount_is_up_to": false,
-      "observed_drop_pct": null,
-      "status": "UNVERIFIED",
-      "deal_type": "REGULAR DEAL",
-      "deal_types": [
-        "REGULAR DEAL"
-      ],
-      "signal_note": null,
-      "first_seen": "2026-08-22T04:55:09Z",
-      "last_seen": "2026-08-22T21:41:58Z",
-      "published_at": "2026-08-22T04:55:09Z",
       "score": 9,
       "confidence": 38,
       "hot": false
