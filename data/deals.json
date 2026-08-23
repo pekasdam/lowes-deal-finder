@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-23T15:42:21Z",
+  "generated_at": "2026-08-23T16:08:21Z",
   "app": "Lowe's Deal Finder",
   "scan_interval_minutes": 15,
   "stats": {
-    "total": 17,
+    "total": 18,
     "hot": 0,
-    "new": 2,
+    "new": 0,
     "price_drops": 0,
     "historical_lows": 0,
     "with_price": 12,
@@ -26,13 +26,13 @@
     },
     {
       "source": "DealNews • Latest",
-      "method": "rss:46",
-      "candidates": 0
+      "method": "rss:50",
+      "candidates": 1
     },
     {
       "source": "DealNews • Home & Garden",
-      "method": "rss:30",
-      "candidates": 0
+      "method": "rss:32",
+      "candidates": 1
     },
     {
       "source": "Slickdeals • Frontpage",
@@ -85,10 +85,49 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-23T15:03:59Z",
-      "last_seen": "2026-08-23T15:42:20Z",
+      "last_seen": "2026-08-23T16:08:20Z",
       "published_at": "2026-08-23T15:03:59Z",
-      "score": 217,
+      "score": 216,
       "confidence": 44,
+      "hot": false
+    },
+    {
+      "id": "d6eda8237523b445",
+      "product_key": "title:fe44ced3dea3040b",
+      "sku": null,
+      "title": "Landscaping Tools & Equipment Sale at Woot: Up to 88% off + free shipping w/ Prime",
+      "url": "https://www.dealnews.com/Landscaping-Tools-Equipment-Sale-at-Woot-Up-to-88-off-free-shipping-w-Prime/22051897.html?iref=rss",
+      "deal_url": "https://www.dealnews.com/Landscaping-Tools-Equipment-Sale-at-Woot-Up-to-88-off-free-shipping-w-Prime/22051897.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1787049488-product-trimmed.jpg?h=115&w=125",
+      "category": "Tools",
+      "source": "DealNews • Latest",
+      "sources": [
+        "DealNews • Home & Garden",
+        "DealNews • Latest"
+      ],
+      "source_count": 2,
+      "source_url": "https://www.dealnews.com/Landscaping-Tools-Equipment-Sale-at-Woot-Up-to-88-off-free-shipping-w-Prime/22051897.html?iref=rss",
+      "target_method": "source-deal",
+      "current_price": null,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": null,
+      "price_history_count": 0,
+      "historical_low": false,
+      "discount_pct": 88.0,
+      "discount_is_up_to": true,
+      "observed_drop_pct": null,
+      "status": "SEEN BEFORE",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-18T10:38:14Z",
+      "last_seen": "2026-08-23T16:08:19Z",
+      "published_at": "2026-08-23T16:06:28Z",
+      "score": 153,
+      "confidence": 40,
       "hot": false
     },
     {
@@ -116,16 +155,16 @@
       "discount_pct": null,
       "discount_is_up_to": false,
       "observed_drop_pct": null,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
       ],
       "signal_note": null,
       "first_seen": "2026-08-23T12:09:11Z",
-      "last_seen": "2026-08-23T15:42:21Z",
+      "last_seen": "2026-08-23T16:08:21Z",
       "published_at": "2026-08-23T12:09:11Z",
-      "score": 176,
+      "score": 151,
       "confidence": 38,
       "hot": false
     },
@@ -154,16 +193,16 @@
       "discount_pct": null,
       "discount_is_up_to": false,
       "observed_drop_pct": null,
-      "status": "NEW",
+      "status": "SEEN BEFORE",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
       ],
       "signal_note": null,
       "first_seen": "2026-08-23T05:42:25Z",
-      "last_seen": "2026-08-23T15:42:21Z",
+      "last_seen": "2026-08-23T16:08:21Z",
       "published_at": "2026-08-23T05:42:25Z",
-      "score": 167,
+      "score": 141,
       "confidence": 38,
       "hot": false
     },
@@ -199,7 +238,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-20T23:39:26Z",
-      "last_seen": "2026-08-23T15:42:18Z",
+      "last_seen": "2026-08-23T16:08:18Z",
       "published_at": "2026-08-20T23:39:26Z",
       "score": 127,
       "confidence": 38,
@@ -237,7 +276,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-20T10:18:07Z",
-      "last_seen": "2026-08-23T15:42:18Z",
+      "last_seen": "2026-08-23T16:08:18Z",
       "published_at": "2026-08-20T10:18:07Z",
       "score": 145,
       "confidence": 34,
@@ -275,7 +314,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-20T10:26:22Z",
-      "last_seen": "2026-08-23T15:42:18Z",
+      "last_seen": "2026-08-23T16:08:18Z",
       "published_at": "2026-08-20T10:26:22Z",
       "score": 117,
       "confidence": 28,
@@ -313,7 +352,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-20T09:32:34Z",
-      "last_seen": "2026-08-23T15:42:18Z",
+      "last_seen": "2026-08-23T16:08:18Z",
       "published_at": "2026-08-20T09:32:34Z",
       "score": 117,
       "confidence": 28,
