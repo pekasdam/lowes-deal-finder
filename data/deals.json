@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T09:38:26Z",
+  "generated_at": "2026-08-23T10:09:53Z",
   "app": "Lowe's Deal Finder",
   "scan_interval_minutes": 15,
   "stats": {
@@ -31,13 +31,13 @@
     },
     {
       "source": "DealNews • Home & Garden",
-      "method": "rss:28",
+      "method": "rss:26",
       "candidates": 0
     },
     {
       "source": "Slickdeals • Frontpage",
       "method": "rss:25",
-      "candidates": 1
+      "candidates": 0
     },
     {
       "source": "Slickdeals • Popular",
@@ -53,44 +53,6 @@
   "signal_disclaimer": "Penny-watch and likely-pricing-error labels are automated leads, not guarantees. Confidence reflects evidence quality, not checkout certainty. Lowe's prices can vary by store/ZIP and pricing mistakes can be corrected or orders cancelled.",
   "attribution": "DealNews and Slickdeals feed items retain their source attribution and source/referral links when used.",
   "deals": [
-    {
-      "id": "e11d2bb741096c76",
-      "product_key": "title:ca2d1055441578e4",
-      "sku": null,
-      "title": "DeWALT 20V MAX XR Oscillating Multi-Tool Kit w/ 2Ah Battery & Charger $99 + Free S&H",
-      "url": "https://www.lowes.com/pd/DEWALT-X...1000898624",
-      "deal_url": "https://slickdeals.net/f/19911285-dewalt-xr-20-volt-max-cordless-brushless-variable-speed-13-piece-oscillating-multi-tool-battery-included-and-charger-included-dcs356d1-99?utm_source=rss&utm_content=fp&utm_medium=RSS2",
-      "image": null,
-      "category": "Tools",
-      "source": "Slickdeals • Frontpage",
-      "sources": [
-        "Slickdeals • Frontpage"
-      ],
-      "source_count": 1,
-      "source_url": "https://slickdeals.net/f/19911285-dewalt-xr-20-volt-max-cordless-brushless-variable-speed-13-piece-oscillating-multi-tool-battery-included-and-charger-included-dcs356d1-99?utm_source=rss&utm_content=fp&utm_medium=RSS2",
-      "target_method": "lowes-direct",
-      "current_price": 99.0,
-      "original_price": null,
-      "observed_reference_price": null,
-      "lowest_observed_price": 99.0,
-      "price_history_count": 1,
-      "historical_low": false,
-      "discount_pct": null,
-      "discount_is_up_to": false,
-      "observed_drop_pct": null,
-      "status": "SEEN BEFORE",
-      "deal_type": "REGULAR DEAL",
-      "deal_types": [
-        "REGULAR DEAL"
-      ],
-      "signal_note": null,
-      "first_seen": "2026-08-17T07:01:37Z",
-      "last_seen": "2026-08-23T09:38:25Z",
-      "published_at": "2026-08-23T05:38:19Z",
-      "score": 170,
-      "confidence": 58,
-      "hot": false
-    },
     {
       "id": "5afa7c39a4aa9327",
       "product_key": "title:aa0508618b8f5ae7",
@@ -123,7 +85,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-20T23:39:26Z",
-      "last_seen": "2026-08-23T09:38:23Z",
+      "last_seen": "2026-08-23T10:09:49Z",
       "published_at": "2026-08-20T23:39:26Z",
       "score": 127,
       "confidence": 38,
@@ -161,9 +123,9 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-22T10:24:56Z",
-      "last_seen": "2026-08-23T09:38:24Z",
+      "last_seen": "2026-08-23T10:09:50Z",
       "published_at": "2026-08-22T10:24:56Z",
-      "score": 114,
+      "score": 113,
       "confidence": 38,
       "hot": false
     },
@@ -199,7 +161,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-20T10:18:07Z",
-      "last_seen": "2026-08-23T09:38:23Z",
+      "last_seen": "2026-08-23T10:09:49Z",
       "published_at": "2026-08-20T10:18:07Z",
       "score": 145,
       "confidence": 34,
@@ -237,7 +199,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-20T10:26:22Z",
-      "last_seen": "2026-08-23T09:38:23Z",
+      "last_seen": "2026-08-23T10:09:49Z",
       "published_at": "2026-08-20T10:26:22Z",
       "score": 117,
       "confidence": 28,
@@ -275,7 +237,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-20T09:32:34Z",
-      "last_seen": "2026-08-23T09:38:23Z",
+      "last_seen": "2026-08-23T10:09:49Z",
       "published_at": "2026-08-20T09:32:34Z",
       "score": 117,
       "confidence": 28,
@@ -317,6 +279,44 @@
       "published_at": "2026-08-19T07:35:58Z",
       "score": 7,
       "confidence": 28,
+      "hot": false
+    },
+    {
+      "id": "e11d2bb741096c76",
+      "product_key": "title:ca2d1055441578e4",
+      "sku": null,
+      "title": "DeWALT 20V MAX XR Oscillating Multi-Tool Kit w/ 2Ah Battery & Charger $99 + Free S&H",
+      "url": "https://www.lowes.com/pd/DEWALT-X...1000898624",
+      "deal_url": "https://slickdeals.net/f/19911285-dewalt-xr-20-volt-max-cordless-brushless-variable-speed-13-piece-oscillating-multi-tool-battery-included-and-charger-included-dcs356d1-99?utm_source=rss&utm_content=fp&utm_medium=RSS2",
+      "image": null,
+      "category": "Tools",
+      "source": "Slickdeals • Frontpage",
+      "sources": [
+        "Slickdeals • Frontpage"
+      ],
+      "source_count": 1,
+      "source_url": "https://slickdeals.net/f/19911285-dewalt-xr-20-volt-max-cordless-brushless-variable-speed-13-piece-oscillating-multi-tool-battery-included-and-charger-included-dcs356d1-99?utm_source=rss&utm_content=fp&utm_medium=RSS2",
+      "target_method": "lowes-direct",
+      "current_price": 99.0,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": 99.0,
+      "price_history_count": 1,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "UNVERIFIED",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-17T07:01:37Z",
+      "last_seen": "2026-08-23T09:38:25Z",
+      "published_at": "2026-08-23T05:38:19Z",
+      "score": 114,
+      "confidence": 58,
       "hot": false
     },
     {
