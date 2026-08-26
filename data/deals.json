@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-26T11:18:51Z",
+  "generated_at": "2026-08-26T11:52:57Z",
   "app": "Lowe's Deal Finder",
   "scan_interval_minutes": 15,
   "stats": {
-    "total": 41,
+    "total": 42,
     "hot": 0,
-    "new": 0,
+    "new": 1,
     "price_drops": 0,
     "historical_lows": 0,
-    "with_price": 37,
+    "with_price": 38,
     "sources_scanned": 6,
-    "direct_lowes": 2,
+    "direct_lowes": 3,
     "tracked_skus": 0,
     "clearance": 2,
     "penny_watch": 0,
@@ -27,22 +27,22 @@
     {
       "source": "DealNews • Latest",
       "method": "rss:50",
-      "candidates": 7
+      "candidates": 1
     },
     {
       "source": "DealNews • Home & Garden",
-      "method": "rss:49",
+      "method": "rss:50",
       "candidates": 9
     },
     {
       "source": "Slickdeals • Frontpage",
       "method": "rss:25",
-      "candidates": 0
+      "candidates": 1
     },
     {
       "source": "Slickdeals • Popular",
       "method": "rss:25",
-      "candidates": 1
+      "candidates": 0
     },
     {
       "source": "Lowe's Back Aisle verified seeds",
@@ -54,40 +54,40 @@
   "attribution": "DealNews and Slickdeals feed items retain their source attribution and source/referral links when used.",
   "deals": [
     {
-      "id": "3c2e97376bc70218",
-      "product_key": "title:586ee489e942f451",
+      "id": "3f56962bef0c68c5",
+      "product_key": "title:47a65629558fafaa",
       "sku": null,
-      "title": "$19.98: Klein Tools 20-in-1 Impact Driver Set with Screwdriver Bits and Flip Sockets at Lowe's, Free Pickup",
+      "title": "Klein Tools 20-In-1 Multi-Function Impact Socket & Screwdriver Set $20 + Free Pickup",
       "url": "https://www.lowes.com/pd/Klein-To...5014351837",
-      "deal_url": "https://slickdeals.net/f/19926858-19-98-klein-tools-20-in-1-impact-driver-set-with-screwdriver-bits-and-flip-sockets-at-lowe-s-free-pickup?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "deal_url": "https://slickdeals.net/f/19926858-19-98-klein-tools-20-in-1-impact-driver-set-with-screwdriver-bits-and-flip-sockets-at-lowe-s-free-pickup?utm_source=rss&utm_content=fp&utm_medium=RSS2",
       "image": null,
       "category": "Tools",
-      "source": "Slickdeals • Popular",
+      "source": "Slickdeals • Frontpage",
       "sources": [
-        "Slickdeals • Popular"
+        "Slickdeals • Frontpage"
       ],
       "source_count": 1,
-      "source_url": "https://slickdeals.net/f/19926858-19-98-klein-tools-20-in-1-impact-driver-set-with-screwdriver-bits-and-flip-sockets-at-lowe-s-free-pickup?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "source_url": "https://slickdeals.net/f/19926858-19-98-klein-tools-20-in-1-impact-driver-set-with-screwdriver-bits-and-flip-sockets-at-lowe-s-free-pickup?utm_source=rss&utm_content=fp&utm_medium=RSS2",
       "target_method": "lowes-direct",
-      "current_price": 19.98,
+      "current_price": 20.0,
       "original_price": null,
       "observed_reference_price": null,
-      "lowest_observed_price": 19.98,
+      "lowest_observed_price": 20.0,
       "price_history_count": 1,
       "historical_low": false,
       "discount_pct": null,
       "discount_is_up_to": false,
       "observed_drop_pct": null,
-      "status": "SEEN BEFORE",
+      "status": "NEW",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
       ],
       "signal_note": null,
-      "first_seen": "2026-08-26T07:00:43Z",
-      "last_seen": "2026-08-26T11:18:51Z",
-      "published_at": "2026-08-26T07:00:43Z",
-      "score": 165,
+      "first_seen": "2026-08-26T11:29:20Z",
+      "last_seen": "2026-08-26T11:52:56Z",
+      "published_at": "2026-08-26T11:29:20Z",
+      "score": 201,
       "confidence": 58,
       "hot": false
     },
@@ -103,10 +103,9 @@
       "source": "DealNews • Lowe's",
       "sources": [
         "DealNews • Home & Garden",
-        "DealNews • Latest",
         "DealNews • Lowe's"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "source_url": "https://www.dealnews.com/products/Klein-Tools/Klein-Tools-20-in-1-Impact-Driver-Set/474285.html?iref=rss",
       "target_method": "source-deal",
       "current_price": 20.0,
@@ -125,9 +124,9 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-26T09:17:13Z",
-      "last_seen": "2026-08-26T11:18:48Z",
+      "last_seen": "2026-08-26T11:52:54Z",
       "published_at": "2026-08-26T09:17:13Z",
-      "score": 199,
+      "score": 175,
       "confidence": 50,
       "hot": false
     },
@@ -143,10 +142,9 @@
       "source": "DealNews • Lowe's",
       "sources": [
         "DealNews • Home & Garden",
-        "DealNews • Latest",
         "DealNews • Lowe's"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "source_url": "https://www.dealnews.com/Lowes-Kitchen-Countertops-Deals-for-From-49-free-shipping/22099598.html?iref=rss",
       "target_method": "source-deal",
       "current_price": 49.0,
@@ -165,9 +163,9 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-26T09:06:11Z",
-      "last_seen": "2026-08-26T11:18:48Z",
+      "last_seen": "2026-08-26T11:52:54Z",
       "published_at": "2026-08-26T09:06:11Z",
-      "score": 199,
+      "score": 174,
       "confidence": 50,
       "hot": false
     },
@@ -183,10 +181,9 @@
       "source": "DealNews • Lowe's",
       "sources": [
         "DealNews • Home & Garden",
-        "DealNews • Latest",
         "DealNews • Lowe's"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "source_url": "https://www.dealnews.com/Lowes-Leaf-Blowers-Deals-for-From-80-free-shipping/22099579.html?iref=rss",
       "target_method": "source-deal",
       "current_price": 80.0,
@@ -205,9 +202,9 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-26T08:56:37Z",
-      "last_seen": "2026-08-26T11:18:48Z",
+      "last_seen": "2026-08-26T11:52:54Z",
       "published_at": "2026-08-26T08:56:37Z",
-      "score": 199,
+      "score": 174,
       "confidence": 50,
       "hot": false
     },
@@ -223,10 +220,9 @@
       "source": "DealNews • Lowe's",
       "sources": [
         "DealNews • Home & Garden",
-        "DealNews • Latest",
         "DealNews • Lowe's"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "source_url": "https://www.dealnews.com/Lowes-Landscaping-Deals-Up-to-50-off-free-shipping-w-25/22099576.html?iref=rss",
       "target_method": "source-deal",
       "current_price": 50.0,
@@ -245,9 +241,9 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-26T08:50:56Z",
-      "last_seen": "2026-08-26T11:18:48Z",
+      "last_seen": "2026-08-26T11:52:54Z",
       "published_at": "2026-08-26T08:50:56Z",
-      "score": 199,
+      "score": 174,
       "confidence": 50,
       "hot": false
     },
@@ -284,7 +280,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-26T08:33:24Z",
-      "last_seen": "2026-08-26T11:18:48Z",
+      "last_seen": "2026-08-26T11:52:54Z",
       "published_at": "2026-08-26T08:33:24Z",
       "score": 174,
       "confidence": 50,
@@ -323,9 +319,9 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-26T09:39:00Z",
-      "last_seen": "2026-08-26T11:18:49Z",
+      "last_seen": "2026-08-26T11:52:55Z",
       "published_at": "2026-08-26T09:39:00Z",
-      "score": 161,
+      "score": 160,
       "confidence": 50,
       "hot": false
     },
@@ -341,10 +337,9 @@
       "source": "DealNews • Lowe's",
       "sources": [
         "DealNews • Home & Garden",
-        "DealNews • Latest",
         "DealNews • Lowe's"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "source_url": "https://www.dealnews.com/Lowes-Artificial-Plants-Deals-Up-to-50-off-free-shipping/22099613.html?iref=rss",
       "target_method": "source-deal",
       "current_price": null,
@@ -363,48 +358,10 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-26T09:26:48Z",
-      "last_seen": "2026-08-26T11:18:48Z",
+      "last_seen": "2026-08-26T11:52:54Z",
       "published_at": "2026-08-26T09:26:48Z",
-      "score": 190,
+      "score": 165,
       "confidence": 40,
-      "hot": false
-    },
-    {
-      "id": "c180094c705dfe50",
-      "product_key": "title:4009ce5d092fe178",
-      "sku": null,
-      "title": "Heavy Duty Belt Loop Key Chain Holder for $11 + free shipping w/ Prime",
-      "url": "https://www.dealnews.com/Heavy-Duty-Belt-Loop-Key-Chain-Holder-for-11-free-shipping-w-Prime/22099628.html?iref=rss",
-      "deal_url": "https://www.dealnews.com/Heavy-Duty-Belt-Loop-Key-Chain-Holder-for-11-free-shipping-w-Prime/22099628.html?iref=rss",
-      "image": "https://d.dlnws.com/64599/1787736688-71bxuwhebbl.jpg?h=125&w=125",
-      "category": "Other",
-      "source": "DealNews • Latest",
-      "sources": [
-        "DealNews • Latest"
-      ],
-      "source_count": 1,
-      "source_url": "https://www.dealnews.com/Heavy-Duty-Belt-Loop-Key-Chain-Holder-for-11-free-shipping-w-Prime/22099628.html?iref=rss",
-      "target_method": "source-deal",
-      "current_price": 11.0,
-      "original_price": null,
-      "observed_reference_price": null,
-      "lowest_observed_price": 11.0,
-      "price_history_count": 1,
-      "historical_low": false,
-      "discount_pct": null,
-      "discount_is_up_to": false,
-      "observed_drop_pct": null,
-      "status": "SEEN BEFORE",
-      "deal_type": "REGULAR DEAL",
-      "deal_types": [
-        "REGULAR DEAL"
-      ],
-      "signal_note": null,
-      "first_seen": "2026-08-26T09:31:34Z",
-      "last_seen": "2026-08-26T11:18:49Z",
-      "published_at": "2026-08-26T09:31:34Z",
-      "score": 146,
-      "confidence": 38,
       "hot": false
     },
     {
@@ -439,9 +396,9 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-26T08:48:43Z",
-      "last_seen": "2026-08-26T11:18:49Z",
+      "last_seen": "2026-08-26T11:52:55Z",
       "published_at": "2026-08-26T08:48:43Z",
-      "score": 140,
+      "score": 139,
       "confidence": 38,
       "hot": false
     },
@@ -477,9 +434,9 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-26T08:46:28Z",
-      "last_seen": "2026-08-26T11:18:49Z",
+      "last_seen": "2026-08-26T11:52:55Z",
       "published_at": "2026-08-26T08:46:28Z",
-      "score": 140,
+      "score": 139,
       "confidence": 38,
       "hot": false
     },
@@ -515,7 +472,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-24T19:38:14Z",
-      "last_seen": "2026-08-26T11:18:48Z",
+      "last_seen": "2026-08-26T11:52:54Z",
       "published_at": "2026-08-24T19:38:14Z",
       "score": 127,
       "confidence": 38,
@@ -553,7 +510,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-24T19:35:25Z",
-      "last_seen": "2026-08-26T11:18:48Z",
+      "last_seen": "2026-08-26T11:52:54Z",
       "published_at": "2026-08-24T19:35:25Z",
       "score": 127,
       "confidence": 38,
@@ -591,7 +548,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-24T19:24:37Z",
-      "last_seen": "2026-08-26T11:18:48Z",
+      "last_seen": "2026-08-26T11:52:54Z",
       "published_at": "2026-08-24T19:24:37Z",
       "score": 127,
       "confidence": 38,
@@ -629,7 +586,7 @@
       ],
       "signal_note": null,
       "first_seen": "2026-08-24T19:22:04Z",
-      "last_seen": "2026-08-26T11:18:48Z",
+      "last_seen": "2026-08-26T11:52:54Z",
       "published_at": "2026-08-24T19:22:04Z",
       "score": 127,
       "confidence": 38,
@@ -712,6 +669,44 @@
       "hot": false
     },
     {
+      "id": "3c2e97376bc70218",
+      "product_key": "title:586ee489e942f451",
+      "sku": null,
+      "title": "$19.98: Klein Tools 20-in-1 Impact Driver Set with Screwdriver Bits and Flip Sockets at Lowe's, Free Pickup",
+      "url": "https://www.lowes.com/pd/Klein-To...5014351837",
+      "deal_url": "https://slickdeals.net/f/19926858-19-98-klein-tools-20-in-1-impact-driver-set-with-screwdriver-bits-and-flip-sockets-at-lowe-s-free-pickup?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "image": null,
+      "category": "Tools",
+      "source": "Slickdeals • Popular",
+      "sources": [
+        "Slickdeals • Popular"
+      ],
+      "source_count": 1,
+      "source_url": "https://slickdeals.net/f/19926858-19-98-klein-tools-20-in-1-impact-driver-set-with-screwdriver-bits-and-flip-sockets-at-lowe-s-free-pickup?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "target_method": "lowes-direct",
+      "current_price": 19.98,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": 19.98,
+      "price_history_count": 1,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "UNVERIFIED",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-26T07:00:43Z",
+      "last_seen": "2026-08-26T11:18:51Z",
+      "published_at": "2026-08-26T07:00:43Z",
+      "score": 109,
+      "confidence": 58,
+      "hot": false
+    },
+    {
       "id": "afeaf72e2e0aad1d",
       "product_key": "title:2df200c74214a4b5",
       "sku": null,
@@ -785,6 +780,44 @@
       "published_at": "2026-08-26T00:50:47Z",
       "score": 11,
       "confidence": 44,
+      "hot": false
+    },
+    {
+      "id": "c180094c705dfe50",
+      "product_key": "title:4009ce5d092fe178",
+      "sku": null,
+      "title": "Heavy Duty Belt Loop Key Chain Holder for $11 + free shipping w/ Prime",
+      "url": "https://www.dealnews.com/Heavy-Duty-Belt-Loop-Key-Chain-Holder-for-11-free-shipping-w-Prime/22099628.html?iref=rss",
+      "deal_url": "https://www.dealnews.com/Heavy-Duty-Belt-Loop-Key-Chain-Holder-for-11-free-shipping-w-Prime/22099628.html?iref=rss",
+      "image": "https://d.dlnws.com/64599/1787736688-71bxuwhebbl.jpg?h=125&w=125",
+      "category": "Other",
+      "source": "DealNews • Latest",
+      "sources": [
+        "DealNews • Latest"
+      ],
+      "source_count": 1,
+      "source_url": "https://www.dealnews.com/Heavy-Duty-Belt-Loop-Key-Chain-Holder-for-11-free-shipping-w-Prime/22099628.html?iref=rss",
+      "target_method": "source-deal",
+      "current_price": 11.0,
+      "original_price": null,
+      "observed_reference_price": null,
+      "lowest_observed_price": 11.0,
+      "price_history_count": 1,
+      "historical_low": false,
+      "discount_pct": null,
+      "discount_is_up_to": false,
+      "observed_drop_pct": null,
+      "status": "UNVERIFIED",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ],
+      "signal_note": null,
+      "first_seen": "2026-08-26T09:31:34Z",
+      "last_seen": "2026-08-26T11:18:49Z",
+      "published_at": "2026-08-26T09:31:34Z",
+      "score": 85,
+      "confidence": 38,
       "hot": false
     },
     {
