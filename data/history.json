@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T06:59:56Z",
+  "updated_at": "2026-08-31T15:02:32Z",
   "products": {
     "696652212a9ef2fa": {
       "last_price": 100.0,
@@ -8572,7 +8572,7 @@
       "url": "https://www.dealnews.com/Lowes-Labor-Day-Sale-Up-to-45-off-free-shipping-w-35/22104790.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-27T10:06:17Z",
-      "last_seen": "2026-08-31T06:59:52Z",
+      "last_seen": "2026-08-31T15:02:29Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -9038,7 +9038,7 @@
       "url": "https://www.dealnews.com/Black-Jack-Drive-Maxx-1000-4-75-Gallon-Asphalt-Sealer-for-32-free-shipping-w-45/22110160.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-28T19:07:02Z",
-      "last_seen": "2026-08-31T06:59:52Z",
+      "last_seen": "2026-08-31T15:02:29Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -9058,7 +9058,7 @@
       "url": "https://www.dealnews.com/Project-Source-Teeny-Commander-X-Small-Clear-Stackable-Tote-w-Standard-Snap-Lid-for-2-pickup/22110159.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-28T19:02:00Z",
-      "last_seen": "2026-08-31T06:59:52Z",
+      "last_seen": "2026-08-31T15:02:29Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -9078,7 +9078,7 @@
       "url": "https://www.dealnews.com/Tommy-Bahama-High-Folding-Beach-Chair-for-30-free-shipping/22110144.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-28T18:58:11Z",
-      "last_seen": "2026-08-31T06:59:52Z",
+      "last_seen": "2026-08-31T15:02:29Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -9098,7 +9098,7 @@
       "url": "https://www.dealnews.com/Toject-9-Piece-Wicker-Outdoor-Patio-Conversation-Sofa-Sectional-Set-w-42-Metal-Fire-Pit-Black-Cushions-for-1-079-free-shipping/22110124.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-28T18:32:41Z",
-      "last_seen": "2026-08-31T06:59:52Z",
+      "last_seen": "2026-08-31T15:02:29Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -9118,7 +9118,7 @@
       "url": "https://www.dealnews.com/Style-Selections-Polyester-Tropical-Print-Folding-Beach-Chair-for-25-pickuo/22110105.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-28T18:19:20Z",
-      "last_seen": "2026-08-31T06:59:52Z",
+      "last_seen": "2026-08-31T15:02:29Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -9138,7 +9138,7 @@
       "url": "https://www.dealnews.com/Miracle-Gro-4-8-x-4-8-x-6-5-Foot-Transparent-Greenhouse-Kit-for-76-free-shipping/22110084.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-28T18:11:56Z",
-      "last_seen": "2026-08-31T06:59:52Z",
+      "last_seen": "2026-08-31T15:02:29Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -9852,6 +9852,37 @@
       "sku": null,
       "first_seen": "2026-08-30T16:49:40Z",
       "last_seen": "2026-08-31T06:59:56Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:f7a54c19eaf692b0": {
+      "price_history": [
+        {
+          "at": "2026-08-31T15:02:31Z",
+          "price": 40.0,
+          "source": "DealNews • Home & Garden"
+        }
+      ],
+      "last_price": 40.0,
+      "lowest_price": 40.0,
+      "title": "4x4 Solar Post Cap Lights 12-Pack for $40 + free shipping",
+      "url": "https://www.dealnews.com/4-x4-Solar-Post-Cap-Lights-12-Pack-for-40-free-shipping/22123877.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-08-31T12:05:04Z",
+      "last_seen": "2026-08-31T15:02:31Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:602f900176706665": {
+      "title": "Home Depot Labor Day Sale Ryobi Deals: Up to 61% off + free shipping",
+      "url": "https://www.dealnews.com/Home-Depot-Labor-Day-Sale-Ryobi-Deals-Up-to-61-off-free-shipping/22123810.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-08-31T11:25:33Z",
+      "last_seen": "2026-08-31T15:02:31Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
