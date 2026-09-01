@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T18:26:11Z",
+  "updated_at": "2026-09-01T21:18:20Z",
   "products": {
     "696652212a9ef2fa": {
       "last_price": 100.0,
@@ -8572,7 +8572,7 @@
       "url": "https://www.dealnews.com/Lowes-Labor-Day-Sale-Up-to-45-off-free-shipping-w-35/22104790.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-27T10:06:17Z",
-      "last_seen": "2026-09-01T18:26:08Z",
+      "last_seen": "2026-09-01T21:18:17Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -8583,7 +8583,7 @@
       "url": "https://www.dealnews.com/Home-Depot-Labor-Day-Sale-Up-to-61-off-free-shipping/22129623.html?iref=rss-c196",
       "sku": null,
       "first_seen": "2026-08-27T09:44:11Z",
-      "last_seen": "2026-09-01T18:26:10Z",
+      "last_seen": "2026-09-01T21:18:19Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -10002,7 +10002,7 @@
       "url": "https://www.dealnews.com/products/General-Electric/GE-30-Freestanding-Electric-Convection-Range-w-Air-Fry/528366.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-31T23:22:37Z",
-      "last_seen": "2026-09-01T18:26:08Z",
+      "last_seen": "2026-09-01T21:18:17Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -10144,7 +10144,7 @@
       "url": "https://www.dealnews.com/Samsung-Bespoke-AI-4-Door-French-Door-29-cu-ft-Refrigerator-w-Family-Hub-for-2-999-delivery-varies/22129776.html?iref=rss-c196",
       "sku": null,
       "first_seen": "2026-09-01T14:29:22Z",
-      "last_seen": "2026-09-01T18:26:10Z",
+      "last_seen": "2026-09-01T21:18:19Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -10204,7 +10204,7 @@
       "url": "https://www.dealnews.com/Vevor-Succe-Buy-5-Portable-Cordless-Bandsaw-for-83-free-shipping/22129730.html?iref=rss-c196",
       "sku": null,
       "first_seen": "2026-09-01T13:56:07Z",
-      "last_seen": "2026-09-01T18:26:10Z",
+      "last_seen": "2026-09-01T21:18:19Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -10305,6 +10305,106 @@
       "sku": null,
       "first_seen": "2026-09-01T17:04:02Z",
       "last_seen": "2026-09-01T18:26:11Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:9e6387ec90c5baf2": {
+      "price_history": [
+        {
+          "at": "2026-09-01T21:18:18Z",
+          "price": 13.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 13.0,
+      "lowest_price": 13.0,
+      "title": "Idealforce 10000mAh Fast Charging Power Bank for $13 + free shipping",
+      "url": "https://www.dealnews.com/Idealforce-10000-m-Ah-Fast-Charging-Power-Bank-for-13-free-shipping/22130245.html?iref=rss",
+      "sku": null,
+      "first_seen": "2026-09-01T20:07:36Z",
+      "last_seen": "2026-09-01T21:18:18Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:392444d12d682293": {
+      "price_history": [
+        {
+          "at": "2026-09-01T21:18:19Z",
+          "price": 38.0,
+          "source": "DealNews • Home & Garden"
+        }
+      ],
+      "last_price": 38.0,
+      "lowest_price": 38.0,
+      "title": "Glitzhome Lighted Skeleton Dog 20.5\" Halloween Porch Decor for $38 + free shipping",
+      "url": "https://www.dealnews.com/products/Glitzhome/Glitzhome-Lighted-Skeleton-Dog-20-5-Halloween-Porch-Decor/529015.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-09-01T19:27:30Z",
+      "last_seen": "2026-09-01T21:18:19Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:71c6556a49135051": {
+      "price_history": [
+        {
+          "at": "2026-09-01T21:18:20Z",
+          "price": 4.79,
+          "source": "Slickdeals • Popular"
+        }
+      ],
+      "last_price": 4.79,
+      "lowest_price": 4.79,
+      "title": "Age of Empires III: Definitive Edition (PC Digital Download) Steam key - $4.79",
+      "url": "https://slickdeals.net/f/19955118-age-of-empires-iii-definitive-edition-pc-digital-download-steam-key-4-79?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "sku": null,
+      "first_seen": "2026-09-01T16:07:30Z",
+      "last_seen": "2026-09-01T21:18:20Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:aa15225f34f974b8": {
+      "price_history": [
+        {
+          "at": "2026-09-01T21:18:20Z",
+          "price": 34.99,
+          "source": "Slickdeals • Popular"
+        }
+      ],
+      "last_price": 34.99,
+      "lowest_price": 34.99,
+      "title": "Tietoc 1200W Brushless Leaf Blower w/ 2x 4.0Ah Batteries & 6-Speed Control $34.99 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/19956201-tietoc-1200w-brushless-leaf-blower-w-2x-4-0ah-batteries-6-speed-control-34-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "sku": null,
+      "first_seen": "2026-09-01T19:12:26Z",
+      "last_seen": "2026-09-01T21:18:20Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:c6e48094ad3b057c": {
+      "price_history": [
+        {
+          "at": "2026-09-01T21:18:20Z",
+          "price": 9.99,
+          "source": "Slickdeals • Popular"
+        }
+      ],
+      "last_price": 9.99,
+      "lowest_price": 9.99,
+      "title": "50-Piece Coluans Halloween Trick or Treat Light Up Rings for Kids $9.99 + Free Shipping w/ Prime or on $35+",
+      "url": "https://slickdeals.net/f/19955733-50-piece-coluans-halloween-trick-or-treat-light-up-rings-for-kids-9-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "sku": null,
+      "first_seen": "2026-09-01T17:49:29Z",
+      "last_seen": "2026-09-01T21:18:20Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
