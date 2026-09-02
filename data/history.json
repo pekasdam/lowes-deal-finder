@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T11:41:37Z",
+  "updated_at": "2026-09-02T15:22:05Z",
   "products": {
     "696652212a9ef2fa": {
       "last_price": 100.0,
@@ -8572,7 +8572,7 @@
       "url": "https://www.dealnews.com/Lowes-Labor-Day-Sale-Up-to-45-off-free-shipping-w-35/22134203.html?iref=rss-c196",
       "sku": null,
       "first_seen": "2026-08-27T10:06:17Z",
-      "last_seen": "2026-09-02T11:41:36Z",
+      "last_seen": "2026-09-02T15:22:03Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -8583,7 +8583,7 @@
       "url": "https://www.dealnews.com/Home-Depot-Labor-Day-Sale-Up-to-61-off-free-shipping/22129623.html?iref=rss-c196",
       "sku": null,
       "first_seen": "2026-08-27T09:44:11Z",
-      "last_seen": "2026-09-02T11:41:36Z",
+      "last_seen": "2026-09-02T15:22:03Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -10002,7 +10002,7 @@
       "url": "https://www.dealnews.com/products/General-Electric/GE-30-Freestanding-Electric-Convection-Range-w-Air-Fry/528366.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-31T23:22:37Z",
-      "last_seen": "2026-09-02T11:41:34Z",
+      "last_seen": "2026-09-02T15:22:02Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -10421,10 +10421,10 @@
       "last_price": 30.0,
       "lowest_price": 30.0,
       "title": "Harbor Breeze 48-Foot Indoor/Outdoor LED String Light for $30 + free shipping",
-      "url": "https://www.dealnews.com/products/Harbor-Breeze/Harbor-Breeze-48-Foot-Indoor-Outdoor-LED-String-Light/529069.html?iref=rss-c196",
+      "url": "https://www.dealnews.com/products/Harbor-Breeze/Harbor-Breeze-48-Foot-Indoor-Outdoor-LED-String-Light/529069.html?iref=rss",
       "sku": null,
       "first_seen": "2026-09-01T22:22:23Z",
-      "last_seen": "2026-09-02T11:41:36Z",
+      "last_seen": "2026-09-02T15:22:02Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -10441,10 +10441,10 @@
       "last_price": 1149.0,
       "lowest_price": 1149.0,
       "title": "Whirlpool 24.6 Cu. Ft. Side-by-Side Refrigerator w/ Ice Maker for $1,149 + free shipping",
-      "url": "https://www.dealnews.com/products/Whirlpool-Appliances/Whirlpool-24-6-Cu-Ft-Side-by-Side-Refrigerator-w-Ice-Maker/529065.html?iref=rss-c196",
+      "url": "https://www.dealnews.com/products/Whirlpool-Appliances/Whirlpool-24-6-Cu-Ft-Side-by-Side-Refrigerator-w-Ice-Maker/529065.html?iref=rss",
       "sku": null,
       "first_seen": "2026-09-01T22:14:45Z",
-      "last_seen": "2026-09-02T11:41:36Z",
+      "last_seen": "2026-09-02T15:22:02Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -10566,7 +10566,7 @@
       "url": "https://www.dealnews.com/Home-Depot-Labor-Day-Ryobi-Outdoor-Power-Equipment-Deals-Up-to-31-off-free-shipping/22134297.html?iref=rss-c196",
       "sku": null,
       "first_seen": "2026-09-02T11:40:13Z",
-      "last_seen": "2026-09-02T11:41:36Z",
+      "last_seen": "2026-09-02T15:22:03Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -10627,6 +10627,26 @@
       "sku": null,
       "first_seen": "2026-09-02T07:31:32Z",
       "last_seen": "2026-09-02T11:41:36Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:1fb4e691bcb8f10c": {
+      "price_history": [
+        {
+          "at": "2026-09-02T15:22:05Z",
+          "price": 119.0,
+          "source": "Slickdeals • Popular"
+        }
+      ],
+      "last_price": 119.0,
+      "lowest_price": 119.0,
+      "title": "Milwaukee M18 18V Cordless Compact Blower w/ 2.0Ah Battery $119 + Free Shipping",
+      "url": "https://slickdeals.net/f/19958691-milwaukee-m18-18v-cordless-compact-blower-w-2-0ah-battery-119-free-shipping?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "sku": null,
+      "first_seen": "2026-09-02T07:03:15Z",
+      "last_seen": "2026-09-02T15:22:05Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
