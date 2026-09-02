@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T23:25:20Z",
+  "updated_at": "2026-09-02T01:22:14Z",
   "products": {
     "696652212a9ef2fa": {
       "last_price": 100.0,
@@ -8572,7 +8572,7 @@
       "url": "https://www.dealnews.com/Lowes-Labor-Day-Sale-Up-to-45-off-free-shipping-w-35/22104790.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-27T10:06:17Z",
-      "last_seen": "2026-09-01T23:25:17Z",
+      "last_seen": "2026-09-02T01:22:11Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -8583,7 +8583,7 @@
       "url": "https://www.dealnews.com/Home-Depot-Labor-Day-Sale-Up-to-61-off-free-shipping/22129623.html?iref=rss-c196",
       "sku": null,
       "first_seen": "2026-08-27T09:44:11Z",
-      "last_seen": "2026-09-01T23:25:19Z",
+      "last_seen": "2026-09-02T01:22:12Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -10002,7 +10002,7 @@
       "url": "https://www.dealnews.com/products/General-Electric/GE-30-Freestanding-Electric-Convection-Range-w-Air-Fry/528366.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-31T23:22:37Z",
-      "last_seen": "2026-09-01T23:25:17Z",
+      "last_seen": "2026-09-02T01:22:11Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -10344,7 +10344,7 @@
       "url": "https://www.dealnews.com/products/Glitzhome/Glitzhome-Lighted-Skeleton-Dog-20-5-Halloween-Porch-Decor/529015.html?iref=rss-c196",
       "sku": null,
       "first_seen": "2026-09-01T19:27:30Z",
-      "last_seen": "2026-09-01T23:25:19Z",
+      "last_seen": "2026-09-02T01:22:12Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -10424,7 +10424,7 @@
       "url": "https://www.dealnews.com/products/Harbor-Breeze/Harbor-Breeze-48-Foot-Indoor-Outdoor-LED-String-Light/529069.html?iref=rss-c196",
       "sku": null,
       "first_seen": "2026-09-01T22:22:23Z",
-      "last_seen": "2026-09-01T23:25:19Z",
+      "last_seen": "2026-09-02T01:22:12Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -10444,7 +10444,7 @@
       "url": "https://www.dealnews.com/products/Whirlpool-Appliances/Whirlpool-24-6-Cu-Ft-Side-by-Side-Refrigerator-w-Ice-Maker/529065.html?iref=rss-c196",
       "sku": null,
       "first_seen": "2026-09-01T22:14:45Z",
-      "last_seen": "2026-09-01T23:25:19Z",
+      "last_seen": "2026-09-02T01:22:12Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -10455,7 +10455,7 @@
       "url": "https://www.dealnews.com/Command-Hooks-at-Target-Buy-1-get-1-30-off-free-shipping/22130399.html?iref=rss-c196",
       "sku": null,
       "first_seen": "2026-09-01T22:40:51Z",
-      "last_seen": "2026-09-01T23:25:19Z",
+      "last_seen": "2026-09-02T01:22:12Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -10475,7 +10475,7 @@
       "url": "https://slickdeals.net/f/19955649-3-pack-zesua-halloween-led-dog-ghost-hanging-decor-12-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2",
       "sku": null,
       "first_seen": "2026-09-01T22:56:28Z",
-      "last_seen": "2026-09-01T23:25:20Z",
+      "last_seen": "2026-09-02T01:22:13Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -10495,7 +10495,7 @@
       "url": "https://slickdeals.net/f/19955070-american-express-spend-100-at-lowe-s-get-20-back?utm_source=rss&utm_content=fp&utm_medium=RSS2",
       "sku": null,
       "first_seen": "2026-09-01T21:50:43Z",
-      "last_seen": "2026-09-01T23:25:20Z",
+      "last_seen": "2026-09-02T01:22:13Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -10536,6 +10536,26 @@
       "sku": null,
       "first_seen": "2026-09-01T18:38:05Z",
       "last_seen": "2026-09-01T23:25:20Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:e7b851e1e6ff9d3a": {
+      "price_history": [
+        {
+          "at": "2026-09-02T01:22:11Z",
+          "price": 73.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 73.0,
+      "lowest_price": 73.0,
+      "title": "Black Max 2-Cycle Gas Jet Fan Blower for $73 + free shipping",
+      "url": "https://www.dealnews.com/Black-Max-2-Cycle-Gas-Jet-Fan-Blower-for-73-free-shipping/22130448.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-09-01T23:35:33Z",
+      "last_seen": "2026-09-02T01:22:12Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
