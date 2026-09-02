@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T15:22:05Z",
+  "updated_at": "2026-09-02T18:50:56Z",
   "products": {
     "696652212a9ef2fa": {
       "last_price": 100.0,
@@ -8569,10 +8569,10 @@
     },
     "title:b813003ed569e5ad": {
       "title": "Lowe's Labor Day Sale: Up to 45% off + free shipping w/ $35",
-      "url": "https://www.dealnews.com/Lowes-Labor-Day-Sale-Up-to-45-off-free-shipping-w-35/22134203.html?iref=rss-c196",
+      "url": "https://www.dealnews.com/Lowes-Labor-Day-Sale-Up-to-45-off-free-shipping-w-35/22134203.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-27T10:06:17Z",
-      "last_seen": "2026-09-02T15:22:03Z",
+      "last_seen": "2026-09-02T18:50:54Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -8583,7 +8583,7 @@
       "url": "https://www.dealnews.com/Home-Depot-Labor-Day-Sale-Up-to-61-off-free-shipping/22129623.html?iref=rss-c196",
       "sku": null,
       "first_seen": "2026-08-27T09:44:11Z",
-      "last_seen": "2026-09-02T15:22:03Z",
+      "last_seen": "2026-09-02T18:50:55Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -10002,7 +10002,7 @@
       "url": "https://www.dealnews.com/products/General-Electric/GE-30-Freestanding-Electric-Convection-Range-w-Air-Fry/528366.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-31T23:22:37Z",
-      "last_seen": "2026-09-02T15:22:02Z",
+      "last_seen": "2026-09-02T18:50:54Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -10424,7 +10424,7 @@
       "url": "https://www.dealnews.com/products/Harbor-Breeze/Harbor-Breeze-48-Foot-Indoor-Outdoor-LED-String-Light/529069.html?iref=rss",
       "sku": null,
       "first_seen": "2026-09-01T22:22:23Z",
-      "last_seen": "2026-09-02T15:22:02Z",
+      "last_seen": "2026-09-02T18:50:54Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -10444,7 +10444,7 @@
       "url": "https://www.dealnews.com/products/Whirlpool-Appliances/Whirlpool-24-6-Cu-Ft-Side-by-Side-Refrigerator-w-Ice-Maker/529065.html?iref=rss",
       "sku": null,
       "first_seen": "2026-09-01T22:14:45Z",
-      "last_seen": "2026-09-02T15:22:02Z",
+      "last_seen": "2026-09-02T18:50:54Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -10647,6 +10647,457 @@
       "sku": null,
       "first_seen": "2026-09-02T07:03:15Z",
       "last_seen": "2026-09-02T15:22:05Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:ea21dd7ae354ec19": {
+      "price_history": [
+        {
+          "at": "2026-09-02T18:50:54Z",
+          "price": 299.0,
+          "source": "DealNews • Lowe's"
+        }
+      ],
+      "last_price": 299.0,
+      "lowest_price": 299.0,
+      "title": "Midea 24\" Front Control Built-In Dishwasher for $299 + pickup",
+      "url": "https://www.dealnews.com/products/Midea/Midea-24-Front-Control-Built-In-Dishwasher/529435.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-09-02T18:48:55Z",
+      "last_seen": "2026-09-02T18:50:55Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:bada5aacad088ba3": {
+      "price_history": [
+        {
+          "at": "2026-09-02T18:50:54Z",
+          "price": 81.0,
+          "source": "DealNews • Lowe's"
+        }
+      ],
+      "last_price": 81.0,
+      "lowest_price": 81.0,
+      "title": "DeWalt 6-Gallon Cordless Wet/Dry Shop Vacuum (Tool Only) for $81 + free shipping",
+      "url": "https://www.dealnews.com/products/De-Walt/De-Walt-6-Gallon-Cordless-Wet-Dry-Shop-Vacuum-Tool-Only/529434.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-09-02T18:36:44Z",
+      "last_seen": "2026-09-02T18:50:55Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:d6114aaeac4db83e": {
+      "price_history": [
+        {
+          "at": "2026-09-02T18:50:54Z",
+          "price": 55.0,
+          "source": "DealNews • Lowe's"
+        }
+      ],
+      "last_price": 55.0,
+      "lowest_price": 55.0,
+      "title": "Costway Wooden Vegetable Raised Garden Bed for $55 + free shipping",
+      "url": "https://www.dealnews.com/products/Costway/Costway-Wooden-Vegetable-Raised-Garden-Bed/529416.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-09-02T16:37:19Z",
+      "last_seen": "2026-09-02T18:50:55Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:23639968934a7f73": {
+      "price_history": [
+        {
+          "at": "2026-09-02T18:50:54Z",
+          "price": 49.0,
+          "source": "DealNews • Lowe's"
+        }
+      ],
+      "last_price": 49.0,
+      "lowest_price": 49.0,
+      "title": "Boyel Living 6-Foot Glowing Ghost Halloween Inflatable Decor for $49 + free shipping",
+      "url": "https://www.dealnews.com/products/Boyel-Living/Boyel-Living-6-Foot-Glowing-Ghost-Halloween-Inflatable-Decor/529414.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-09-02T16:25:20Z",
+      "last_seen": "2026-09-02T18:50:55Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:477355ef27b3af9a": {
+      "price_history": [
+        {
+          "at": "2026-09-02T18:50:54Z",
+          "price": 200.0,
+          "source": "DealNews • Lowe's"
+        }
+      ],
+      "last_price": 200.0,
+      "lowest_price": 200.0,
+      "title": "Lowe's Kobalt Generators Sale: Up to $200 off + free shipping",
+      "url": "https://www.dealnews.com/Lowes-Kobalt-Generators-Sale-Up-to-200-off-free-shipping/22134459.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-09-02T16:19:07Z",
+      "last_seen": "2026-09-02T18:50:55Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:c058d58cfa461be9": {
+      "price_history": [
+        {
+          "at": "2026-09-02T18:50:54Z",
+          "price": 398.0,
+          "source": "DealNews • Lowe's"
+        }
+      ],
+      "last_price": 398.0,
+      "lowest_price": 398.0,
+      "title": "Kobalt Workbench for $398 + pickup",
+      "url": "https://www.dealnews.com/Kobalt-Workbench-for-398-pickup/22134454.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-09-02T16:12:49Z",
+      "last_seen": "2026-09-02T18:50:55Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:faeeeb8d9da408e0": {
+      "price_history": [
+        {
+          "at": "2026-09-02T18:50:54Z",
+          "price": 99.0,
+          "source": "DealNews • Lowe's"
+        }
+      ],
+      "last_price": 99.0,
+      "lowest_price": 99.0,
+      "title": "Kobalt 24V Cordless Battery String Trimmer & Leaf Blower Combo Kit for $99 + free shipping",
+      "url": "https://www.dealnews.com/Kobalt-24-V-Cordless-Battery-String-Trimmer-Leaf-Blower-Combo-Kit-for-99-free-shipping/22134453.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-09-02T16:11:03Z",
+      "last_seen": "2026-09-02T18:50:55Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:ac4a244c18df8f30": {
+      "price_history": [
+        {
+          "at": "2026-09-02T18:50:54Z",
+          "price": 79.0,
+          "source": "DealNews • Lowe's"
+        }
+      ],
+      "last_price": 79.0,
+      "lowest_price": 79.0,
+      "title": "Lowe’s Kobalt Labor Day Tool Sale for Select tools for $79 + free shipping",
+      "url": "https://www.dealnews.com/Lowe-s-Kobalt-Labor-Day-Tool-Sale-for-Select-tools-for-79-free-shipping/22134450.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-09-02T16:01:24Z",
+      "last_seen": "2026-09-02T18:50:55Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:9d570f9be1737226": {
+      "price_history": [
+        {
+          "at": "2026-09-02T18:50:54Z",
+          "price": 99.0,
+          "source": "DealNews • Lowe's"
+        }
+      ],
+      "last_price": 99.0,
+      "lowest_price": 99.0,
+      "title": "Kobalt 24-Volt 2-Pack 4.0 Ah Lithium-ion Battery & Charger for $99 + free shipping",
+      "url": "https://www.dealnews.com/Kobalt-24-Volt-2-Pack-4-0-Ah-Lithium-ion-Battery-Charger-for-99-free-shipping/22134444.html?iref=rss",
+      "sku": null,
+      "first_seen": "2026-09-02T15:57:46Z",
+      "last_seen": "2026-09-02T18:50:54Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:4ddc6dec38153f93": {
+      "price_history": [
+        {
+          "at": "2026-09-02T18:50:54Z",
+          "price": 41.0,
+          "source": "DealNews • Lowe's"
+        }
+      ],
+      "last_price": 41.0,
+      "lowest_price": 41.0,
+      "title": "2-Quart Red Supercal 3-Pack for $41 + pickup",
+      "url": "https://www.dealnews.com/2-Quart-Red-Supercal-3-Pack-for-41-pickup/22134440.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-09-02T15:49:40Z",
+      "last_seen": "2026-09-02T18:50:55Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:c1ea350796e0fb8c": {
+      "price_history": [
+        {
+          "at": "2026-09-02T18:50:54Z",
+          "price": 79.0,
+          "source": "DealNews • Lowe's"
+        }
+      ],
+      "last_price": 79.0,
+      "lowest_price": 79.0,
+      "title": "DeWalt 20V Lithium-ion Battery 2-Pack for $79 + free shipping",
+      "url": "https://www.dealnews.com/products/De-Walt/De-Walt-20-V-Lithium-ion-Battery-2-Pack/485597.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-09-02T15:45:48Z",
+      "last_seen": "2026-09-02T18:50:55Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:5e84333f37be6147": {
+      "title": "Lowe’s Labor Day Appliance Daily Deals: Up to 60% off + free shipping",
+      "url": "https://www.dealnews.com/Lowe-s-Labor-Day-Appliance-Daily-Deals-Up-to-60-off-free-shipping/22134428.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-09-02T15:37:08Z",
+      "last_seen": "2026-09-02T18:50:55Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:fb4209825eed74e5": {
+      "price_history": [
+        {
+          "at": "2026-09-02T18:50:54Z",
+          "price": 48.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 48.0,
+      "lowest_price": 48.0,
+      "title": "Vevor 12U Open Frame Server Rack for $48 + free shipping",
+      "url": "https://www.dealnews.com/Vevor-12-U-Open-Frame-Server-Rack-for-48-free-shipping/22134544.html?iref=rss",
+      "sku": null,
+      "first_seen": "2026-09-02T18:49:19Z",
+      "last_seen": "2026-09-02T18:50:54Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:cc01901ad7573522": {
+      "price_history": [
+        {
+          "at": "2026-09-02T18:50:54Z",
+          "price": 76.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 76.0,
+      "lowest_price": 76.0,
+      "title": "SucceBuy 650W 3000PSI Electric Airless Paint Sprayer w/ Extension Rod for $76 + free shipping",
+      "url": "https://www.dealnews.com/Succe-Buy-650-W-3000-PSI-Electric-Airless-Paint-Sprayer-w-Extension-Rod-for-76-free-shipping/22134539.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-09-02T18:38:58Z",
+      "last_seen": "2026-09-02T18:50:55Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:d79b87a5ed5a77d4": {
+      "price_history": [
+        {
+          "at": "2026-09-02T18:50:54Z",
+          "price": 11.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 11.0,
+      "lowest_price": 11.0,
+      "title": "360° Rotating Foldable Storage Cart for $11 + free shipping",
+      "url": "https://www.dealnews.com/360-Rotating-Foldable-Storage-Cart-for-11-free-shipping/22134530.html?iref=rss",
+      "sku": null,
+      "first_seen": "2026-09-02T18:21:39Z",
+      "last_seen": "2026-09-02T18:50:54Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:03d27c8c10b1177f": {
+      "price_history": [
+        {
+          "at": "2026-09-02T18:50:54Z",
+          "price": 254.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 254.0,
+      "lowest_price": 254.0,
+      "title": "QNUT Victor 1000W 26\" Mountain Electric Bike for $254 + free shipping",
+      "url": "https://www.dealnews.com/QNUT-Victor-1000-W-26-Mountain-Electric-Bike-for-254-free-shipping/22134522.html?iref=rss",
+      "sku": null,
+      "first_seen": "2026-09-02T18:12:55Z",
+      "last_seen": "2026-09-02T18:50:54Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:67b589c2aed9195e": {
+      "price_history": [
+        {
+          "at": "2026-09-02T18:50:54Z",
+          "price": 126.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 126.0,
+      "lowest_price": 126.0,
+      "title": "Ecoflow River 2 243Wh Portable Power Station for $126 + free shipping",
+      "url": "https://www.dealnews.com/Ecoflow-River-2-243-Wh-Portable-Power-Station-for-126-free-shipping/22134504.html?iref=rss",
+      "sku": null,
+      "first_seen": "2026-09-02T17:37:59Z",
+      "last_seen": "2026-09-02T18:50:54Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:a827dabdeefa6d24": {
+      "price_history": [
+        {
+          "at": "2026-09-02T18:50:54Z",
+          "price": 68.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 68.0,
+      "lowest_price": 68.0,
+      "title": "HiMiss 10 x 7- Foot Backyard Golf Practice Net for $68 + free shipping",
+      "url": "https://www.dealnews.com/Hi-Miss-10-x-7-Foot-Backyard-Golf-Practice-Net-for-68-free-shipping/22134498.html?iref=rss",
+      "sku": null,
+      "first_seen": "2026-09-02T17:20:04Z",
+      "last_seen": "2026-09-02T18:50:54Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:4879909ef50f9bdb": {
+      "price_history": [
+        {
+          "at": "2026-09-02T18:50:54Z",
+          "price": 500.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 500.0,
+      "lowest_price": 500.0,
+      "title": "Apple Labor Day Deals at Best Buy: Up to $500 off + free shipping",
+      "url": "https://www.dealnews.com/Apple-Labor-Day-Deals-at-Best-Buy-Up-to-500-off-free-shipping/22134220.html?iref=rss",
+      "sku": null,
+      "first_seen": "2026-09-02T08:49:35Z",
+      "last_seen": "2026-09-02T18:50:54Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:7d4b4909902f5e24": {
+      "price_history": [
+        {
+          "at": "2026-09-02T18:50:54Z",
+          "price": 61.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 61.0,
+      "lowest_price": 61.0,
+      "title": "SucceBuy 6T H-Frame Hydraulic Shop Press for $61 + free shipping",
+      "url": "https://www.dealnews.com/Succe-Buy-6-T-H-Frame-Hydraulic-Shop-Press-for-61-free-shipping/22134490.html?iref=rss",
+      "sku": null,
+      "first_seen": "2026-09-02T17:09:10Z",
+      "last_seen": "2026-09-02T18:50:54Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:f96f93a3224f9952": {
+      "price_history": [
+        {
+          "at": "2026-09-02T18:50:54Z",
+          "price": 8.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 8.0,
+      "lowest_price": 8.0,
+      "title": "Stsvzorr Orthopedic Arch Support Insoles for $8 w/ Prime + free shipping",
+      "url": "https://www.dealnews.com/Stsvzorr-Orthopedic-Arch-Support-Insoles-for-8-w-Prime-free-shipping/22134458.html?iref=rss",
+      "sku": null,
+      "first_seen": "2026-09-02T16:18:24Z",
+      "last_seen": "2026-09-02T18:50:54Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:1d1765dcf1b63e90": {
+      "price_history": [
+        {
+          "at": "2026-09-02T18:50:56Z",
+          "price": 13.0,
+          "source": "Slickdeals • Frontpage"
+        }
+      ],
+      "last_price": 13.0,
+      "lowest_price": 13.0,
+      "title": "Duoorra Lower Back Brace w/ Ergonomic Curve Support Stays (Black) $13",
+      "url": "https://slickdeals.net/f/19950732-duoorra-lower-back-brace-w-ergonomic-curve-support-stays-black-12-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2",
+      "sku": null,
+      "first_seen": "2026-09-02T16:40:24Z",
+      "last_seen": "2026-09-02T18:50:56Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:034039eaf83a8e99": {
+      "price_history": [
+        {
+          "at": "2026-09-02T18:50:56Z",
+          "price": 98.99,
+          "source": "Slickdeals • Popular"
+        }
+      ],
+      "last_price": 98.99,
+      "lowest_price": 98.99,
+      "title": "LEGO Icons Mayor Manor Building Set 11383: Halloween $98.99",
+      "url": "https://slickdeals.net/f/19956435-lego-icons-mayor-manor-building-set-11383-halloween-98-99?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+      "sku": null,
+      "first_seen": "2026-09-01T20:02:31Z",
+      "last_seen": "2026-09-02T18:50:56Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
