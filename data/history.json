@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T06:12:12Z",
+  "updated_at": "2026-09-14T13:03:41Z",
   "products": {
     "696652212a9ef2fa": {
       "last_price": 100.0,
@@ -1687,7 +1687,7 @@
       "url": "https://www.dealnews.com/Lowes-Back-Aisle-Sale-Clearance-Deals-Up-to-50-off-free-shipping-w-35/22169590.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-17T12:09:03Z",
-      "last_seen": "2026-09-14T06:12:09Z",
+      "last_seen": "2026-09-14T13:03:38Z",
       "deal_type": "CLEARANCE",
       "deal_types": [
         "CLEARANCE"
@@ -14741,7 +14741,7 @@
       "url": "https://www.dealnews.com/Dietrich-Metal-Framing-25-Gauge-Aluminum-Wall-Framing-Stud-for-6-free-shipping-w-25/22165934.html?iref=rss",
       "sku": null,
       "first_seen": "2026-09-10T13:48:28Z",
-      "last_seen": "2026-09-14T06:12:09Z",
+      "last_seen": "2026-09-14T13:03:38Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -14958,10 +14958,10 @@
       "last_price": 100.0,
       "lowest_price": 100.0,
       "title": "Rockland Young Electric 62\" Roof Bracket for $100 + free shipping",
-      "url": "https://www.dealnews.com/Rockland-Young-Electric-62-Roof-Bracket-for-100-free-shipping/22165937.html?iref=rss-c196",
+      "url": "https://www.dealnews.com/Rockland-Young-Electric-62-Roof-Bracket-for-100-free-shipping/22165937.html?iref=rss",
       "sku": null,
       "first_seen": "2026-09-10T13:53:37Z",
-      "last_seen": "2026-09-14T06:12:11Z",
+      "last_seen": "2026-09-14T13:03:38Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -15063,7 +15063,7 @@
       "url": "https://www.dealnews.com/Lowes-Landscaping-Deals-Up-to-37-off-free-delivery-on-select-items/22166024.html?iref=rss",
       "sku": null,
       "first_seen": "2026-09-10T19:27:09Z",
-      "last_seen": "2026-09-14T06:12:09Z",
+      "last_seen": "2026-09-14T13:03:38Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -15216,7 +15216,7 @@
       "url": "https://www.dealnews.com/products/Whirlpool-Appliances/Whirlpool-7-cu-ft-Vented-Gas-Dryer/533090.html?iref=rss",
       "sku": null,
       "first_seen": "2026-09-10T23:16:13Z",
-      "last_seen": "2026-09-14T06:12:09Z",
+      "last_seen": "2026-09-14T13:03:38Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -16193,7 +16193,7 @@
       "url": "https://www.dealnews.com/products/Whirlpool-Appliances/Whirlpool-24-6-Cu-Ft-Side-by-Side-Refrigerator-w-Ice-Maker/529065.html?iref=rss",
       "sku": null,
       "first_seen": "2026-09-12T15:09:37Z",
-      "last_seen": "2026-09-14T06:12:09Z",
+      "last_seen": "2026-09-14T13:03:38Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -16213,7 +16213,7 @@
       "url": "https://www.dealnews.com/products/Style-Selections/Style-Selections-Wood-Frame-Rocking-Chair/488562.html?iref=rss",
       "sku": null,
       "first_seen": "2026-09-12T15:00:23Z",
-      "last_seen": "2026-09-14T06:12:09Z",
+      "last_seen": "2026-09-14T13:03:38Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -16614,6 +16614,228 @@
       "sku": null,
       "first_seen": "2026-09-14T01:55:48Z",
       "last_seen": "2026-09-14T06:12:11Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:38de8cfd52a912e8": {
+      "price_history": [
+        {
+          "at": "2026-09-14T13:03:38Z",
+          "price": 31.0,
+          "source": "DealNews • Lowe's"
+        }
+      ],
+      "last_price": 31.0,
+      "lowest_price": 31.0,
+      "title": "Patiowell 22\" x 16\" 32-Gallon Plastic Deck Box for $31 + free shipping",
+      "url": "https://www.dealnews.com/products/Patiowell-22-x-16-3-32-Gallon-Plastic-Deck-Box/475185.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-09-14T11:14:17Z",
+      "last_seen": "2026-09-14T13:03:40Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:a16d9af9d5f30b9f": {
+      "price_history": [
+        {
+          "at": "2026-09-14T13:03:38Z",
+          "price": 9.0,
+          "source": "DealNews • Lowe's"
+        }
+      ],
+      "last_price": 9.0,
+      "lowest_price": 9.0,
+      "title": "NFL 5-Gallon Team Buckets Deals at Lowe's for $9",
+      "url": "https://www.dealnews.com/NFL-5-Gallon-Team-Buckets-Deals-at-Lowes-for-9/22180592.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-09-14T11:09:37Z",
+      "last_seen": "2026-09-14T13:03:40Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:3e3e19756f82e04a": {
+      "price_history": [
+        {
+          "at": "2026-09-14T13:03:38Z",
+          "price": 399.0,
+          "source": "DealNews • Lowe's"
+        }
+      ],
+      "last_price": 399.0,
+      "lowest_price": 399.0,
+      "title": "Lowe's Built-In Dishwashers for $399 + free shipping",
+      "url": "https://www.dealnews.com/Lowes-Built-In-Dishwashers-for-399-free-shipping/22180521.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-09-14T10:07:59Z",
+      "last_seen": "2026-09-14T13:03:40Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:3b0f6275657a59d2": {
+      "price_history": [
+        {
+          "at": "2026-09-14T13:03:38Z",
+          "price": 25.0,
+          "source": "DealNews • Lowe's"
+        }
+      ],
+      "last_price": 25.0,
+      "lowest_price": 25.0,
+      "title": "Metabo HPT 1/4\" x 100ft. Air Compressor Hose for $25 + free shipping w/ $25",
+      "url": "https://www.dealnews.com/products/Metabo/Metabo-HPT-1-4-x-100-ft-Air-Compressor-Hose/491328.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-09-14T09:57:41Z",
+      "last_seen": "2026-09-14T13:03:40Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:2d6266d57a93d8b5": {
+      "title": "Lowe's Bathroom Vanity Deals: Up to 50% off + pickup",
+      "url": "https://www.dealnews.com/Lowes-Bathroom-Vanity-Deals-Up-to-50-off-pickup/22180502.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-09-14T09:50:04Z",
+      "last_seen": "2026-09-14T13:03:40Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:efe3502098285404": {
+      "price_history": [
+        {
+          "at": "2026-09-14T13:03:39Z",
+          "price": 41.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 41.0,
+      "lowest_price": 41.0,
+      "title": "5.4ft Posable Halloween Skeleton Decoration for $41 + free shipping",
+      "url": "https://www.dealnews.com/5-4-ft-Posable-Halloween-Skeleton-Decoration-for-41-free-shipping/22180704.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-09-14T12:33:44Z",
+      "last_seen": "2026-09-14T13:03:40Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:a2d87224b10569cc": {
+      "price_history": [
+        {
+          "at": "2026-09-14T13:03:39Z",
+          "price": 24.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 24.0,
+      "lowest_price": 24.0,
+      "title": "Zikee Memory Foam Car Seat Wedge Cushion for $24 + free shipping w/ Prime",
+      "url": "https://www.dealnews.com/products/Zikee/Zikee-Memory-Foam-Car-Seat-Wedge-Cushion/534770.html?iref=rss",
+      "sku": null,
+      "first_seen": "2026-09-14T12:11:23Z",
+      "last_seen": "2026-09-14T13:03:39Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:b713526fe2ed927e": {
+      "title": "Wayfair 48-Hour Clearance Sale: Up to 70% off + free shipping w/ $35",
+      "url": "https://www.dealnews.com/Wayfair-48-Hour-Clearance-Sale-Up-to-70-off-free-shipping-w-35/22180670.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-09-14T12:08:24Z",
+      "last_seen": "2026-09-14T13:03:40Z",
+      "deal_type": "CLEARANCE",
+      "deal_types": [
+        "CLEARANCE"
+      ]
+    },
+    "title:0c4ce8a545690a1b": {
+      "price_history": [
+        {
+          "at": "2026-09-14T13:03:39Z",
+          "price": 680.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 680.0,
+      "lowest_price": 680.0,
+      "title": "Cozeware 18,000 BTU 20 SEER2 Visio Mini Split AC/Heating System for $680 + free shipping",
+      "url": "https://www.dealnews.com/products/Cozeware/Cozeware-18-000-BTU-20-SEER2-Visio-Mini-Split-AC-Heating-System/534759.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-09-14T11:52:05Z",
+      "last_seen": "2026-09-14T13:03:40Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:f5142291f01f34f1": {
+      "price_history": [
+        {
+          "at": "2026-09-14T13:03:39Z",
+          "price": 75.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 75.0,
+      "lowest_price": 75.0,
+      "title": "Disney Store Halloween Costumes Sale for 20% off $75+ + free shipping w/ $85",
+      "url": "https://www.dealnews.com/Disney-Store-Halloween-Costumes-Sale-for-20-off-75-free-shipping-w-85/22180522.html?iref=rss",
+      "sku": null,
+      "first_seen": "2026-09-14T10:10:33Z",
+      "last_seen": "2026-09-14T13:03:39Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:d084f8eb38a9076c": {
+      "price_history": [
+        {
+          "at": "2026-09-14T13:03:40Z",
+          "price": 6.0,
+          "source": "DealNews • Home & Garden"
+        }
+      ],
+      "last_price": 6.0,
+      "lowest_price": 6.0,
+      "title": "Rerdeim 5-Piece Putty Knife Set for $6 + free shipping w/ Prime",
+      "url": "https://www.dealnews.com/Rerdeim-5-Piece-Putty-Knife-Set-for-6-free-shipping-w-Prime/22180341.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-09-14T07:42:28Z",
+      "last_seen": "2026-09-14T13:03:40Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:a0730e6c42664a4e": {
+      "price_history": [
+        {
+          "at": "2026-09-14T13:03:40Z",
+          "price": 60.0,
+          "source": "Slickdeals • Frontpage"
+        }
+      ],
+      "last_price": 60.0,
+      "lowest_price": 60.0,
+      "title": "Men's Calvin Klein Slim Fit Blazer (various colors/sizes) $60 + Free S&H",
+      "url": "https://slickdeals.net/f/20006847-calvin-klein-men-s-slim-fit-blazer-various-59-99?utm_source=rss&utm_content=fp&utm_medium=RSS2",
+      "sku": null,
+      "first_seen": "2026-09-14T09:42:06Z",
+      "last_seen": "2026-09-14T13:03:40Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
