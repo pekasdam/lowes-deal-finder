@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T11:21:07Z",
+  "updated_at": "2026-10-04T15:54:32Z",
   "products": {
     "696652212a9ef2fa": {
       "last_price": 100.0,
@@ -1687,7 +1687,7 @@
       "url": "https://www.dealnews.com/Lowes-Back-Aisle-Sale-Clearance-Deals-Up-to-50-off-free-shipping-w-35/22169590.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-17T12:09:03Z",
-      "last_seen": "2026-10-04T11:21:04Z",
+      "last_seen": "2026-10-04T15:54:30Z",
       "deal_type": "CLEARANCE",
       "deal_types": [
         "CLEARANCE"
@@ -4129,7 +4129,7 @@
       "url": "https://www.dealnews.com/Lowes-Bathroom-Deals-Up-to-50-off-free-shipping/22232154.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-20T10:26:22Z",
-      "last_seen": "2026-10-04T11:21:04Z",
+      "last_seen": "2026-10-04T15:54:30Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -7357,7 +7357,7 @@
       "url": "https://www.dealnews.com/products/SKG/SKG-W9-Pro-Lower-Back-Massager/525097.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-25T12:40:53Z",
-      "last_seen": "2026-10-03T21:09:44Z",
+      "last_seen": "2026-10-04T15:54:31Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -21016,15 +21016,20 @@
           "at": "2026-09-22T01:24:08Z",
           "price": 62.05,
           "source": "Slickdeals • Frontpage"
+        },
+        {
+          "at": "2026-10-04T15:54:32Z",
+          "price": 51.1,
+          "source": "Slickdeals • Frontpage"
         }
       ],
-      "last_price": 62.05,
-      "lowest_price": 62.05,
-      "title": "1161-Pc LEGO Botanicals Flower Arrangement Building Set (10345) $62.05 + Free S&H",
-      "url": "https://slickdeals.net/f/20078889-62-04-1161-pc-lego-botanicals-flower-arrangement-building-set-10345-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2",
+      "last_price": 51.1,
+      "lowest_price": 51.1,
+      "title": "1161-Pc LEGO Botanicals Flower Arrangement Building Set (10345) $51.10 + Free S&H",
+      "url": "https://slickdeals.net/f/20095485-51-09-1161-pc-lego-botanicals-flower-arrangement-building-set-10345-at-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2",
       "sku": null,
       "first_seen": "2026-09-21T23:51:41Z",
-      "last_seen": "2026-10-01T06:10:30Z",
+      "last_seen": "2026-10-04T15:54:32Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -23675,7 +23680,7 @@
       "url": "https://www.dealnews.com/Craftsman-V20-20-V-2-Tool-Power-Tool-Combo-Kit-w-Battery-Charger-for-79-free-shipping/22235205.html?iref=rss",
       "sku": null,
       "first_seen": "2026-09-28T19:33:06Z",
-      "last_seen": "2026-10-04T11:21:04Z",
+      "last_seen": "2026-10-04T15:54:30Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -24641,7 +24646,7 @@
       "url": "https://www.dealnews.com/Veryke-Kids-Folding-Picnic-Table-Set-w-Umbrella-for-81-free-shipping/22229772.html?iref=rss",
       "sku": null,
       "first_seen": "2026-09-30T23:29:58Z",
-      "last_seen": "2026-10-04T11:21:04Z",
+      "last_seen": "2026-10-04T15:54:30Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -24661,7 +24666,7 @@
       "url": "https://www.dealnews.com/Veryke-6-Foot-Folding-Bench-for-55-free-shipping/22229770.html?iref=rss",
       "sku": null,
       "first_seen": "2026-09-30T23:22:48Z",
-      "last_seen": "2026-10-04T11:21:04Z",
+      "last_seen": "2026-10-04T15:54:30Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -24681,7 +24686,7 @@
       "url": "https://www.dealnews.com/Mecale-Folding-Work-Platform-Scaffolding-for-85-free-shipping/22229768.html?iref=rss",
       "sku": null,
       "first_seen": "2026-09-30T23:08:51Z",
-      "last_seen": "2026-10-04T11:21:04Z",
+      "last_seen": "2026-10-04T15:54:30Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -24812,7 +24817,7 @@
       "url": "https://www.dealnews.com/De-Walt-Days-Deals-at-Lowes-Up-to-41-off-Free-Battery-free-shipping/22232005.html?iref=rss",
       "sku": null,
       "first_seen": "2026-10-01T12:33:04Z",
-      "last_seen": "2026-10-04T11:21:04Z",
+      "last_seen": "2026-10-04T15:54:30Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -25287,7 +25292,7 @@
       "url": "https://www.dealnews.com/products/De-Walt/De-Walt-12-15-A-Double-Bevel-Sliding-Compound-Miter-Saw/39185.html?iref=rss",
       "sku": null,
       "first_seen": "2026-10-01T22:34:51Z",
-      "last_seen": "2026-10-04T11:21:04Z",
+      "last_seen": "2026-10-04T15:54:30Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -25307,7 +25312,7 @@
       "url": "https://www.dealnews.com/products/Delta-Faucet/Delta-Lacey-Spotshield-4-Centerset-2-Handle-Bathroom-Sink-Faucet/538866.html?iref=rss",
       "sku": null,
       "first_seen": "2026-10-01T22:13:57Z",
-      "last_seen": "2026-10-04T11:21:04Z",
+      "last_seen": "2026-10-04T15:54:30Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -25327,7 +25332,7 @@
       "url": "https://www.dealnews.com/products/Ever-Brite/Ever-Brite-Collapsible-Skeleton-LED-Camping-Lantern/538865.html?iref=rss",
       "sku": null,
       "first_seen": "2026-10-01T22:04:32Z",
-      "last_seen": "2026-10-04T11:21:04Z",
+      "last_seen": "2026-10-04T15:54:30Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -25347,7 +25352,7 @@
       "url": "https://www.dealnews.com/Lowes-Halloween-Glow-in-the-Dark-2-Gallon-Plastic-Bucket-for-7-pickup/22232199.html?iref=rss",
       "sku": null,
       "first_seen": "2026-10-01T21:59:11Z",
-      "last_seen": "2026-10-04T11:21:04Z",
+      "last_seen": "2026-10-04T15:54:30Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -25367,7 +25372,7 @@
       "url": "https://www.dealnews.com/Ladder-Scaffolding-Deals-at-Lowes-Up-to-111-off-Free-Delivery/22232159.html?iref=rss",
       "sku": null,
       "first_seen": "2026-10-01T19:19:11Z",
-      "last_seen": "2026-10-04T11:21:04Z",
+      "last_seen": "2026-10-04T15:54:30Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -25558,7 +25563,7 @@
       "url": "https://www.dealnews.com/De-Walt-Tough-Grip-Screwdriver-Bit-Set-35-Piece-for-10-free-shipping-w-25/22234769.html?iref=rss",
       "sku": null,
       "first_seen": "2026-10-02T14:06:31Z",
-      "last_seen": "2026-10-04T11:21:04Z",
+      "last_seen": "2026-10-04T15:54:30Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -25780,7 +25785,7 @@
       "url": "https://www.dealnews.com/products/Kobalt/Kobalt-24-V-4-0-Ah-Lithium-ion-Battery/495234.html?iref=rss",
       "sku": null,
       "first_seen": "2026-10-02T19:41:30Z",
-      "last_seen": "2026-10-04T11:21:04Z",
+      "last_seen": "2026-10-04T15:54:30Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -25800,7 +25805,7 @@
       "url": "https://www.dealnews.com/Joyfy-7-Foot-Pumpkin-w-Witchs-Cat-Halloween-Inflatable-for-40-free-shipping/22235223.html?iref=rss",
       "sku": null,
       "first_seen": "2026-10-02T19:32:02Z",
-      "last_seen": "2026-10-04T11:21:04Z",
+      "last_seen": "2026-10-04T15:54:30Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -25820,7 +25825,7 @@
       "url": "https://www.dealnews.com/Craftsman-V20-3-Ah-Advanced-Battery-Starter-Kit-for-129-w-free-tool-worth-up-to-199-free-shipping/22235204.html?iref=rss",
       "sku": null,
       "first_seen": "2026-10-02T19:23:32Z",
-      "last_seen": "2026-10-04T11:21:04Z",
+      "last_seen": "2026-10-04T15:54:30Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -26464,7 +26469,7 @@
       "url": "https://www.dealnews.com/eBay-Movie-Poster-Prop-Replica-Sale-Up-to-50-off-shipping-varies/22226741.html?iref=rss",
       "sku": null,
       "first_seen": "2026-10-04T09:22:51Z",
-      "last_seen": "2026-10-04T11:21:05Z",
+      "last_seen": "2026-10-04T15:54:31Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -26484,7 +26489,7 @@
       "url": "https://slickdeals.net/f/20092983-beforalla-12-in-1-halloween-outdoor-projector-22-free-s-h?utm_source=rss&utm_content=fp&utm_medium=RSS2",
       "sku": null,
       "first_seen": "2026-10-04T09:11:50Z",
-      "last_seen": "2026-10-04T11:21:06Z",
+      "last_seen": "2026-10-04T15:54:32Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -26496,6 +26501,77 @@
       "sku": null,
       "first_seen": "2026-10-04T07:24:53Z",
       "last_seen": "2026-10-04T11:21:06Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:a065acaf2ff425ba": {
+      "title": "EGO Outlet Clearance at eBay: Up to 40% off + free shipping",
+      "url": "https://www.dealnews.com/EGO-Outlet-Clearance-at-eBay-Up-to-40-off-free-shipping/22242688.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-10-04T15:43:21Z",
+      "last_seen": "2026-10-04T15:54:31Z",
+      "deal_type": "CLEARANCE",
+      "deal_types": [
+        "CLEARANCE"
+      ]
+    },
+    "title:d510df98445d4720": {
+      "price_history": [
+        {
+          "at": "2026-10-04T15:54:31Z",
+          "price": 40.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 40.0,
+      "lowest_price": 40.0,
+      "title": "Greenworks 24V 135 CFM Cordless Leaf Blower w/ 2Ah Battery & Charger for $40 + free shipping",
+      "url": "https://www.dealnews.com/Greenworks-24-V-135-CFM-Cordless-Leaf-Blower-w-2-Ah-Battery-Charger-for-40-free-shipping/22242686.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-10-04T15:38:45Z",
+      "last_seen": "2026-10-04T15:54:31Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:35991a2fe024fab7": {
+      "price_history": [
+        {
+          "at": "2026-10-04T15:54:31Z",
+          "price": 10.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 10.0,
+      "lowest_price": 10.0,
+      "title": "Snickers & Twix Ghoulish Green Milk Chocolate Halloween Candy 35-Count Bag for $10 + free shipping w/ Prime",
+      "url": "https://www.dealnews.com/Snickers-Twix-Ghoulish-Green-Milk-Chocolate-Halloween-Candy-35-Count-Bag-for-10-free-shipping-w-Prime/22242671.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-10-04T14:42:00Z",
+      "last_seen": "2026-10-04T15:54:31Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:f391a47487dfa523": {
+      "price_history": [
+        {
+          "at": "2026-10-04T15:54:32Z",
+          "price": 21.0,
+          "source": "Slickdeals • Frontpage"
+        }
+      ],
+      "last_price": 21.0,
+      "lowest_price": 21.0,
+      "title": "Select LEGO Sets 30% Off: 366-Pc LEGO Creator 3 in 1 Record Player w/ Flowers $21 & More + Free Pickup",
+      "url": "https://slickdeals.net/f/20095560-target-30-off-select-lego-sets?utm_source=rss&utm_content=fp&utm_medium=RSS2",
+      "sku": null,
+      "first_seen": "2026-10-04T13:09:23Z",
+      "last_seen": "2026-10-04T15:54:32Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
