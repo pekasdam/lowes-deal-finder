@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T15:32:25Z",
+  "updated_at": "2026-10-19T20:41:59Z",
   "products": {
     "696652212a9ef2fa": {
       "last_price": 100.0,
@@ -1687,7 +1687,7 @@
       "url": "https://www.dealnews.com/Lowes-Back-Aisle-Sale-Clearance-Deals-Up-to-50-off-free-shipping-w-35/22290824.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-17T12:09:03Z",
-      "last_seen": "2026-10-19T15:32:22Z",
+      "last_seen": "2026-10-19T20:41:56Z",
       "deal_type": "CLEARANCE",
       "deal_types": [
         "CLEARANCE"
@@ -32524,7 +32524,7 @@
       "url": "https://www.dealnews.com/products/Craftsman/Craftsman-V20-20-Volt-1-2-Keyless-Cordless-Drill/545932.html?iref=rss",
       "sku": null,
       "first_seen": "2026-10-17T00:48:05Z",
-      "last_seen": "2026-10-19T15:32:22Z",
+      "last_seen": "2026-10-19T20:41:56Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -32604,7 +32604,7 @@
       "url": "https://www.dealnews.com/Kobalt-Hard-Shell-Knee-Pads-for-10-free-shipping/22291099.html?iref=rss",
       "sku": null,
       "first_seen": "2026-10-17T11:43:02Z",
-      "last_seen": "2026-10-19T15:32:22Z",
+      "last_seen": "2026-10-19T20:41:56Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -33157,7 +33157,7 @@
       "url": "https://www.dealnews.com/products/De-Walt/De-Walt-20-V-Max-1-2-Keyless-Brushless-Cordless-Drill-Set/546672.html?iref=rss",
       "sku": null,
       "first_seen": "2026-10-18T19:18:43Z",
-      "last_seen": "2026-10-19T15:32:22Z",
+      "last_seen": "2026-10-19T20:41:56Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -33177,7 +33177,7 @@
       "url": "https://www.dealnews.com/products/Kobalt/Kobalt-3-Piece-Carbon-Steel-Snips-Set/546664.html?iref=rss",
       "sku": null,
       "first_seen": "2026-10-18T18:41:01Z",
-      "last_seen": "2026-10-19T15:32:22Z",
+      "last_seen": "2026-10-19T20:41:56Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -33197,7 +33197,7 @@
       "url": "https://www.dealnews.com/products/Kobalt/Kobalt-25-Foot-Tape-Measure-2-Pack/546661.html?iref=rss",
       "sku": null,
       "first_seen": "2026-10-18T18:27:56Z",
-      "last_seen": "2026-10-19T15:32:22Z",
+      "last_seen": "2026-10-19T20:41:56Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -33553,6 +33553,288 @@
       "sku": null,
       "first_seen": "2026-10-19T13:57:16Z",
       "last_seen": "2026-10-19T15:32:25Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:2eccc7db19d7b4f1": {
+      "title": "Lowe's Home Essentials Flash Sale: Up to 25% off + up to extra 30% off + free delivery",
+      "url": "https://www.dealnews.com/Lowes-Home-Essentials-Flash-Sale-Up-to-25-off-up-to-extra-30-off-free-delivery/22296988.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-10-19T19:46:00Z",
+      "last_seen": "2026-10-19T20:41:58Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:4236289069d528a8": {
+      "price_history": [
+        {
+          "at": "2026-10-19T20:41:56Z",
+          "price": 199.0,
+          "source": "DealNews • Lowe's"
+        }
+      ],
+      "last_price": 199.0,
+      "lowest_price": 199.0,
+      "title": "DeWalt 20V Battery 2-Pack w/ Charger for $199 + free tool worth up to $249 + free shipping",
+      "url": "https://www.dealnews.com/products/De-Walt/De-Walt-20-V-Battery-2-Pack-w-Charger/474226.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-10-19T19:32:46Z",
+      "last_seen": "2026-10-19T20:41:58Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:adf05fee3b788e72": {
+      "price_history": [
+        {
+          "at": "2026-10-19T20:41:56Z",
+          "price": 8.0,
+          "source": "DealNews • Lowe's"
+        }
+      ],
+      "last_price": 8.0,
+      "lowest_price": 8.0,
+      "title": "Kobalt 8\" Scissors for $8 + free shipping",
+      "url": "https://www.dealnews.com/products/Kobalt/Kobalt-8-Scissors/547043.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-10-19T19:20:13Z",
+      "last_seen": "2026-10-19T20:41:58Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:18e0132b2fa154f3": {
+      "title": "Lowe's Halloween Clearance: Up to 55% off + free shipping w/ $25",
+      "url": "https://www.dealnews.com/Lowes-Halloween-Clearance-Up-to-55-off-free-shipping-w-25/22296962.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-10-19T19:20:10Z",
+      "last_seen": "2026-10-19T20:41:58Z",
+      "deal_type": "CLEARANCE",
+      "deal_types": [
+        "CLEARANCE"
+      ]
+    },
+    "title:36b5d28150dc9ea2": {
+      "price_history": [
+        {
+          "at": "2026-10-19T20:41:56Z",
+          "price": 105.0,
+          "source": "DealNews • Lowe's"
+        }
+      ],
+      "last_price": 105.0,
+      "lowest_price": 105.0,
+      "title": "Costway 46-Gallon Acacia Wood Deck Storage Box for $105 + free shipping",
+      "url": "https://www.dealnews.com/products/Costway/Costway-46-Gallon-Acacia-Wood-Deck-Storage-Box/547017.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-10-19T17:40:05Z",
+      "last_seen": "2026-10-19T20:41:58Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:e6d52ff65f798530": {
+      "price_history": [
+        {
+          "at": "2026-10-19T20:41:57Z",
+          "price": 7.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 7.0,
+      "lowest_price": 7.0,
+      "title": "Way To Celebrate 2.5-Foot Vintage Cat Yard Inflatable for $7 + free shipping w/ $35",
+      "url": "https://www.dealnews.com/Way-To-Celebrate-2-5-Foot-Vintage-Cat-Yard-Inflatable-for-7-free-shipping-w-35/22296984.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-10-19T19:38:16Z",
+      "last_seen": "2026-10-19T20:41:58Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:5bef65d429049d06": {
+      "price_history": [
+        {
+          "at": "2026-10-19T20:41:57Z",
+          "price": 65.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 65.0,
+      "lowest_price": 65.0,
+      "title": "SpaceAid Wooden Bowl w/ Handle for Stand Mixer for $65 + free shipping",
+      "url": "https://www.dealnews.com/Space-Aid-Wooden-Bowl-w-Handle-for-Stand-Mixer-for-65-free-shipping/22296910.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-10-19T18:36:45Z",
+      "last_seen": "2026-10-19T20:41:58Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:7f792df04cfbd475": {
+      "price_history": [
+        {
+          "at": "2026-10-19T20:41:58Z",
+          "price": 110.0,
+          "source": "DealNews • Home & Garden"
+        }
+      ],
+      "last_price": 110.0,
+      "lowest_price": 110.0,
+      "title": "SpaceAid 7-Tier Rotating Shoe Rack Tower for $110 + free shipping",
+      "url": "https://www.dealnews.com/Space-Aid-7-Tier-Rotating-Shoe-Rack-Tower-for-110-free-shipping/22296889.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-10-19T18:30:40Z",
+      "last_seen": "2026-10-19T20:41:58Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:f8eedf50531b7f9e": {
+      "price_history": [
+        {
+          "at": "2026-10-19T20:41:58Z",
+          "price": 100.0,
+          "source": "DealNews • Home & Garden"
+        }
+      ],
+      "last_price": 100.0,
+      "lowest_price": 100.0,
+      "title": "Vednhol Titanium 12\" Non-Toxic Skillet w/ Lid for $100 w/ Prime + free shipping",
+      "url": "https://www.dealnews.com/Vednhol-Titanium-12-Non-Toxic-Skillet-w-Lid-for-100-w-Prime-free-shipping/22296887.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-10-19T18:22:37Z",
+      "last_seen": "2026-10-19T20:41:58Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:87af5f8531251384": {
+      "price_history": [
+        {
+          "at": "2026-10-19T20:41:58Z",
+          "price": 7.0,
+          "source": "DealNews • Home & Garden"
+        }
+      ],
+      "last_price": 7.0,
+      "lowest_price": 7.0,
+      "title": "Amos Peelerz Halloween Candy Mix 14-oz. Bag for $7 + free shipping w/ $35",
+      "url": "https://www.dealnews.com/Amos-Peelerz-Halloween-Candy-Mix-14-oz-Bag-for-7-free-shipping-w-35/22296885.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-10-19T18:19:13Z",
+      "last_seen": "2026-10-19T20:41:58Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:e3a0e751cc59efa5": {
+      "price_history": [
+        {
+          "at": "2026-10-19T20:41:58Z",
+          "price": 12.0,
+          "source": "DealNews • Home & Garden"
+        }
+      ],
+      "last_price": 12.0,
+      "lowest_price": 12.0,
+      "title": "WorkPro Nail Puller Set 2-Pack for $12 + free shipping w/ Prime",
+      "url": "https://www.dealnews.com/products/Work-Pro/Workpro-Nail-Puller-Set-2-Pack/541828.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-10-19T17:08:28Z",
+      "last_seen": "2026-10-19T20:41:58Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:f90d1b943f29da98": {
+      "price_history": [
+        {
+          "at": "2026-10-19T20:41:58Z",
+          "price": 28.0,
+          "source": "DealNews • Home & Garden"
+        }
+      ],
+      "last_price": 28.0,
+      "lowest_price": 28.0,
+      "title": "WorkPro 10.8\" Mini Metal Tool Box w/ Removable Tray for $28 + free shipping w/ Prime",
+      "url": "https://www.dealnews.com/Work-Pro-10-8-Mini-Metal-Tool-Box-w-Removable-Tray-for-28-free-shipping-w-Prime/22296762.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-10-19T16:56:39Z",
+      "last_seen": "2026-10-19T20:41:58Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:a61e33b7874af177": {
+      "price_history": [
+        {
+          "at": "2026-10-19T20:41:58Z",
+          "price": 7.0,
+          "source": "DealNews • Home & Garden"
+        }
+      ],
+      "last_price": 7.0,
+      "lowest_price": 7.0,
+      "title": "Hart 2-Position Ratcheting Screwdriver for $7 + free shipping w/ $35",
+      "url": "https://www.dealnews.com/Hart-2-Position-Ratcheting-Screwdriver-for-7-free-shipping-w-35/22296678.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-10-19T15:51:36Z",
+      "last_seen": "2026-10-19T20:41:58Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:6402b948f3342f7d": {
+      "price_history": [
+        {
+          "at": "2026-10-19T20:41:58Z",
+          "price": 7.0,
+          "source": "Slickdeals • Frontpage"
+        }
+      ],
+      "last_price": 7.0,
+      "lowest_price": 7.0,
+      "title": "6-Ct DLPL LED Light-Up Halloween Pumpkin Yard Signs w/ Stakes $7",
+      "url": "https://slickdeals.net/f/20169291-6-count-dlpl-led-light-up-halloween-pumpkin-yard-signs-w-stakes-6-99-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2",
+      "sku": null,
+      "first_seen": "2026-10-19T20:31:03Z",
+      "last_seen": "2026-10-19T20:41:58Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:540c0b766d1b8510": {
+      "price_history": [
+        {
+          "at": "2026-10-19T20:41:58Z",
+          "price": 200.0,
+          "source": "Slickdeals • Frontpage"
+        }
+      ],
+      "last_price": 200.0,
+      "lowest_price": 200.0,
+      "title": "Bissell Garage Pro Wall-Mounted Wet Dry Vacuum/Blower $200 + Free S&H",
+      "url": "https://slickdeals.net/f/20170434-bissell-garage-pro-wall-mounted-wet-dry-vacuum-blower-199-99-amazon?utm_source=rss&utm_content=fp&utm_medium=RSS2",
+      "sku": null,
+      "first_seen": "2026-10-19T18:30:25Z",
+      "last_seen": "2026-10-19T20:41:58Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
