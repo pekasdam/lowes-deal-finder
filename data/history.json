@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T07:57:35Z",
+  "updated_at": "2026-10-19T15:32:25Z",
   "products": {
     "696652212a9ef2fa": {
       "last_price": 100.0,
@@ -1687,7 +1687,7 @@
       "url": "https://www.dealnews.com/Lowes-Back-Aisle-Sale-Clearance-Deals-Up-to-50-off-free-shipping-w-35/22290824.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-17T12:09:03Z",
-      "last_seen": "2026-10-19T07:57:33Z",
+      "last_seen": "2026-10-19T15:32:22Z",
       "deal_type": "CLEARANCE",
       "deal_types": [
         "CLEARANCE"
@@ -31718,7 +31718,7 @@
       "url": "https://www.dealnews.com/Lowes-Fire-Safety-Month-Sale-Up-to-34-off-free-shipping/22285855.html?iref=rss",
       "sku": null,
       "first_seen": "2026-10-15T16:14:03Z",
-      "last_seen": "2026-10-19T07:57:33Z",
+      "last_seen": "2026-10-19T15:32:22Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -32524,7 +32524,7 @@
       "url": "https://www.dealnews.com/products/Craftsman/Craftsman-V20-20-Volt-1-2-Keyless-Cordless-Drill/545932.html?iref=rss",
       "sku": null,
       "first_seen": "2026-10-17T00:48:05Z",
-      "last_seen": "2026-10-19T07:57:33Z",
+      "last_seen": "2026-10-19T15:32:22Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -32604,7 +32604,7 @@
       "url": "https://www.dealnews.com/Kobalt-Hard-Shell-Knee-Pads-for-10-free-shipping/22291099.html?iref=rss",
       "sku": null,
       "first_seen": "2026-10-17T11:43:02Z",
-      "last_seen": "2026-10-19T07:57:33Z",
+      "last_seen": "2026-10-19T15:32:22Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -33154,10 +33154,10 @@
       "last_price": 99.0,
       "lowest_price": 99.0,
       "title": "DeWalt 20V Max 1/2\" Keyless Brushless Cordless Drill Set for $99 + free shipping",
-      "url": "https://www.dealnews.com/products/De-Walt/De-Walt-20-V-Max-1-2-Keyless-Brushless-Cordless-Drill-Set/546672.html?iref=rss-c196",
+      "url": "https://www.dealnews.com/products/De-Walt/De-Walt-20-V-Max-1-2-Keyless-Brushless-Cordless-Drill-Set/546672.html?iref=rss",
       "sku": null,
       "first_seen": "2026-10-18T19:18:43Z",
-      "last_seen": "2026-10-19T07:57:34Z",
+      "last_seen": "2026-10-19T15:32:22Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -33174,10 +33174,10 @@
       "last_price": 20.0,
       "lowest_price": 20.0,
       "title": "Kobalt 3-Piece Carbon Steel Snips Set for $20 + free shipping",
-      "url": "https://www.dealnews.com/products/Kobalt/Kobalt-3-Piece-Carbon-Steel-Snips-Set/546664.html?iref=rss-c196",
+      "url": "https://www.dealnews.com/products/Kobalt/Kobalt-3-Piece-Carbon-Steel-Snips-Set/546664.html?iref=rss",
       "sku": null,
       "first_seen": "2026-10-18T18:41:01Z",
-      "last_seen": "2026-10-19T07:57:34Z",
+      "last_seen": "2026-10-19T15:32:22Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -33194,10 +33194,10 @@
       "last_price": 12.0,
       "lowest_price": 12.0,
       "title": "Kobalt 25-Foot Tape Measure 2-Pack for $12 + free shipping",
-      "url": "https://www.dealnews.com/products/Kobalt/Kobalt-25-Foot-Tape-Measure-2-Pack/546661.html?iref=rss-c196",
+      "url": "https://www.dealnews.com/products/Kobalt/Kobalt-25-Foot-Tape-Measure-2-Pack/546661.html?iref=rss",
       "sku": null,
       "first_seen": "2026-10-18T18:27:56Z",
-      "last_seen": "2026-10-19T07:57:34Z",
+      "last_seen": "2026-10-19T15:32:22Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -33449,6 +33449,110 @@
       "sku": null,
       "first_seen": "2026-10-16T15:38:47Z",
       "last_seen": "2026-10-19T07:57:35Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:f39e4094b8a5158d": {
+      "price_history": [
+        {
+          "at": "2026-10-19T15:32:23Z",
+          "price": 86.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 86.0,
+      "lowest_price": 86.0,
+      "title": "Fanttik Cruise V11 APEX 4-in-1 Cordless Handheld Vacuum for $86 + free shipping",
+      "url": "https://www.dealnews.com/Fanttik-Cruise-V11-APEX-4-in-1-Cordless-Handheld-Vacuum-for-86-free-shipping/22296610.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-10-19T14:44:18Z",
+      "last_seen": "2026-10-19T15:32:24Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:07fe8a981a0ebf55": {
+      "price_history": [
+        {
+          "at": "2026-10-19T15:32:23Z",
+          "price": 47.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 47.0,
+      "lowest_price": 47.0,
+      "title": "Gxzsk 16kPa Handheld Mattress Vacuum Cleaner for $47 + free shipping",
+      "url": "https://www.dealnews.com/Gxzsk-16-k-Pa-Handheld-Mattress-Vacuum-Cleaner-for-47-free-shipping/22296603.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-10-19T14:30:15Z",
+      "last_seen": "2026-10-19T15:32:24Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:1319e39ff610a654": {
+      "title": "Target Halloween Decor & Inflatables Deals: Up to 50% off + free shipping",
+      "url": "https://www.dealnews.com/Target-Halloween-Decor-Inflatables-Deals-Up-to-50-off-free-shipping/22296579.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-10-19T13:34:46Z",
+      "last_seen": "2026-10-19T15:32:24Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:8783ad82e42da15a": {
+      "title": "Holiday Hosting Sale at Woot: Up to 79% off + free shipping w/ Prime",
+      "url": "https://www.dealnews.com/Holiday-Hosting-Sale-at-Woot-Up-to-79-off-free-shipping-w-Prime/22296526.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-10-19T11:01:02Z",
+      "last_seen": "2026-10-19T15:32:24Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:364efb5d2f4000dc": {
+      "title": "Kohl's Lowest Price of the Season Clearance Sale: Up to 85% Off Apparel, Toys + Extra 50% Off & More + Free Pickup",
+      "url": "https://slickdeals.net/f/20176659-kohls-extra-50-off-clearance-up-to-85-off?utm_source=rss&utm_content=fp&utm_medium=RSS2",
+      "sku": null,
+      "first_seen": "2026-10-19T14:16:32Z",
+      "last_seen": "2026-10-19T15:32:25Z",
+      "deal_type": "CLEARANCE",
+      "deal_types": [
+        "CLEARANCE"
+      ]
+    },
+    "title:01cfc4d5bc84fbd5": {
+      "title": "Select LEGO Sets up to 40% Off + Free S&H on 49+",
+      "url": "https://slickdeals.net/f/20176776-select-lego-sets-up-to-40-off-free-s-h-on-49?utm_source=rss&utm_content=fp&utm_medium=RSS2",
+      "sku": null,
+      "first_seen": "2026-10-19T14:13:29Z",
+      "last_seen": "2026-10-19T15:32:25Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:8ca0b8685ff93df5": {
+      "price_history": [
+        {
+          "at": "2026-10-19T15:32:25Z",
+          "price": 8.0,
+          "source": "Slickdeals • Frontpage"
+        }
+      ],
+      "last_price": 8.0,
+      "lowest_price": 8.0,
+      "title": "Kobalt 8\" Stainless Steel Scissors (57373) $8 + Free S&H",
+      "url": "https://slickdeals.net/f/20169741-kobalt-8-in-stainless-steel-molded-grip-scissors-57373-7-98-lowes?utm_source=rss&utm_content=fp&utm_medium=RSS2",
+      "sku": null,
+      "first_seen": "2026-10-19T13:57:16Z",
+      "last_seen": "2026-10-19T15:32:25Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
