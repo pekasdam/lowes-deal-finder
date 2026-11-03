@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T10:01:03Z",
+  "updated_at": "2026-11-03T17:46:39Z",
   "products": {
     "696652212a9ef2fa": {
       "last_price": 100.0,
@@ -1687,7 +1687,7 @@
       "url": "https://www.dealnews.com/Lowes-Back-Aisle-Sale-Clearance-Deals-Up-to-50-off-free-shipping-w-35/22290824.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-17T12:09:03Z",
-      "last_seen": "2026-11-03T10:01:00Z",
+      "last_seen": "2026-11-03T17:46:36Z",
       "deal_type": "CLEARANCE",
       "deal_types": [
         "CLEARANCE"
@@ -39512,7 +39512,7 @@
       "url": "https://www.dealnews.com/Lowes-Early-Bird-Black-Friday-Deals-Up-to-60-off-free-shipping/22325067.html?iref=rss",
       "sku": null,
       "first_seen": "2026-10-29T19:22:11Z",
-      "last_seen": "2026-11-03T10:01:00Z",
+      "last_seen": "2026-11-03T17:46:36Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -40360,7 +40360,7 @@
       "url": "https://www.dealnews.com/products/Kobalt/Kobalt-6-Magnetic-Multi-Bit-Combination-Tip-69-Piece-Screwdriver-Set/495092.html?iref=rss",
       "sku": null,
       "first_seen": "2026-10-31T13:12:54Z",
-      "last_seen": "2026-11-03T10:01:00Z",
+      "last_seen": "2026-11-03T17:46:36Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -40973,7 +40973,7 @@
       "url": "https://www.dealnews.com/Werner-Ladder-Daily-Deals-at-Lowes-Up-to-37-off-free-shipping-w-25/22336432.html?iref=rss",
       "sku": null,
       "first_seen": "2026-11-02T14:06:55Z",
-      "last_seen": "2026-11-03T10:01:00Z",
+      "last_seen": "2026-11-03T17:46:36Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -41190,10 +41190,10 @@
       "last_price": 79.0,
       "lowest_price": 79.0,
       "title": "Master Forge 29\" Steel Square Portable Wood-Burning Fire Pit for $79 + free shipping",
-      "url": "https://www.dealnews.com/products/Master-Forge/Master-Forge-29-Steel-Square-Portable-Wood-Burning-Fire-Pit/553212.html?iref=rss-c196",
+      "url": "https://www.dealnews.com/products/Master-Forge/Master-Forge-29-Steel-Square-Portable-Wood-Burning-Fire-Pit/553212.html?iref=rss",
       "sku": null,
       "first_seen": "2026-11-03T01:02:55Z",
-      "last_seen": "2026-11-03T10:01:01Z",
+      "last_seen": "2026-11-03T17:46:36Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -41210,10 +41210,10 @@
       "last_price": 120.0,
       "lowest_price": 120.0,
       "title": "WORX Pegasus WX064 Portable Work Table & Sawhorse for $120 + free shipping",
-      "url": "https://www.dealnews.com/WORX-Pegasus-WX064-Portable-Work-Table-Sawhorse-for-120-free-shipping/22337228.html?iref=rss-c196",
+      "url": "https://www.dealnews.com/WORX-Pegasus-WX064-Portable-Work-Table-Sawhorse-for-120-free-shipping/22337228.html?iref=rss",
       "sku": null,
       "first_seen": "2026-11-03T00:57:10Z",
-      "last_seen": "2026-11-03T10:01:01Z",
+      "last_seen": "2026-11-03T17:46:36Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -41230,10 +41230,10 @@
       "last_price": 299.0,
       "lowest_price": 299.0,
       "title": "Craftsman 2000 Series 8-Drawer Steel Tool Chest for $299 + free shipping",
-      "url": "https://www.dealnews.com/products/Craftsman/Craftsman-2000-Series-8-Drawer-Steel-Tool-Chest/553210.html?iref=rss-c196",
+      "url": "https://www.dealnews.com/products/Craftsman/Craftsman-2000-Series-8-Drawer-Steel-Tool-Chest/553210.html?iref=rss",
       "sku": null,
       "first_seen": "2026-11-03T00:53:45Z",
-      "last_seen": "2026-11-03T10:01:01Z",
+      "last_seen": "2026-11-03T17:46:36Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -41345,6 +41345,126 @@
       "sku": null,
       "first_seen": "2026-11-03T08:09:35Z",
       "last_seen": "2026-11-03T10:01:02Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:35f657ac7314441f": {
+      "price_history": [
+        {
+          "at": "2026-11-03T17:46:36Z",
+          "price": 25.0,
+          "source": "DealNews • Lowe's"
+        }
+      ],
+      "last_price": 25.0,
+      "lowest_price": 25.0,
+      "title": "Lowe's Dog Toys Advent Calendar for $25 + free shipping w/ $25",
+      "url": "https://www.dealnews.com/Lowes-Dog-Toys-Advent-Calendar-for-25-free-shipping-w-25/22341845.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-11-03T11:50:00Z",
+      "last_seen": "2026-11-03T17:46:37Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:54f755f70a53fed6": {
+      "price_history": [
+        {
+          "at": "2026-11-03T17:46:37Z",
+          "price": 8.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 8.0,
+      "lowest_price": 8.0,
+      "title": "adidas Men's Tabela 23 Jersey for $8.00 + free shipping",
+      "url": "https://www.dealnews.com/adidas-Mens-Tabela-23-Jersey-for-8-00-free-shipping/22342263.html?iref=rss",
+      "sku": null,
+      "first_seen": "2026-11-03T17:40:25Z",
+      "last_seen": "2026-11-03T17:46:37Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:35c1c96a56b723b5": {
+      "price_history": [
+        {
+          "at": "2026-11-03T17:46:37Z",
+          "price": 22.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 22.0,
+      "lowest_price": 22.0,
+      "title": "adidas Men's Grand Court 2.0 Shoes for $22 + free shipping",
+      "url": "https://www.dealnews.com/adidas-Mens-Grand-Court-2-0-Shoes-for-22-free-shipping/22342258.html?iref=rss",
+      "sku": null,
+      "first_seen": "2026-11-03T17:31:25Z",
+      "last_seen": "2026-11-03T17:46:37Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:ca6ec8d90179bda8": {
+      "price_history": [
+        {
+          "at": "2026-11-03T17:46:37Z",
+          "price": 17.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 17.0,
+      "lowest_price": 17.0,
+      "title": "Crocs Men's All Day Camouflage Slides for $17 + free shipping",
+      "url": "https://www.dealnews.com/Crocs-Mens-All-Day-Camouflage-Slides-for-17-free-shipping/22342204.html?iref=rss",
+      "sku": null,
+      "first_seen": "2026-11-03T16:49:30Z",
+      "last_seen": "2026-11-03T17:46:37Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:080b5cf6919c8ed4": {
+      "price_history": [
+        {
+          "at": "2026-11-03T17:46:37Z",
+          "price": 7.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 7.0,
+      "lowest_price": 7.0,
+      "title": "Final Fantasy VII Rebirth for Nintendo Switch 2 for $7",
+      "url": "https://www.dealnews.com/Final-Fantasy-VII-Rebirth-for-Nintendo-Switch-2-for-7/22342185.html?iref=rss",
+      "sku": null,
+      "first_seen": "2026-11-03T16:42:28Z",
+      "last_seen": "2026-11-03T17:46:37Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:da944643e3144c00": {
+      "price_history": [
+        {
+          "at": "2026-11-03T17:46:37Z",
+          "price": 7.0,
+          "source": "DealNews • Home & Garden"
+        }
+      ],
+      "last_price": 7.0,
+      "lowest_price": 7.0,
+      "title": "Skittles Halloween Variety Mix Fun Size 50-Count Bag for $7 + free shipping w/ Prime",
+      "url": "https://www.dealnews.com/Skittles-Halloween-Variety-Mix-Fun-Size-50-Count-Bag-for-7-free-shipping-w-Prime/22341758.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-11-03T10:30:46Z",
+      "last_seen": "2026-11-03T17:46:37Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
