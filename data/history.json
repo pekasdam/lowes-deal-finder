@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T17:46:39Z",
+  "updated_at": "2026-11-03T22:35:34Z",
   "products": {
     "696652212a9ef2fa": {
       "last_price": 100.0,
@@ -1687,7 +1687,7 @@
       "url": "https://www.dealnews.com/Lowes-Back-Aisle-Sale-Clearance-Deals-Up-to-50-off-free-shipping-w-35/22290824.html?iref=rss",
       "sku": null,
       "first_seen": "2026-08-17T12:09:03Z",
-      "last_seen": "2026-11-03T17:46:36Z",
+      "last_seen": "2026-11-03T22:35:32Z",
       "deal_type": "CLEARANCE",
       "deal_types": [
         "CLEARANCE"
@@ -39512,7 +39512,7 @@
       "url": "https://www.dealnews.com/Lowes-Early-Bird-Black-Friday-Deals-Up-to-60-off-free-shipping/22325067.html?iref=rss",
       "sku": null,
       "first_seen": "2026-10-29T19:22:11Z",
-      "last_seen": "2026-11-03T17:46:36Z",
+      "last_seen": "2026-11-03T22:35:32Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -40360,7 +40360,7 @@
       "url": "https://www.dealnews.com/products/Kobalt/Kobalt-6-Magnetic-Multi-Bit-Combination-Tip-69-Piece-Screwdriver-Set/495092.html?iref=rss",
       "sku": null,
       "first_seen": "2026-10-31T13:12:54Z",
-      "last_seen": "2026-11-03T17:46:36Z",
+      "last_seen": "2026-11-03T22:35:32Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -41193,7 +41193,7 @@
       "url": "https://www.dealnews.com/products/Master-Forge/Master-Forge-29-Steel-Square-Portable-Wood-Burning-Fire-Pit/553212.html?iref=rss",
       "sku": null,
       "first_seen": "2026-11-03T01:02:55Z",
-      "last_seen": "2026-11-03T17:46:36Z",
+      "last_seen": "2026-11-03T22:35:32Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -41213,7 +41213,7 @@
       "url": "https://www.dealnews.com/WORX-Pegasus-WX064-Portable-Work-Table-Sawhorse-for-120-free-shipping/22337228.html?iref=rss",
       "sku": null,
       "first_seen": "2026-11-03T00:57:10Z",
-      "last_seen": "2026-11-03T17:46:36Z",
+      "last_seen": "2026-11-03T22:35:32Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -41233,7 +41233,7 @@
       "url": "https://www.dealnews.com/products/Craftsman/Craftsman-2000-Series-8-Drawer-Steel-Tool-Chest/553210.html?iref=rss",
       "sku": null,
       "first_seen": "2026-11-03T00:53:45Z",
-      "last_seen": "2026-11-03T17:46:36Z",
+      "last_seen": "2026-11-03T22:35:32Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -41361,10 +41361,10 @@
       "last_price": 25.0,
       "lowest_price": 25.0,
       "title": "Lowe's Dog Toys Advent Calendar for $25 + free shipping w/ $25",
-      "url": "https://www.dealnews.com/Lowes-Dog-Toys-Advent-Calendar-for-25-free-shipping-w-25/22341845.html?iref=rss-c196",
+      "url": "https://www.dealnews.com/Lowes-Dog-Toys-Advent-Calendar-for-25-free-shipping-w-25/22341845.html?iref=rss",
       "sku": null,
       "first_seen": "2026-11-03T11:50:00Z",
-      "last_seen": "2026-11-03T17:46:37Z",
+      "last_seen": "2026-11-03T22:35:32Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
@@ -41465,6 +41465,88 @@
       "sku": null,
       "first_seen": "2026-11-03T10:30:46Z",
       "last_seen": "2026-11-03T17:46:37Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:8a18f10f510f7858": {
+      "price_history": [
+        {
+          "at": "2026-11-03T22:35:32Z",
+          "price": 200.0,
+          "source": "DealNews • Lowe's"
+        }
+      ],
+      "last_price": 200.0,
+      "lowest_price": 200.0,
+      "title": "DeWalt Tools Online Only Deals at Lowe's: Up to $200 off + free shipping w/ $25",
+      "url": "https://www.dealnews.com/De-Walt-Tools-Online-Only-Deals-at-Lowes-Up-to-200-off-free-shipping-w-25/22342350.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-11-03T18:48:56Z",
+      "last_seen": "2026-11-03T22:35:34Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:68a27974d826c640": {
+      "price_history": [
+        {
+          "at": "2026-11-03T22:35:33Z",
+          "price": 63.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 63.0,
+      "lowest_price": 63.0,
+      "title": "Dr. air Comfort Queen 18\" Air Mattress w/ Built-in Pump for $63 + free shipping",
+      "url": "https://www.dealnews.com/Dr-air-Comfort-Queen-18-Air-Mattress-w-Built-in-Pump-for-63-free-shipping/22342396.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-11-03T21:14:30Z",
+      "last_seen": "2026-11-03T22:35:34Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:028d4d2bfb92534e": {
+      "title": "Ninja Deals at Amazon: Up to 44% off + free shipping w/ Prime",
+      "url": "https://www.dealnews.com/Ninja-Deals-at-Amazon-Up-to-44-off-free-shipping-w-Prime/22342392.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-11-03T20:55:46Z",
+      "last_seen": "2026-11-03T22:35:34Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:f8f092ba56863524": {
+      "price_history": [
+        {
+          "at": "2026-11-03T22:35:33Z",
+          "price": 19.0,
+          "source": "DealNews • Latest"
+        }
+      ],
+      "last_price": 19.0,
+      "lowest_price": 19.0,
+      "title": "Gorilla Grip Heavy Duty Gel Cushion Knee Pads for $19 + free shipping w/ Prime",
+      "url": "https://www.dealnews.com/Gorilla-Grip-Heavy-Duty-Gel-Cushion-Knee-Pads-for-19-free-shipping-w-Prime/22342390.html?iref=rss-c196",
+      "sku": null,
+      "first_seen": "2026-11-03T20:43:45Z",
+      "last_seen": "2026-11-03T22:35:34Z",
+      "deal_type": "REGULAR DEAL",
+      "deal_types": [
+        "REGULAR DEAL"
+      ]
+    },
+    "title:0685009d9d704019": {
+      "title": "Macy's Friends & Family Sale: Up to 70% off + extra 15% to 30% off, ending today + free shipping w/ $39",
+      "url": "https://www.dealnews.com/Macys-Friends-Family-Sale-Up-to-70-off-extra-15-to-30-off-ending-today-free-shipping-w-39/22342381.html?iref=rss",
+      "sku": null,
+      "first_seen": "2026-11-03T20:01:34Z",
+      "last_seen": "2026-11-03T22:35:33Z",
       "deal_type": "REGULAR DEAL",
       "deal_types": [
         "REGULAR DEAL"
